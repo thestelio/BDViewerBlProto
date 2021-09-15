@@ -1,0 +1,40 @@
+﻿<!-- ------------------------------------------------------------------------------------------------ --
+  -- The cotainer for this compoent is the div id=app in index.html                                --
+  -- ------------------------------------------------------------------------------------------------ -->
+@inherits LayoutComponentBase
+
+    <!--
+    -- ------------------------------------------------------------------------------------------------ --
+    -- Header row                                                                                       --
+    -- ------------------------------------------------------------------------------------------------ --
+    -->
+    <header class="apl-slayout-head" style="padding:10px; background-color: var(--raaf-rndel)">
+        <div class="display-2-atitle flex-fill" style="text-align:center">Draft Viewer Theming Mini App. Site</div>
+    </header>
+
+    <!--
+    -- ------------------------------------------------------------------------------------------------ --
+    -- Main Content row                                                                                       --
+    -- ------------------------------------------------------------------------------------------------ --
+    -->
+    <section class="apl-slayout-main" style="border-left: 7px solid var(--raaf-rndel); border-right: 7px solid var(--raaf-rndel); background-color: var(--raaf-rndel) ">
+        @Body
+    </section>
+    
+    <!--
+    -- ------------------------------------------------------------------------------------------------ --
+    -- Footer row                                                                                       --
+    -- ------------------------------------------------------------------------------------------------ --
+    -->
+    <footer class="apl-slayout-foot" style="padding:10px; background-color: var(--raaf-rndel)">
+        <div class="flex-fill"><p style="text-align:center">A more stimulating experience can be achieved talking to a brown paper bag than partaking in web development</p></div>
+    </footer>
+
+<!-- --------------------------------------------------------------------------------------------------------
+    -- CODE BASE                                                                                             --
+    -- -------------------------------------------------------------------------------------------------------->
+@code
+{
+
+
+}

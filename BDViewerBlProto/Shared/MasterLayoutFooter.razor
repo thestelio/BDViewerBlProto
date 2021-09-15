@@ -1,0 +1,106 @@
+﻿@inject Services.ApplicationData ApplicationData
+@inject Services.CourseData CourseData
+
+<div class="footer-flgrid">
+
+    <div class="flgrid-img">
+        @if (EnableRaafImg)
+        {
+            <img src='/Images/Logos/37SQN-Crest_424x600.png' height="50" class="d-inline-block align-centre">
+        }
+        <div class="p-1 d-inline-block display-5">@ApplicationData.Role</div>
+    </div>
+
+    <div class="fslnum-slide">
+        <div class="p-1 display-5 flex-fill">Slide @SlideWindowNumber of 4</div>
+    </div>
+
+    <div class="fpagin-sel">
+        @if (EnablePagination)
+        {
+            <div class="p-1">
+                <MudPagination @ref="pageControl" navigate
+                               Class="mud-pagination"
+                               BoundaryCount="3"
+                               MiddleCount="3"
+                               ShowFirstButton="true"
+                               ShowLastButton="true"
+                               Rectangular="true"
+                               Variant="Variant.Outlined"
+                               Count="@CourseData.TopicChildCount"
+                               SelectedChanged="PageChanged"
+                               Selected="@CourseData.ActiveSlideGroup" />
+            </div>
+        }
+        else
+        {
+            <div class="p-1 display-5 flex-fill">@PaginPlaceholderSWin</div>
+        }
+    </div>
+
+    <div class="fcael-img">
+        @if (EnableCAEImg)
+        {
+            <img src='/Images/Logos/cae-logo-white-blue.png' height="60" class="d-inline-block align-centre">
+        }
+    </div>
+
+</div>
+
+@code {
+
+    private MudPagination pageControl;
+
+    [Parameter]
+    public bool EnableRaafImg { get; set; }
+
+    [Parameter]
+    public bool EnableCAEImg { get; set; }
+
+    [Parameter]
+    public bool EnablePagination { get; set; }
+
+    [Parameter]
+    public int SlideWindowNumber { get; set; }
+
+    private int currentpageid;
+
+    [Parameter]
+    public int CurrentPageID
+    {
+        get
+        {
+            return currentpageid;
+        }
+        set
+        {
+            currentpageid = value;
+            if (pageControl != null) pageControl.NavigateTo(currentpageid);
+        }
+    }
+
+    public string SlideNum = "Slide 1 of 4";
+    public string PaginPlaceholder = "A more stimulating experience can be achieved talking to a brown paper bag than partaking in web development";
+    public string PaginPlaceholderSWin = "Slide Group 5 of 55";
+    protected void PageChanged()
+    {
+        CourseData.ActiveSlideGroup = pageControl.Selected;
+    }
+
+    private async Task CAppDataStateChanged()
+    {
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task AppDataStateChanged()
+    {
+        await InvokeAsync(StateHasChanged);
+    }
+
+    protected override void OnInitialized()
+    {
+        ApplicationData.StateChanged += async () => await AppDataStateChanged();
+        CourseData.StateChanged += StateHasChanged;
+    }
+
+}

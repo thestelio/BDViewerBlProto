@@ -1,0 +1,12 @@
+/* -------------------------------------------------------------------------
+ * Local NavMenu component CSS Settings
+ * -------------------------------------------------------------------------*/
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse {
+        display: block;
+    }
+}

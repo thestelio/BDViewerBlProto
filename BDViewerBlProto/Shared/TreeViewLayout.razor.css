@@ -1,0 +1,55 @@
+﻿
+body {
+
+}
+
+/* -------------------------------------------------------------------------
+    Application Level Grid Layout:
+   
+    ------------------------------------------
+   |  App header (ahead)                      |
+    ------------------------------------------
+   |                                          |
+   | App content (actnt)                      |
+   |                                          |
+    ------------------------------------------
+   |  App footer (afoot)                      |
+    ------------------------------------------
+
+* -------------------------------------------------------------------------*/
+.apl-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "ahead"
+        "actnt"
+        "afoot";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    background-color: var(--raaf-grey05);
+    border-left: 10px solid var(--raaf-grey01);
+    border-right: 10px solid var(--raaf-grey01);
+    height: 100%;
+    color: black;
+    font: 500 20px Verdana;
+}
+
+    .container-applayout > * {
+        padding: 10px;
+        /*border: 1px dotted black;*/
+    }
+
+.apl-header {
+    grid-area: ahead;
+    width: 100%;
+    background: var(--raaf-grey01);
+    box-sizing: border-box;
+}
+
+.apl-footer {
+    grid-area: afoot;
+    background: var(--raaf-grey01);
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}

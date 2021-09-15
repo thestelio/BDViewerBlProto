@@ -1,0 +1,70 @@
+﻿@inject Services.ApplicationData ApplicationData
+@inject Services.CourseData CourseData
+
+<!-- ----------------------------------------------------------------------------------------------
+ HTML Markup Code section
+----------------------------------------------------------------------------------------------  -->
+<nav class="navbar navbar-custom">
+    <div class="collapse" id="navCourseDetailsToggle" style="width:100%;">
+        <div class="p-1" style="margin-left:20px;">
+            <div class="display-1">@CourseData.CourseTitle</div>
+            <div class="display-2">@CourseData.CourseModule</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        @if (EnableBrand)
+        {
+            <img class="navbar-brand" src="@ApplicationData.TrainingScopeImage" height="60" alt="PilotLogo">
+        }
+        <button class="navbar-toggle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navCourseDetailsToggle"
+                aria-controls="navCourseDetailsToggle"
+                aria-expanded="false">
+            <div class="display-2-atitle align-content-center">@CourseData.CourseLearningObjective</div>
+        </button>
+        <div>
+            @if (EnableGlossary)
+            {
+                <button type="button"
+                        class="btn btn-outline-dark"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#refDocDetailsToggle"
+                        aria-controls="refDocDetailsToggle"
+                        aria-expanded="false">
+                    Referance Documents
+                </button>
+                <button type="button"
+                        class="btn btn-outline-dark"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#glossaryDetailsToggle"
+                        aria-controls="glossaryDetailsToggle"
+                        aria-expanded="false">
+                    Glossary
+                </button>
+            }
+        </div>
+    </div>
+</nav>
+
+<!-- ----------------------------------------------------------------------------------------------
+ C# Code section
+----------------------------------------------------------------------------------------------  -->
+@code {
+
+    [Parameter]
+    public bool EnableGlossary { get; set; }
+
+    [Parameter]
+    public bool EnableBrand { get; set; }
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClickCallback { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ApplicationData.StateChanged += StateHasChanged;
+    }
+}

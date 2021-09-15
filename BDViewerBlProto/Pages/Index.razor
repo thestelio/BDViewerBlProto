@@ -1,0 +1,126 @@
+﻿@page "/"
+
+@inject IJSRuntime JSRuntime
+@inject Services.ApplicationData ApplicationData
+
+
+@using BDViewerBlProto.Data.Models
+
+<div class="apl-main-content">
+
+    <div class="apl-ar1c1">
+        <div class="display-3">User Role</div>
+        <div class="h-divider"></div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="UserRoleSelect" id="UserRoleSelect1" value="Instructor" checked @onchange="@(() => RoleSelected("Instructor"))">
+            <label class="form-check-label" for="UserRoleSelect1">Instructor</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="UserRoleSelect" id="UserRoleSelect2" value="Student" @onchange="@(() => RoleSelected("Student"))">
+            <label class="form-check-label" for="UserRoleSelect2">Student</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="UserRoleSelect" id="UserRoleSelect3" value="Developer" @onchange="@(() => RoleSelected("Developer"))">
+            <label class="form-check-label" for="UserRoleSelect3">Developer</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="UserRoleSelect" id="UserRoleSelect3" value="Reviewer" @onchange="@(() => RoleSelected("Reviewer"))">
+            <label class="form-check-label" for="UserRoleSelect3">Reviewer</label>
+        </div>
+    </div>
+
+    <div class="apl-ar2c1">
+        <div class="display-3">Training Group</div>
+        <div class="h-divider"></div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect1" checked value="Technical Training Flight" @onchange="@(() => TrainingScopeSelected("Technical Training Flight"))">
+            <label class="form-check-label" for="TrainingSelect1">Technical Training Flight</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect2" value="Pilot Training" @onchange="@(() => TrainingScopeSelected("Pilot Training"))">
+            <label class="form-check-label" for="TrainingSelect2">Pilot Training</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect3" value="Loadmaster Training" @onchange="@(() => TrainingScopeSelected("Loadmaster Training"))">
+            <label class="form-check-label" for="TrainingSelect3">Loadmaster Training</label>
+        </div>
+    </div>
+
+    <div class="apl-ar3c1">
+        <div class="display-3">Window Type</div>
+        <div class="h-divider"></div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="WindowsType" id="WindowsType1" disabled @bind="ApplicationData.WindowSlide">
+            <label class="form-check-label" for="WindowsType1">Window Zero</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="WindowsType" id="WindowsType2" disabled @bind="ApplicationData.WindowSlide">
+            <label class="form-check-label" for="WindowsType2">Slide Windows</label>
+        </div>
+    </div>
+
+    <div class="apl-ar1c2-spc3">
+        <img src="/Images/Logos/37SQN-Crest_424x600-1.png" alt="CAE-Logo" />
+    </div>
+
+    <div class="apl-ar2c2-spc3">
+        <img src="/Images/Logos/CAE_LOGO_RGB-scaled.png" alt="CAE-Logo" />
+    </div>
+
+    <div class="apl-ar3c2-spc3">
+        <img src="/Images/Logos/Bluedrop Training and Simulation2.png" alt="CAE-Logo" />
+    </div>
+
+    <div class="apl-ar4c1-spc3 d-grid">
+        <button type="button"
+                class="btn btn-dark"
+                @onclick=OpenNewTabs>
+            @ApplicationData.Role -- @ApplicationData.TrainingScope -- Window Zero
+        </button>
+        <div class="gap-1"></div>
+        <button type="button"
+                class="btn btn-dark"
+                @onclick=OpenNewTabs1>
+            @ApplicationData.Role -- @ApplicationData.TrainingScope -- Slide Window
+        </button>
+    </div>
+
+</div>
+
+@code {
+
+    public void RoleSelected(string selectedvalue)
+    {
+        ApplicationData.Role = selectedvalue;
+    }
+
+    public void TrainingScopeSelected(string selectedvalue)
+    {
+        ApplicationData.TrainingScope = selectedvalue;
+    }
+
+    private async void OpenNewTabs()
+    {
+        string strURLw1 = "ViewerWindowZero/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        await JSRuntime.InvokeVoidAsync("open", strURLw1, "_blank");
+    }
+
+    private async void OpenNewTabs1()
+    {
+        string strURLw2 = "ViewerWindowSlide/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        await JSRuntime.InvokeVoidAsync("open", strURLw2, "_blank");
+    }
+
+    private async Task AppDataStateChanged()
+    {
+        await InvokeAsync(StateHasChanged);
+    }
+
+    protected override void OnInitialized()
+    {
+        ApplicationData.StateChanged += async () => await AppDataStateChanged();
+    }
+
+}
+<!-- IMPLEMENT THE DISPOSABLE event ------ ApplicationData.StateChanged += StateHasChanged;
+     ApplicationData.UpdateAppState();-->
