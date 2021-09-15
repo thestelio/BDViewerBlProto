@@ -1,0 +1,898 @@
+ [
+    {
+      "AcronymAbbr": "AAA",
+      "Definition": "Anti Aircraft Artillery"
+    },
+    {
+      "AcronymAbbr": "AAFC",
+      "Definition": "Australian Air Force Cadets"
+    },
+    {
+      "AcronymAbbr": "AAM",
+      "Definition": "Air-to-Air Missile"
+    },
+    {
+      "AcronymAbbr": "ABM",
+      "Definition": "Anti-Ballistic Missile"
+    },
+    {
+      "AcronymAbbr": "ACM",
+      "Definition": "Air Combat Manoeuvring"
+    },
+    {
+      "AcronymAbbr": "ACMI",
+      "Definition": "Air Combat Maneuvering Instrumentation"
+    },
+    {
+      "AcronymAbbr": "ACMR",
+      "Definition": "Air Combat Manoeuvring Range"
+    },
+    {
+      "AcronymAbbr": "ADF",
+      "Definition": "Australian Defence Force"
+    },
+    {
+      "AcronymAbbr": "ADF PSA",
+      "Definition": "Australian Defence Force Pilot Selection Agency"
+    },
+    {
+      "AcronymAbbr": "ADFA",
+      "Definition": "Australian Defence Force Academy"
+    },
+    {
+      "AcronymAbbr": "ADIZ",
+      "Definition": "Air Defence Identification Zone"
+    },
+    {
+      "AcronymAbbr": "AEI",
+      "Definition": "Australian Education International"
+    },
+    {
+      "AcronymAbbr": "Aero",
+      "Definition": "Aeronautical"
+    },
+    {
+      "AcronymAbbr": "AEW",
+      "Definition": "Air Early Warning"
+    },
+    {
+      "AcronymAbbr": "AEW&C",
+      "Definition": "Air Early Warning & Control"
+    },
+    {
+      "AcronymAbbr": "AF",
+      "Definition": "Air Force"
+    },
+    {
+      "AcronymAbbr": "ALBM",
+      "Definition": "Air Launched Ballistic Missile"
+    },
+    {
+      "AcronymAbbr": "ALCM",
+      "Definition": "Air Launched Cruise Missile"
+    },
+    {
+      "AcronymAbbr": "AMET",
+      "Definition": "Academy Military Education and Training"
+    },
+    {
+      "AcronymAbbr": "APU",
+      "Definition": "Auxilliary Power Unit"
+    },
+    {
+      "AcronymAbbr": "ASIO",
+      "Definition": "Australian Security Intelligence Organisation"
+    },
+    {
+      "AcronymAbbr": "ASM",
+      "Definition": "Air-to-Surface Missile"
+    },
+    {
+      "AcronymAbbr": "ASPJ",
+      "Definition": "Airborne Self-Protection Jammer"
+    },
+    {
+      "AcronymAbbr": "ASRAAM",
+      "Definition": "Advanced Short Range Air-to-Air Missile"
+    },
+    {
+      "AcronymAbbr": "ASTOVL",
+      "Definition": "Advanced Short Take-Off and Vertical Landing"
+    },
+    {
+      "AcronymAbbr": "ATCO",
+      "Definition": "Air Traffic Control Officer"
+    },
+    {
+      "AcronymAbbr": "AUW",
+      "Definition": "All Up Weight"
+    },
+    {
+      "AcronymAbbr": "BMI",
+      "Definition": "Body Mass Index"
+    },
+    {
+      "AcronymAbbr": "Bsc",
+      "Definition": "Bachelor of Science (Bsc)"
+    },
+    {
+      "AcronymAbbr": "Btech",
+      "Definition": "Bachelor of Technology"
+    },
+    {
+      "AcronymAbbr": "BA",
+      "Definition": "Bachelor of Arts"
+    },
+    {
+      "AcronymAbbr": "Bbus",
+      "Definition": "Bachelor of Business"
+    },
+    {
+      "AcronymAbbr": "BE",
+      "Definition": "Bachelor of Engineering"
+    },
+    {
+      "AcronymAbbr": "BFA",
+      "Definition": "Basic Fitness Assessment"
+    },
+    {
+      "AcronymAbbr": "CAF",
+      "Definition": "Chief of Air Force"
+    },
+    {
+      "AcronymAbbr": "CBRND",
+      "Definition": "Chemical Biological Radiological Nuclear Defence"
+    },
+    {
+      "AcronymAbbr": "CC",
+      "Definition": "Careers Coach"
+    },
+    {
+      "AcronymAbbr": "CDAT",
+      "Definition": "Clearance Divers Acceptance Test"
+    },
+    {
+      "AcronymAbbr": "CDF",
+      "Definition": "Chief of the Defence Force"
+    },
+    {
+      "AcronymAbbr": "CMA",
+      "Definition": "Career Management Agency"
+    },
+    {
+      "AcronymAbbr": "CMO",
+      "Definition": "Chief Medical Officer"
+    },
+    {
+      "AcronymAbbr": "CO",
+      "Definition": "Commanding Officer"
+    },
+    {
+      "AcronymAbbr": "COIN",
+      "Definition": "Counter Intelligence"
+    },
+    {
+      "AcronymAbbr": "CP",
+      "Definition": "Colour Perception"
+    },
+    {
+      "AcronymAbbr": "CRMC",
+      "Definition": "Customer Relationship Management Centre"
+    },
+    {
+      "AcronymAbbr": "DEO",
+      "Definition": "Direct Entry Officer"
+    },
+    {
+      "AcronymAbbr": "DFC",
+      "Definition": "Distinguished Flying Cross: Air Force Decoration"
+    },
+    {
+      "AcronymAbbr": "DFDA",
+      "Definition": "Defence Force Discipline Act"
+    },
+    {
+      "AcronymAbbr": "DFR",
+      "Definition": "Defence Force Recruiting"
+    },
+    {
+      "AcronymAbbr": "DFRC",
+      "Definition": "Defence Force Recruitment Centre"
+    },
+    {
+      "AcronymAbbr": "DGPS",
+      "Definition": "Differential GPS"
+    },
+    {
+      "AcronymAbbr": "DI",
+      "Definition": "Defence Interviewer"
+    },
+    {
+      "AcronymAbbr": "DIAC",
+      "Definition": "Department of Immigration and Citizenship"
+    },
+    {
+      "AcronymAbbr": "DIMA",
+      "Definition": "Department of Immigration and Multicultural Affairs"
+    },
+    {
+      "AcronymAbbr": "DLS",
+      "Definition": "Defence Library Service"
+    },
+    {
+      "AcronymAbbr": "DoD",
+      "Definition": "Department of Defence"
+    },
+    {
+      "AcronymAbbr": "DSC",
+      "Definition": "Defence Service Centre"
+    },
+    {
+      "AcronymAbbr": "DZ",
+      "Definition": "Drop Zone"
+    },
+    {
+      "AcronymAbbr": "E",
+      "Definition": "Enlisted"
+    },
+    {
+      "AcronymAbbr": "EAC",
+      "Definition": "Equipment Application Course"
+    },
+    {
+      "AcronymAbbr": "ECCM",
+      "Definition": "Electronic Counter CounDefinitioneasures"
+    },
+    {
+      "AcronymAbbr": "ECM",
+      "Definition": "Electronic CounDefinitioneasures"
+    },
+    {
+      "AcronymAbbr": "EFIS",
+      "Definition": "Electronic Flight Instrument System"
+    },
+    {
+      "AcronymAbbr": "ELINT",
+      "Definition": "Electronic Intelligence"
+    },
+    {
+      "AcronymAbbr": "Endurance",
+      "Definition": "Length of time an aircraft's fuel load will permit it to stay airborne"
+    },
+    {
+      "AcronymAbbr": "EOD",
+      "Definition": "Explosive Ordnance Disposal"
+    },
+    {
+      "AcronymAbbr": "ESM",
+      "Definition": "Electronic Support Measures"
+    },
+    {
+      "AcronymAbbr": "ESP",
+      "Definition": "Enhanced Selection Process"
+    },
+    {
+      "AcronymAbbr": "ESPS",
+      "Definition": "Employer Support Payment Scheme"
+    },
+    {
+      "AcronymAbbr": "EW",
+      "Definition": "Electronic Warfare"
+    },
+    {
+      "AcronymAbbr": "FAC",
+      "Definition": "Forward Air Control / Forward Air Controller"
+    },
+    {
+      "AcronymAbbr": "FAE",
+      "Definition": "Fuel Air Explosives"
+    },
+    {
+      "AcronymAbbr": "FBE",
+      "Definition": "Fleet Base East"
+    },
+    {
+      "AcronymAbbr": "FBW",
+      "Definition": "Fleet Base West"
+    },
+    {
+      "AcronymAbbr": "FLIR",
+      "Definition": "Forward Looking Infrared"
+    },
+    {
+      "AcronymAbbr": "Fly-by-Wire",
+      "Definition": "Flight control systems with electronic signalling"
+    },
+    {
+      "AcronymAbbr": "FSP",
+      "Definition": "Flight Screening Program"
+    },
+    {
+      "AcronymAbbr": "FV",
+      "Definition": "Flying Vehicle"
+    },
+    {
+      "AcronymAbbr": "GCI",
+      "Definition": "Ground-Controlled Intercept"
+    },
+    {
+      "AcronymAbbr": "GE",
+      "Definition": "General Entry"
+    },
+    {
+      "AcronymAbbr": "GPS",
+      "Definition": "Global Positioning System"
+    },
+    {
+      "AcronymAbbr": "GTC",
+      "Definition": "Group Training Company"
+    },
+    {
+      "AcronymAbbr": "HE",
+      "Definition": "High Explosive"
+    },
+    {
+      "AcronymAbbr": "HECS",
+      "Definition": "Higher Education Contribution Scheme"
+    },
+    {
+      "AcronymAbbr": "HP",
+      "Definition": "HorsePower"
+    },
+    {
+      "AcronymAbbr": "HQ",
+      "Definition": "Headquarter(s)"
+    },
+    {
+      "AcronymAbbr": "IADS",
+      "Definition": "Integrated Air Defence System"
+    },
+    {
+      "AcronymAbbr": "IAS",
+      "Definition": "Indicated Airspeed Shown"
+    },
+    {
+      "AcronymAbbr": "IET",
+      "Definition": "Initial Employment Training"
+    },
+    {
+      "AcronymAbbr": "IFA",
+      "Definition": "Initial Fitness Assessment"
+    },
+    {
+      "AcronymAbbr": "IFF",
+      "Definition": "Identification Friend or Foe"
+    },
+    {
+      "AcronymAbbr": "ILS",
+      "Definition": "Integrated Logistics Support"
+    },
+    {
+      "AcronymAbbr": "IMPS",
+      "Definition": "Initial Minimum Period of Service"
+    },
+    {
+      "AcronymAbbr": "IO",
+      "Definition": "Independent Observer"
+    },
+    {
+      "AcronymAbbr": "IOC",
+      "Definition": "Initial Operation Capability"
+    },
+    {
+      "AcronymAbbr": "IOT",
+      "Definition": "Initial Officer Training"
+    },
+    {
+      "AcronymAbbr": "IR",
+      "Definition": "InfraRed"
+    },
+    {
+      "AcronymAbbr": "IRAN",
+      "Definition": "Inspect and Repair as Necessary"
+    },
+    {
+      "AcronymAbbr": "IRBM",
+      "Definition": "InDefinitionediate Range Ballistic Missile"
+    },
+    {
+      "AcronymAbbr": "IRCM",
+      "Definition": "InfraRed CounDefinitioneasure"
+    },
+    {
+      "AcronymAbbr": "IRS",
+      "Definition": "Inertial Reference System"
+    },
+    {
+      "AcronymAbbr": "IRST",
+      "Definition": "InfraRed Search and Track"
+    },
+    {
+      "AcronymAbbr": "IT",
+      "Definition": "Information Technology"
+    },
+    {
+      "AcronymAbbr": "ITS",
+      "Definition": "Integrated Travel Solutions"
+    },
+    {
+      "AcronymAbbr": "ITT",
+      "Definition": "Initial Technical Training"
+    },
+    {
+      "AcronymAbbr": "JNCO",
+      "Definition": "Junior Non-Commissioned Officer"
+    },
+    {
+      "AcronymAbbr": "JOR",
+      "Definition": "Job Opportunities Report"
+    },
+    {
+      "AcronymAbbr": "KG",
+      "Definition": "Kilograms"
+    },
+    {
+      "AcronymAbbr": "KM",
+      "Definition": "Kilometre"
+    },
+    {
+      "AcronymAbbr": "KM/H",
+      "Definition": "Kilometre per Hour"
+    },
+    {
+      "AcronymAbbr": "kN",
+      "Definition": "KiloNewton measure of force (1,000 Newtons: 1 Newton = 0.2238 lbs of force)"
+    },
+    {
+      "AcronymAbbr": "Knot",
+      "Definition": "Aviation and maritime unit of velocity"
+    },
+    {
+      "AcronymAbbr": "KT",
+      "Definition": "Kiloton (equivalent explosive force of 1,000 tons of TNT)"
+    },
+    {
+      "AcronymAbbr": "Kt/Kts",
+      "Definition": "Knot(s)"
+    },
+    {
+      "AcronymAbbr": "KTAS",
+      "Definition": "True AirSpeed in Knots"
+    },
+    {
+      "AcronymAbbr": "kW",
+      "Definition": "KiloWatt"
+    },
+    {
+      "AcronymAbbr": "LABS",
+      "Definition": "Low Altitude Bombing System"
+    },
+    {
+      "AcronymAbbr": "LAC",
+      "Definition": "Leading Aircraftman"
+    },
+    {
+      "AcronymAbbr": "LACW",
+      "Definition": "Leading Aircraftwoman"
+    },
+    {
+      "AcronymAbbr": "LADS",
+      "Definition": "Laser Airborne Depth Sounder"
+    },
+    {
+      "AcronymAbbr": "LAMPS",
+      "Definition": "Light Airborne MultiPurpose System"
+    },
+    {
+      "AcronymAbbr": "LANs",
+      "Definition": "Local Area Networks"
+    },
+    {
+      "AcronymAbbr": "LANTIRN",
+      "Definition": "Light Altitude Targeting InfraRed for Night"
+    },
+    {
+      "AcronymAbbr": "LAPES",
+      "Definition": "Low Altitude Parachute Extraction System"
+    },
+    {
+      "AcronymAbbr": "LCD",
+      "Definition": "Liquid Crystal Display"
+    },
+    {
+      "AcronymAbbr": "LF",
+      "Definition": "Low Frequency (30 to 300 kHz)"
+    },
+    {
+      "AcronymAbbr": "LGB",
+      "Definition": "Laser-Guided Bomb"
+    },
+    {
+      "AcronymAbbr": "LO",
+      "Definition": "Low Observables"
+    },
+    {
+      "AcronymAbbr": "LRMPA",
+      "Definition": "Landing Range Maritime Patrol Aircraft"
+    },
+    {
+      "AcronymAbbr": "LZ",
+      "Definition": "Landing Zone"
+    },
+    {
+      "AcronymAbbr": "MACH",
+      "Definition": "Measure of Airspeed (Mach 1 = 1,223 kph/760 mph at sea level)"
+    },
+    {
+      "AcronymAbbr": "MAD",
+      "Definition": "Magnetic Anomaly Detector"
+    },
+    {
+      "AcronymAbbr": "MAP",
+      "Definition": "Military Assistance Program"
+    },
+    {
+      "AcronymAbbr": "MFD",
+      "Definition": "Multi-Function Display"
+    },
+    {
+      "AcronymAbbr": "MHQ",
+      "Definition": "Medical History Questionnaire"
+    },
+    {
+      "AcronymAbbr": "MIN",
+      "Definition": "Minute(s)"
+    },
+    {
+      "AcronymAbbr": "MM",
+      "Definition": "Millimetre"
+    },
+    {
+      "AcronymAbbr": "MPA",
+      "Definition": "Maritime Patrol Aircraft"
+    },
+    {
+      "AcronymAbbr": "MPC",
+      "Definition": "Multi-Purpose Carrier"
+    },
+    {
+      "AcronymAbbr": "MR",
+      "Definition": "Maritime Reconnaissance"
+    },
+    {
+      "AcronymAbbr": "MRBM",
+      "Definition": "Medium Range Ballistic Missile"
+    },
+    {
+      "AcronymAbbr": "MSIP",
+      "Definition": "Multi-Stage Improvement Program"
+    },
+    {
+      "AcronymAbbr": "MTOW",
+      "Definition": "Maximum Take-Off Weight"
+    },
+    {
+      "AcronymAbbr": "NASA",
+      "Definition": "National Aeronautics & Space Administration"
+    },
+    {
+      "AcronymAbbr": "NATO",
+      "Definition": "North Atlantic Treaty Organisation"
+    },
+    {
+      "AcronymAbbr": "Nautical Mile",
+      "Definition": "Measurement of distance"
+    },
+    {
+      "AcronymAbbr": "NCHRC",
+      "Definition": "National Criminal History Record Check"
+    },
+    {
+      "AcronymAbbr": "NCO",
+      "Definition": "Non-Commissioned Officer"
+    },
+    {
+      "AcronymAbbr": "NM",
+      "Definition": "Nautical Mile"
+    },
+    {
+      "AcronymAbbr": "NOK",
+      "Definition": "Next of Kin"
+    },
+    {
+      "AcronymAbbr": "ODM",
+      "Definition": "One Day Model"
+    },
+    {
+      "AcronymAbbr": "OPSO",
+      "Definition": "Operations Officer"
+    },
+    {
+      "AcronymAbbr": "OTS",
+      "Definition": "Officers' Training School"
+    },
+    {
+      "AcronymAbbr": "OSB",
+      "Definition": "Officer Selection Board"
+    },
+    {
+      "AcronymAbbr": "OTTC",
+      "Definition": "Operational Type Transition Course"
+    },
+    {
+      "AcronymAbbr": "PAF",
+      "Definition": "Permanent Air Force"
+    },
+    {
+      "AcronymAbbr": "PFA",
+      "Definition": "Physical Fitness Assessment"
+    },
+    {
+      "AcronymAbbr": "PGM",
+      "Definition": "Precision-Guided Munition"
+    },
+    {
+      "AcronymAbbr": "PID",
+      "Definition": "Passive Identification"
+    },
+    {
+      "AcronymAbbr": "PTI",
+      "Definition": "Physical Training Instructor"
+    },
+    {
+      "AcronymAbbr": "QA",
+      "Definition": "Qualified Assessor"
+    },
+    {
+      "AcronymAbbr": "QFI",
+      "Definition": "Qualified Flying Instructor"
+    },
+    {
+      "AcronymAbbr": "R&D",
+      "Definition": "Research and Development"
+    },
+    {
+      "AcronymAbbr": "RAAF",
+      "Definition": "Royal Australian Air Force"
+    },
+    {
+      "AcronymAbbr": "RAAFAR",
+      "Definition": "Royal Australian Air Force Active Reserve"
+    },
+    {
+      "AcronymAbbr": "RAAWS",
+      "Definition": "Radar Altimeter and Altitude Warning System"
+    },
+    {
+      "AcronymAbbr": "RAM",
+      "Definition": "Radar Absorbing Material"
+    },
+    {
+      "AcronymAbbr": "RCC",
+      "Definition": "Recognition of Current Competencies"
+    },
+    {
+      "AcronymAbbr": "RCS",
+      "Definition": "Radar Cross-Section"
+    },
+    {
+      "AcronymAbbr": "Recce",
+      "Definition": "Reconnaissance"
+    },
+    {
+      "AcronymAbbr": "RISE",
+      "Definition": "Reliability Improved Selected Equipment"
+    },
+    {
+      "AcronymAbbr": "RNZAF",
+      "Definition": "Royal New Zealand Air Force"
+    },
+    {
+      "AcronymAbbr": "RO",
+      "Definition": "Recognition Officer"
+    },
+    {
+      "AcronymAbbr": "ROA",
+      "Definition": "Record of Attainment"
+    },
+    {
+      "AcronymAbbr": "ROE",
+      "Definition": "Rules of Engagement"
+    },
+    {
+      "AcronymAbbr": "ROSO",
+      "Definition": "Return of Service Obligation"
+    },
+    {
+      "AcronymAbbr": "RPL",
+      "Definition": "Recognition of Prior Learning"
+    },
+    {
+      "AcronymAbbr": "RPM",
+      "Definition": "Revolutions Per Minute (or Rounds Per Minute if dealing with small arms)"
+    },
+    {
+      "AcronymAbbr": "RPV",
+      "Definition": "Remotely-Piloted Vehicle"
+    },
+    {
+      "AcronymAbbr": "RTO",
+      "Definition": "Registered Training Organisation"
+    },
+    {
+      "AcronymAbbr": "RTS",
+      "Definition": "Recruit Training School"
+    },
+    {
+      "AcronymAbbr": "RWR",
+      "Definition": "Radar Warning Receiver"
+    },
+    {
+      "AcronymAbbr": "SA",
+      "Definition": "Surface-to-Air"
+    },
+    {
+      "AcronymAbbr": "SAM",
+      "Definition": "Surface-to-Air Missile"
+    },
+    {
+      "AcronymAbbr": "SAR",
+      "Definition": "Search And Rescue"
+    },
+    {
+      "AcronymAbbr": "SAS",
+      "Definition": "Special Air Service"
+    },
+    {
+      "AcronymAbbr": "SENSO",
+      "Definition": "Sensor Operator"
+    },
+    {
+      "AcronymAbbr": "SEP",
+      "Definition": "Systems Enhanced Package"
+    },
+    {
+      "AcronymAbbr": "SFPB",
+      "Definition": "Special Forces Panelling Board"
+    },
+    {
+      "AcronymAbbr": "SigInt",
+      "Definition": "Signals Intelligence"
+    },
+    {
+      "AcronymAbbr": "SLAR",
+      "Definition": "Side-Looking Airborne Radar"
+    },
+    {
+      "AcronymAbbr": "SLEP",
+      "Definition": "Service Life Extension Program"
+    },
+    {
+      "AcronymAbbr": "SME",
+      "Definition": "Subject Matter Expert"
+    },
+    {
+      "AcronymAbbr": "SMRO",
+      "Definition": "Senior Military Recruiting Officer"
+    },
+    {
+      "AcronymAbbr": "SNCO",
+      "Definition": "Senior Non-Commissioned Officer"
+    },
+    {
+      "AcronymAbbr": "SP",
+      "Definition": "Self-Propelled"
+    },
+    {
+      "AcronymAbbr": "SPAAG",
+      "Definition": "Self-Propelled Anti-Aircraft Gun"
+    },
+    {
+      "AcronymAbbr": "SPG",
+      "Definition": "Self-Propelled Gun"
+    },
+    {
+      "AcronymAbbr": "SSM",
+      "Definition": "Surface-to-Surface Missile"
+    },
+    {
+      "AcronymAbbr": "SST",
+      "Definition": "Single Service Training"
+    },
+    {
+      "AcronymAbbr": "STO",
+      "Definition": "Short Take-Off"
+    },
+    {
+      "AcronymAbbr": "STOL",
+      "Definition": "Short Take-Off and Landing"
+    },
+    {
+      "AcronymAbbr": "STOVL",
+      "Definition": "Short Take-Off and Vertical Landing"
+    },
+    {
+      "AcronymAbbr": "TA",
+      "Definition": "Training Advisor"
+    },
+    {
+      "AcronymAbbr": "TANS",
+      "Definition": "Tactical Air Navigation System"
+    },
+    {
+      "AcronymAbbr": "TBO",
+      "Definition": "Time Between Overhauls"
+    },
+    {
+      "AcronymAbbr": "TFR",
+      "Definition": "Terrain Following Radar"
+    },
+    {
+      "AcronymAbbr": "TIALD",
+      "Definition": "Target Identification Airborne Laser Designation"
+    },
+    {
+      "AcronymAbbr": "TOW",
+      "Definition": "Tube-launched, Optically-tracked, Wired-Guided"
+    },
+    {
+      "AcronymAbbr": "TSSAM",
+      "Definition": "Tri-Service Stand-off Attack Missile"
+    },
+    {
+      "AcronymAbbr": "UAV",
+      "Definition": "Unmanned Aerial Vehicle"
+    },
+    {
+      "AcronymAbbr": "UHF",
+      "Definition": "Ultra-High Frequency (300MHz to 3 GHz)"
+    },
+    {
+      "AcronymAbbr": "UN",
+      "Definition": "United Nations"
+    },
+    {
+      "AcronymAbbr": "UNSW",
+      "Definition": "University of NSW"
+    },
+    {
+      "AcronymAbbr": "V/STOL",
+      "Definition": "Vertical or Short Take-Off and Landing"
+    },
+    {
+      "AcronymAbbr": "VHF",
+      "Definition": "Very High Frequency (3 to 300MHz)"
+    },
+    {
+      "AcronymAbbr": "VTOL",
+      "Definition": "Vertical Take-Off and Landing"
+    },
+    {
+      "AcronymAbbr": "WANs",
+      "Definition": "Wide Area Networks"
+    },
+    {
+      "AcronymAbbr": "WO",
+      "Definition": "Warrant Officer"
+    },
+    {
+      "AcronymAbbr": "WO2",
+      "Definition": "Warrant Officer Class 2"
+    },
+    {
+      "AcronymAbbr": "WOET",
+      "Definition": "Warrant Officer Electronics Technician"
+    },
+    {
+      "AcronymAbbr": "YOFT",
+      "Definition": "Year One Familiarisation Training (ADFA)"
+    },
+    {
+      "AcronymAbbr": "YOU Session",
+      "Definition": "Your Opportunities Unlimited Session"
+    },
+    {
+      "AcronymAbbr": "ZULU",
+      "Definition": "Zulu Time"
+    }
+  ]

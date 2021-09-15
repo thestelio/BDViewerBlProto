@@ -1,0 +1,676 @@
+﻿/* -------------------------------------------------------------------------
+ * Application level css settings
+ * -------------------------------------------------------------------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colours                
+     * ------------------------------------------------------ */
+    --raaf-blue1: #002e61; /* blue from 37SQN badge */
+    /* Used in body, borders, header & footer backgrounds */
+    --raaf-blue2: #0173c7; /* blue from raaf roundel #00224b */
+    --raaf-rndel:#00224b;
+    --raaf-blue3: #e3efef;
+    --raaf-red1: #9f3940; /* raaf red */
+    --raaf-grey1: #5e7182; /* dark sea grey*/
+    --raaf-grey2: #dce2e7; /* raaf sky grey */
+    --raaf-grey3: white; /* storm grey #e0e4e9 */
+    --raaf-grey4: white; /* blue grey #c2d3db*/
+    --raaf-grey5: #f1f1f1; /* lighter dark sea grey #8c9dab*/
+    --cae-blue: #005eb8;
+    /* Def Style guide */
+    --raaf-grey01: #5b6770; /* Def Style guide Very dark grayish blue*/
+    --raaf-grey02: #838d94; /* Dark grayish blue*/
+    --raaf-grey03: #9ea7ae; /* Dark grayish blue*/
+    --raaf-grey04: #bdc3c8; /* Grayish blue */
+    --raaf-grey05: #dadee1; /*Light grayish blue.*/
+}
+
+/* -------------------------------------------------------------------------
+ * TOP Level html/body and app id
+
+    html { margin-left: calc(100vw - 100%); }
+
+ * -------------------------------------------------------------------------*/
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color: var(--raaf-grey1);
+    /*overflow: auto;*/
+}
+
+figcaption {
+    font-weight:600;
+    padding-top: 2px;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------
+ * Scrollbar settings
+ * -------------------------------------------------------------------------*/
+*::-webkit-scrollbar {
+    width: 12px !important;
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
+    background: var(--raaf-grey3) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    /* border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important; */
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-grey4)), to(var(--raaf-blue2))) !important;
+    background-image: -webkit-linear-gradient(bottom, var(--raaf-grey4) 0%, var(--raaf-blue2) 100%) !important;
+    background-image: linear-gradient(to top, var(--raaf-grey4) 0%, var(--raaf-blue2) 100%) !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-blue2)), to(var(--raaf-grey4))) !important;
+    background-image: -webkit-linear-gradient(bottom, var(--raaf-blue2) 0%, var(--raaf-grey4) 100%) !important;
+    background-image: linear-gradient(to top, var(--raaf-blue2) 0%, var(--raaf-grey4) 100%) !important;
+}
+
+/* -------------------------------------------------------------------------
+ * Divider
+ * -------------------------------------------------------------------------*/
+.h-divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+/* -------------------------------------------------------------------------
+ * Customisation for the header Navigation Bar
+ * -------------------------------------------------------------------------*/
+.navbar-custom {
+    background: var(--cae-blue);
+    border-color: var(--cae-blue);
+    color: var(--raaf-blue3) !important;
+    /*box-shadow: 0 0 12px 0 var(--raaf-grey4);*/
+}
+
+    .navbar-custom button.navbar-toggle {
+        padding: .25rem .25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px dotted;
+        border-color: transparent;
+        border-radius: .25rem;
+    }
+
+        .navbar-custom button.navbar-toggle:hover {
+            background-color: transparent;
+            border: 1px dotted;
+            border-color: var(--raaf-blue3);
+            border-radius: .25rem;
+            transition: .15s ease-in-out;
+        }
+
+.btn-dark {
+    border: 5px solid black;
+}
+
+.btn-dark:hover {
+    color: white;
+    background-color: var(--raaf-grey01);
+    border: 5px solid black;
+}
+
+/* -------------------------------------------------------------------------
+ * Custom text for header displays customising display-X
+ * -------------------------------------------------------------------------*/
+.display-1 {
+    font-family: Verdana !important;
+    font-size: 1.75rem !important;
+    font-weight: 700 !important;
+    line-height: inherit;
+    vertical-align: middle !important;
+    color: white !important;
+}
+
+.display-2 {
+    font-family: Verdana;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: inherit;
+    vertical-align: middle;
+    color: var(--raaf-grey04);
+}
+
+.display-2-atitle {
+    font-family: Verdana;
+    font-size: 1.65rem;
+    font-weight: 700;
+    line-height: inherit;
+    vertical-align: middle;
+    color: white;
+}
+
+.display-3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+    vertical-align: middle;
+    color: black;
+}
+
+.display-4 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+    vertical-align: middle;
+    color: black;
+}
+
+.display-5 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    vertical-align: middle;
+    color: white;
+}
+
+/* -------------------------------------------------------------------------
+ * Becuase razor app creates and places an app div within the body where the  
+ * main layout is embedded on startup, the grid will be created at the that 
+ * level and not at the body level
+ * -------------------------------------------------------------------------*/
+
+/* ------------------------------------------------------------------------- *
+ *  START:Grid Layout Main Application on startup:                           *
+ *   -----------------------------------------------                         *
+ *  |  ahead (Header)                               |                        *
+ *   -----------------------------------------------                         *
+ *  |                                               |                        *
+ *  |                                               |                        *
+ *  |                                               |                        *
+ *  | amain                                         |                        *
+ *  |                                               |                        *
+ *  |                                               |                        *
+ *  |                                               |                        *
+ *   -----------------------------------------------                         *
+ *  | afoot (Footer)                                |                        *
+ *   -----------------------------------------------                         *
+ * ------------------------------------------------------------------------- */
+.apl-slayout {
+    background-color: var(--raaf-grey3);
+    height: 100%;
+    color: black;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        "ahead"
+        "amain"
+        "afoot";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+}
+
+.apl-slayout-head {
+    grid-area: ahead;
+    background: var(--cae-blue);
+    box-sizing: border-box;
+}
+
+.apl-slayout-main {
+    grid-area: amain;
+    background: var(--raaf-grey4);
+    border-left: 7px solid var(--cae-blue);
+    border-right: 7px solid var(--cae-blue);
+    box-sizing: border-box;
+    padding: 0px;
+    overflow: auto;
+}
+
+.apl-slayout-foot {
+    grid-area: afoot;
+    background: var(--cae-blue);
+    color: white;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------------------------- *
+ * END: Grid Layout Main Application on startup                              *
+ * ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- *
+ *  START:Grid Layout Main Content on startup:                               *
+ *      -------------------------------                                      *
+ *     | ar1c1   |  ar1c2   |  ar1c2   |                                     *
+ *     |         |          |          |                                     *
+ *      -------------------- ----------                                      *
+ *     | ar2c1   |  ar2c2   |  ar2c2   |                                     *
+ *     |         |          |          |                                     *
+ *      --------------------------------                                     *
+ *     | ar3c1   |  ar3c2   |  ar3c2   |                                     *
+ *     |         |          |          |                                     *
+ *      -------------------------------                                      *
+ *     | ar4c1   |  ar4c2   |  ar4c2   |                                     *
+ *     |         |          |          |                                     *
+ *      -------------------------------                                      *
+ * ------------------------------------------------------------------------- */
+.apl-main-content {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+        "ar1c1  ar1c2  ar1c3"
+        "ar2c1  ar2c2  ar2c3"
+        "ar3c1  ar3c2  ar3c3"
+        "ar4c1  ar4c2  ar4c3";
+    grid-template-rows: repeat(2,minmax(400, max-content)) 1fr;
+    grid-template-columns: repeat(2,400, max-content) 1fr;
+    background-color: var(--raaf-grey05);
+    height: 100%;
+    color: black;
+    font: 500 20px Verdana;
+}
+
+.apl-ar1c1 {
+    grid-area: ar1c1;
+    display: block;
+    text-align: left;
+    align-self: center;
+    justify-content: start;
+}
+
+.apl-ar2c1 {
+    grid-area: ar2c1;
+    display: inline-block;
+    text-align: left;
+    align-self: center;
+    justify-content: start;
+}
+
+.apl-ar3c1 {
+    grid-area: ar3c1;
+    display: block;
+    text-align: left;
+    align-self: center;
+    justify-content: start;
+}
+
+.apl-ar1c2-spc3 {
+    grid-row: 1;
+    grid-column: 2 / -1;
+    align-self: center;
+    justify-self: center;
+    display: block;
+}
+
+.apl-ar2c2-spc3 {
+    grid-row: 2;
+    grid-column: 2 / -1;
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+
+.apl-ar3c2-spc3 {
+    grid-area: 3;
+    grid-column: 2 / -1;
+    display: block;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.apl-ar4c1-spc3 {
+    grid-area: 4;
+    grid-column: 1 / -1;
+    display: block;
+    text-align: center;
+    align-self: stretch;
+    justify-self: stretch;
+}
+/* ------------------------------------------------------------------------- *
+ * END: Grid Layout Main Application on startup                              *
+ * ------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------
+   Grid Layout Main Section with TreeView Column:
+
+    -----------------------------------------------
+   |            |                                  |
+   |            |                                  |
+   |            |                                  |
+   |  rtree     |  rMain                           |
+   |            |                                  |
+   |            |                                  |
+   |            |                                  |
+    -----------------------------------------------
+        height: 70px;
+* -------------------------------------------------------------------------*/
+.container-tvs {
+    background-color: white;
+    height: 100%;
+    color: black;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        "rtree    rmain";
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(min-content, 400px) 1fr;
+}
+
+.ctvs-lside-tree {
+    grid-area: rtree;
+    background-color: var(--raaf-grey05);
+    border-right: 2px solid var(--cae-blue);
+    overflow: auto;
+    /* padding: 1px; box-sizing: border-box;*/
+}
+
+.ctvs-main-content {
+    grid-area: rmain;
+    padding: 5px;
+    overflow: auto;
+    /* background: inherit; box-sizing: border-box;*/
+}
+
+
+/* -------------------------------------------------------------------------
+   SubGrid Layout Main Section content:
+
+    -----------------------------------------------
+   |  ctopic                                       |
+    -----------------------------------------------
+   |  cntnt                                        |
+    -----------------------------------------------
+   |                       |                       |
+   |  ccnt1                |  ccnt2                |
+   |                       |                       |
+   |                       |                       |
+   |                       |                       |
+   |                       |                       |
+    -----------------------------------------------
+        background-color: transparent;
+* -------------------------------------------------------------------------*/
+.cslide-group {
+    color: black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+        "ctopic   ctopic"
+        "cntnt    cntnt"
+        "ccnt1    ccnt2";
+    grid-template-rows: 80px minmax(min-content, max-content) 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    justify-items: stretch;
+    padding:5px;
+}
+
+    .cslide-group > * {
+        padding: 5px;
+        /*border: 1px dotted black;*/
+    }
+
+.slide-topic {
+    grid-area: ctopic;
+    background-color: var(--raaf-grey05);
+    border: solid 1px var(--raaf-grey02);
+    border-radius: 5px;
+}
+
+.slide-cntnt {
+    grid-area: cntnt;
+
+}
+
+.slide-col1 {
+    grid-area: ccnt1;
+}
+
+.slide-col2 {
+    grid-area: ccnt2;
+}
+
+.slide-spancols {
+    grid-row: 3;
+    grid-column: 1 / -1;
+    display: block;
+    text-align: center;
+}
+
+.slide-fig-srow {
+    width: 80%;
+    height: auto;
+    text-align: center;
+
+}
+
+img.scaled {
+    width: 45%;
+    height:auto;
+    border: solid 1px black;
+}
+
+img.scaled1 {
+    width: 80%;
+    height: auto;
+    border: solid 1px black;
+}
+/* Div to transtion when glossary button is pressed */
+.glossary-trans {
+    border-color: aqua;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 5px;
+    margin: auto;
+    width:90%;
+}
+
+figure > img {
+    width:100%;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+/*
+        display: block;
+    text-align: center;
+    align-self:center;
+    justify-self:center;
+*/
+/* -------------------------------------------------------------------------
+   SubGrid Layout Footer Section content:
+
+    -----------------------------------------------
+   |           |        |                 |        |
+   |           |        |                 |        |
+   |           |        |                 |        |
+   |  fimage   | fslnum |  fpagin         | fcael  |
+   |           |        |                 |        |
+   |           |        |                 |        |
+   |           |        |                 |        |
+    -----------------------------------------------
+        background-color: transparent;
+* -------------------------------------------------------------------------*/
+.footer-flgrid {
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+        "fimage   fslnum    fpagin  fcael";
+    grid-template-rows: 1fr;
+    grid-template-columns: 200px 190px 1fr 150px;
+    align-items: center;
+    justify-items: center;
+}
+
+    .footer-flgrid > * {
+        color: white;
+        /* border: 1px dotted white; */
+    }
+
+.flgrid-img {
+    grid-area: fimage;
+    padding-left: 10px;
+    justify-self: stretch;
+}
+
+.fslnum-slide {
+    grid-area: fslnum;
+}
+
+.fpagin-sel {
+    grid-area: fpagin;
+}
+
+.fcael-sel {
+    grid-area: fcael;
+}
+
+/* -------------------------------------------------------------------------
+ * MUD pagination customisation - crap chose the wrong component lib
+ * -------------------------------------------------------------------------*/
+.mud-pagination .mud-pagination-item > * {
+    height: 35px;
+    min-width: 35px;
+    margin: 0 5px;
+    padding: 0 0;
+    text-align: center;
+    border-radius: 16px;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+    color: white;
+}
+
+/* These buttons are defined for the previous/next and first/last actions */
+.mud-pagination .mud-pagination-item .mud-icon-button {
+    padding: 0;
+    border-color: black;
+    background-color: var(--raaf-grey4);
+    color: black;
+}
+
+    .mud-pagination .mud-pagination-item .mud-icon-button:hover {
+        background-color: var(--raaf-blue2);
+        border-color: white;
+        color: white;
+        box-shadow: 6px 6px 6px 0 var(--raaf-grey4);
+    }
+
+.mud-pagination-outlined .mud-pagination-item-selected {
+    color: #00bfff;
+    box-shadow: 6px 6px 6px 0 #00bfff;
+}
+
+    .mud-pagination-outlined .mud-pagination-item-selected:hover {
+        border-width: 2px;
+        border-color:aqua;
+    }  
+
+/* -------------------------------------------------------------------------
+ * To review -------- 
+ * -------------------------------------------------------------------------*/
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #003C00;
+    background-color: #D8EBEB;
+    border: 1px solid #346767;
+}
+
+.page-item.disabled .page-link {
+    color: #868e96;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #CEFFCE;
+    border-color: #718393;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #003C00;
+    border-color: #AEFF5E;
+}
+
+.page-link:focus, .page-link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #003C00;
+    border-color: #AEFF5E;
+}
+ 
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+@media (max-width: 700px) {
+    .container {
+        grid-template-columns: none;
+    }
+}
+
+@media (min-width: 700px) {
+    .lside-tree, .main-content {
+        overflow-y: auto;
+    }
+}
+
+        /*
+
+    
+
+    .navbar-custom navbar-brand {
+        background-color: #00224b;
+        font-size: 1.1rem;
+    }
+*/
