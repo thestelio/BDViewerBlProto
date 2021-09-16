@@ -101,13 +101,13 @@
 
     private async void OpenNewTabs()
     {
-        string strURLw1 = "/ViewerWindowZero/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        string strURLw1 = "ViewerWindowZero/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
         await JSRuntime.InvokeVoidAsync("open", strURLw1, "_blank");
     }
 
     private async void OpenNewTabs1()
     {
-        string strURLw2 = "/ViewerWindowSlide/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        string strURLw2 = "ViewerWindowSlide/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
         await JSRuntime.InvokeVoidAsync("open", strURLw2, "_blank");
     }
 

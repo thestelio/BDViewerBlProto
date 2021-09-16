@@ -175,7 +175,7 @@
 
     private async void LaunchDoc()
     {
-        string doc = "../data/documents/" + selectedItem1.FileName;
+        string doc = "/data/documents/" + selectedItem1.FileName;
         await JSRuntime.InvokeVoidAsync("open", doc, "_blank");
     }
 
