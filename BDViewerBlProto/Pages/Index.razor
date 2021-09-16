@@ -33,15 +33,15 @@
         <div class="display-3">Training Group</div>
         <div class="h-divider"></div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect1" checked value="Technical Training Flight" @onchange="@(() => TrainingScopeSelected("Technical Training Flight"))">
+            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect1" checked value="Technical Training Flight" @onchange="@(() => TrainingScopeSelected("ttf"))">
             <label class="form-check-label" for="TrainingSelect1">Technical Training Flight</label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect2" value="Pilot Training" @onchange="@(() => TrainingScopeSelected("Pilot Training"))">
+            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect2" value="Pilot Training" @onchange="@(() => TrainingScopeSelected("pilott"))">
             <label class="form-check-label" for="TrainingSelect2">Pilot Training</label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect3" value="Loadmaster Training" @onchange="@(() => TrainingScopeSelected("Loadmaster Training"))">
+            <input class="form-check-input" type="radio" name="TrainingSelect" id="TrainingSelect3" value="Loadmaster Training" @onchange="@(() => TrainingScopeSelected("loadmastert"))">
             <label class="form-check-label" for="TrainingSelect3">Loadmaster Training</label>
         </div>
     </div>
@@ -60,28 +60,28 @@
     </div>
 
     <div class="apl-ar1c2-spc3">
-        <img src="/Images/Logos/37SQN-Crest_424x600-1.png" alt="CAE-Logo" />
+        <img src="Images/Logos/37SQN-Crest_424x600-1.png" alt="CAE-Logo" />
     </div>
 
     <div class="apl-ar2c2-spc3">
-        <img src="/Images/Logos/CAE_LOGO_RGB-scaled.png" alt="CAE-Logo" />
+        <img src="Images/Logos/CAE_LOGO_RGB-scaled.png" alt="CAE-Logo" />
     </div>
 
     <div class="apl-ar3c2-spc3">
-        <img src="/Images/Logos/Bluedrop Training and Simulation2.png" alt="CAE-Logo" />
+        <img src="Images/Logos/Bluedrop Training and Simulation2.png" alt="CAE-Logo" />
     </div>
 
     <div class="apl-ar4c1-spc3 d-grid">
         <button type="button"
                 class="btn btn-dark"
                 @onclick=OpenNewTabs>
-            @ApplicationData.Role -- @ApplicationData.TrainingScope -- Window Zero
+            @ApplicationData.Role -- @ApplicationData.TrainingScopeStr -- Window Zero
         </button>
         <div class="gap-1"></div>
         <button type="button"
                 class="btn btn-dark"
                 @onclick=OpenNewTabs1>
-            @ApplicationData.Role -- @ApplicationData.TrainingScope -- Slide Window
+            @ApplicationData.Role -- @ApplicationData.TrainingScopeStr -- Slide Window
         </button>
     </div>
 

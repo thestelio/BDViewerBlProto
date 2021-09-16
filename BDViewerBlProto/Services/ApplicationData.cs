@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+/* TODO - fix this crap you lazy bum */
 namespace BDViewerBlProto.Services
 {
     public class ApplicationData
@@ -14,7 +15,7 @@ namespace BDViewerBlProto.Services
             set { _Role = value; NotifyDataChange(); }
         }
 
-        private string _TrainingScope = "Technical Training Flight";
+        private string _TrainingScope = "ttf";
         public string TrainingScope
         {
             get { return _TrainingScope; }
@@ -22,20 +23,33 @@ namespace BDViewerBlProto.Services
             {
                 _TrainingScope = value;
 
-                if (_TrainingScope == "Technical Training Flight")
-                    TrainingScopeImage = "/Images/Logos/TTF2.png";
-                else if(_TrainingScope == "Pilot Training")
-                    TrainingScopeImage = "/Images/Logos/Pilot2.png";
-                else if (_TrainingScope == "Loadmaster Training")
-                    TrainingScopeImage = "/Images/Logos/Loadmaster2.png";
+                if (_TrainingScope == "ttf")
+                {
+                    TrainingScopeImage = "Images/Logos/TTF2.png";
+                    TrainingScopeStr = "Technical Training Flight";
+                }
+                else if (_TrainingScope == "pilott")
+                {
+                    TrainingScopeImage = "Images/Logos/Pilot2.png";
+                    TrainingScopeStr = "Pilot Training";
+                }
+                else if (_TrainingScope == "loadmastert")
+                {
+                    TrainingScopeImage = "Images/Logos/Loadmaster2.png";
+                    TrainingScopeStr = "Loadmaster Training";
+                }
                 else
-                    TrainingScopeImage = "/Images/Logos/Learninglogics.png";
+                {
+                    TrainingScopeImage = "Images/Logos/Learninglogics.png";
+                    TrainingScopeStr = "DOH!";
+                }
 
                 NotifyDataChange();
             }
         }
    
-        public string TrainingScopeImage { get; set; } = "/Images/Logos/TTF.png";
+        public string TrainingScopeImage { get; set; } = "Images/Logos/TTF.png";
+        public string TrainingScopeStr { get; set; } = "Technical Training Flight";
 
         private bool _WindowZero = true;
         public bool WindowZero
