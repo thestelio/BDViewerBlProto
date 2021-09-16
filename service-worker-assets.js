@@ -205,7 +205,7 @@
       "url": "Images\/Logos\/TTF2.png"
     },
     {
-      "hash": "sha256-3ap1v3FjvZY8LiEw98YWPmO7+z6SBWca0M5unVoBe3Q=",
+      "hash": "sha256-LE1trz3llvfASRKGTTDCo+9qwfhoqTq\/fpW9b7ZKgD0=",
       "url": "index.html"
     },
     {
@@ -373,7 +373,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-pM75Tionn8gI0AK4iAlp9GWlJJsl3TfUt2ewYTWUF7U=",
+      "hash": "sha256-vh3mAJSl7WR8yh4GNVkbxfdrU8wZSeVVuXyCNOq6znw=",
       "url": "_framework\/BDViewerBlProto.dll"
     },
     {
@@ -485,7 +485,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-7R\/GWZ7IWUjTEa4TV\/YoJGus2qG+2wmugwb2K47R1sw=",
+      "hash": "sha256-o73Rh8aASrqo05s4l4bG2yG54nhpvTKG5EEwUti07Tc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -493,5 +493,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "l2YFAbfr"
+  "version": "\/8KTSn27"
 };
