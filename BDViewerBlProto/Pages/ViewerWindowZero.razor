@@ -61,10 +61,15 @@
         </PagerContent>
     </MudTable>
     <div class="gap-1"></div>
-    <MudButton ButtonType="ButtonType.Button" Color="Color.Info" OnClick="@LaunchDoc">
-        @if (@selectedItem1 != null)
-        {@selectedItem1.FileName}
-    </MudButton>
+    @if (@selectedItem1 != null)
+    {
+
+        <MudButton ButtonType="ButtonType.Button" Color="Color.Info" OnClick="@LaunchDoc">
+            @selectedItem1.FileName
+        </MudButton>
+
+        <a href="data/documents/@selectedItem1.FileName" type="" target="_blank">@selectedItem1.FileName</a>
+    }
     <div class="h-divider border-dark"></div>
 </div>
 
@@ -175,8 +180,9 @@
 
     private async void LaunchDoc()
     {
-        string doc = "data/documents/" + selectedItem1.FileName;
-        await JSRuntime.InvokeVoidAsync("open", doc, "_blank");
+
+        string strURLw2 = "ViewerWindowDoc/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        await JSRuntime.InvokeVoidAsync("open", strURLw2, "_blank");
     }
 
 
@@ -194,3 +200,6 @@
     }
 
 }
+<!--await JSRuntime.InvokeVoidAsync("open", doc, "_blank", "application/pdf");
+            string doc = "data/documents/" + selectedItem1.FileName;
+        await JSRuntime.InvokeVoidAsync("open", doc, "_blank");-->

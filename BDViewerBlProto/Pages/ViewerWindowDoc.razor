@@ -1,0 +1,27 @@
+﻿@page "/ViewerWindowDoc/{userRole}/{trainigScope}"
+
+@layout SlideMainLayout
+
+@using System.Net.Http
+@inject HttpClient http
+@inject Services.ApplicationData ApplicationData
+@inject Services.CourseData CourseData
+
+
+<iframe src="data/Documents/C-130Brochure.pdf" frameborder="0" >
+</iframe>
+
+
+<!--
+-- ------------------------------------------------------------------------------------------------------
+-- CODE BASE                          </CascadingValue>                                                --
+-- ------------------------------------------------------------------------------------------------------
+-->
+@code {
+
+    [Parameter]
+    public string userRole { get; set; }
+    [Parameter]
+    public string trainigScope { get; set; }
+
+}

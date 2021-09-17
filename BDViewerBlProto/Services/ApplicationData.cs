@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 /* TODO - fix this crap you lazy bum */
 namespace BDViewerBlProto.Services
 {
     public class ApplicationData
     {
+
+        public string RefDocPath { get; set; } = "data/documents/";
+
         private string _Role = "Instructor";
         public string Role
         {
