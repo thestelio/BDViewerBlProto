@@ -240,7 +240,16 @@ figcaption {
     border-right: 7px solid var(--cae-blue);
     box-sizing: border-box;
     padding: 0px;
-    overflow: auto;
+    /*overflow: auto;*/
+}
+
+.apl-slayout-main-dr {
+    grid-area: amain;
+    background: var(--raaf-grey4);
+    border-left: 7px solid var(--cae-blue);
+    border-right: 7px solid var(--cae-blue);
+    box-sizing: border-box;
+    padding: 0px;
 }
 
 .apl-slayout-foot {
@@ -522,7 +531,7 @@ figcaption {
     grid-template-areas:
         "fimage   fslnum    fpagin  fcael";
     grid-template-rows: 1fr;
-    grid-template-columns: 200px 190px 1fr 150px;
+    grid-template-columns: 150px 190px 1fr 150px;
     align-items: center;
     justify-items: center;
 }
@@ -548,6 +557,13 @@ figcaption {
 
 .fcael-sel {
     grid-area: fcael;
+}
+
+.fspan-slpg {
+    grid-row: 1;
+    grid-column: 2 / 4;
+    display: block;
+    text-align: center;
 }
 
 /* -------------------------------------------------------------------------

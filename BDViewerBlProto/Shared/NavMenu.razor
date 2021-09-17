@@ -5,7 +5,7 @@
  HTML Markup Code section
 ----------------------------------------------------------------------------------------------  -->
 <nav class="navbar navbar-custom">
-    <div class="collapse" id="navCourseDetailsToggle" style="width:100%;">
+    <div class="collapse" id="navCourseDetailsToggle" style="width:100%">
         <div class="p-1" style="margin-left:20px;">
             <div class="display-1">@CourseData.CourseTitle</div>
             <div class="display-2">@CourseData.CourseModule</div>
@@ -33,7 +33,7 @@
                         data-bs-target="#refDocDetailsToggle"
                         aria-controls="refDocDetailsToggle"
                         aria-expanded="false">
-                    Referance Documents
+                    Reference Documents
                 </button>
                 <button type="button"
                         class="btn btn-outline-dark"
@@ -41,6 +41,29 @@
                         data-bs-target="#glossaryDetailsToggle"
                         aria-controls="glossaryDetailsToggle"
                         aria-expanded="false">
+                    Glossary
+                </button>
+            }
+            else
+            {
+                <button type="button"
+                        class="btn btn-outline-dark"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#refDocDetailsToggle"
+                        aria-controls="refDocDetailsToggle"
+                        aria-expanded="false"
+                        style="color: #005eb8; border-color: #005eb8"
+                        disabled>
+                    Reference Documents
+                </button>
+                <button type="button"
+                        class="btn btn-outline-dark"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#glossaryDetailsToggle"
+                        aria-controls="glossaryDetailsToggle"
+                        aria-expanded="false"
+                        style="color: #005eb8; border-color: #005eb8"
+                        disabled>
                     Glossary
                 </button>
             }

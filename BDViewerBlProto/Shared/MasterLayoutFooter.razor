@@ -11,32 +11,43 @@
         <div class="p-1 d-inline-block display-5">@ApplicationData.Role</div>
     </div>
 
-    <div class="fslnum-slide">
-        <div class="p-1 display-5 flex-fill">Slide @SlideWindowNumber of 4</div>
-    </div>
 
-    <div class="fpagin-sel">
-        @if (EnablePagination)
-        {
-            <div class="p-1">
-                <MudPagination @ref="pageControl" navigate
-                               Class="mud-pagination"
-                               BoundaryCount="3"
-                               MiddleCount="3"
-                               ShowFirstButton="true"
-                               ShowLastButton="true"
-                               Rectangular="true"
-                               Variant="Variant.Outlined"
-                               Count="@CourseData.TopicChildCount"
-                               SelectedChanged="PageChanged"
-                               Selected="@CourseData.ActiveSlideGroup" />
-            </div>
-        }
-        else
-        {
-            <div class="p-1 display-5 flex-fill">@PaginPlaceholderSWin</div>
-        }
-    </div>
+
+    @if (SlideWindowNumber == 0)
+    {
+        <div class="fspan-slpg">
+            <div class="p-1 display-5 flex-fill">Reference Document View</div>
+        </div>
+    }
+    else
+    {
+        <div class="fslnum-slide">
+            <div class="p-1 display-5 flex-fill">Slide @SlideWindowNumber of @ViewerSlideMax</div>
+        </div>
+
+        <div class="fpagin-sel">
+            @if (EnablePagination)
+            {
+                <div class="p-1">
+                    <MudPagination @ref="pageControl" navigate
+                                   Class="mud-pagination"
+                                   BoundaryCount="3"
+                                   MiddleCount="3"
+                                   ShowFirstButton="true"
+                                   ShowLastButton="true"
+                                   Rectangular="true"
+                                   Variant="Variant.Outlined"
+                                   Count="@CourseData.TopicChildCount"
+                                   SelectedChanged="PageChanged"
+                                   Selected="@CourseData.ActiveSlideGroup" />
+                </div>
+            }
+            else
+            {
+                <div class="p-1 display-5 flex-fill">Slide Group 5 of 55</div>
+            }
+        </div>
+    }
 
     <div class="fcael-img">
         @if (EnableCAEImg)
@@ -48,6 +59,7 @@
 </div>
 
 @code {
+    private int ViewerSlideMax = 4;
 
     private MudPagination pageControl;
 
@@ -81,7 +93,7 @@
 
     public string SlideNum = "Slide 1 of 4";
     public string PaginPlaceholder = "A more stimulating experience can be achieved talking to a brown paper bag than partaking in web development";
-    public string PaginPlaceholderSWin = "Slide Group 5 of 55";
+
     protected void PageChanged()
     {
         CourseData.ActiveSlideGroup = pageControl.Selected;

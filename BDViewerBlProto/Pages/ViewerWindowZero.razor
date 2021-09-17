@@ -18,7 +18,7 @@
 -- ------------------------------------------------------------------------------------------------------
 -->
 <div class="collapse" id="glossaryDetailsToggle" style="z-index:77">
-    <MudTable Items="@Acronyms" Dense="true" Hover="true" Filter="new Func<Acronym,bool>(FilterFunc)">
+    <MudTable Items="@Acronyms" Dense="true" Hover="true" Striped="true" Filter="new Func<Acronym,bool>(FilterFunc)">
         <ToolBarContent>
             <MudText Typo="Typo.h6">Some Useless Acronymns</MudText>
             <MudSpacer />
@@ -38,19 +38,21 @@
     </MudTable>
 </div>
 <div class="collapse" id="refDocDetailsToggle" style="z-index:78">
-    <MudTable Items="@RefDocs" Dense="true" Hover="true" Filter="new Func<RefDocuments,bool>(FilterFuncRDocs)" @bind-SelectedItem="selectedItem1">
+    <MudTable Items="@RefDocs" Dense="true" Hover="true" Striped="true" Filter="new Func<RefDocuments,bool>(FilterFuncRDocs)" @bind-SelectedItem="selectedItem1">
         <ToolBarContent>
             <MudText Typo="Typo.h6">Referance Documents</MudText>
             <MudSpacer />
             <MudTextField @bind-Value="rdocsearchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
         </ToolBarContent>
         <HeaderContent>
+            <MudTh>Id</MudTh>
             <MudTh>RefCode</MudTh>
             <MudTh>Title</MudTh>
             <MudTh>Date</MudTh>
             <MudTh>FileName</MudTh>
         </HeaderContent>
         <RowTemplate>
+            <MudTd DataLabel="Id">@context.RefId</MudTd>
             <MudTd DataLabel="RefCode">@context.RefCode</MudTd>
             <MudTd DataLabel="Title">@context.Title</MudTd>
             <MudTd DataLabel="Date">@context.Date</MudTd>
@@ -63,12 +65,16 @@
     <div class="gap-1"></div>
     @if (@selectedItem1 != null)
     {
-
-        <MudButton ButtonType="ButtonType.Button" Color="Color.Info" OnClick="@LaunchDoc">
-            @selectedItem1.FileName
-        </MudButton>
-
-        <a href="data/documents/@selectedItem1.FileName" type="" target="_blank">@selectedItem1.FileName</a>
+        <div class="p-2">
+            <MudButton Variant="Variant.Filled"
+                       ButtonType="ButtonType.Button"
+                       Color="Color.Info"
+                       EndIcon="@Icons.Sharp.Book"
+                       FullWidth="true"
+                       OnClick="@LaunchDoc">
+                Click to open document:&nbsp&nbsp&nbsp&@selectedItem1.FileName
+            </MudButton>
+        </div>
     }
     <div class="h-divider border-dark"></div>
 </div>
@@ -147,7 +153,7 @@
         var options = new JsonSerializerOptions()
         {
             ReferenceHandler = ReferenceHandler.Preserve,
-            PropertyNameCaseInsensitive = true
+            PropertyNameCaseInsensitive = false
         };
         Acronyms = await http.GetFromJsonAsync<HashSet<Acronym>>("data/gloss-terms.json", options);
 
@@ -181,10 +187,9 @@
     private async void LaunchDoc()
     {
 
-        string strURLw2 = "ViewerWindowDoc/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        string strURLw2 = "ViewerWindowDoc/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope + "/" + (@selectedItem1.RefId).ToString(); 
         await JSRuntime.InvokeVoidAsync("open", strURLw2, "_blank");
     }
-
 
     private async Task AppDataStateChanged()
     {

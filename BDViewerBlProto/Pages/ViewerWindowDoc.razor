@@ -1,27 +1,57 @@
-﻿@page "/ViewerWindowDoc/{userRole}/{trainigScope}"
+﻿@page "/ViewerWindowDoc/{userRole}/{trainigScope}/{docid:int}"
 
-@layout SlideMainLayout
+@layout DocViewLayoutrazor
 
 @using System.Net.Http
+@using System.Collections.Generic
 @inject HttpClient http
 @inject Services.ApplicationData ApplicationData
 @inject Services.CourseData CourseData
 
 
-<iframe src="data/Documents/C-130Brochure.pdf" frameborder="0" >
+<iframe title="Reference Document Viewer" src="@docToOpen" frameborder="0">
 </iframe>
 
 
 <!--
 -- ------------------------------------------------------------------------------------------------------
--- CODE BASE                          </CascadingValue>                                                --
+-- CODE BASE                          </CascadingValue>              src="data/Documents/C-130Brochure.pdf"                                  --
+    private Dictionary<string, string> openWith = new Dictionary<string, string>();
 -- ------------------------------------------------------------------------------------------------------
 -->
 @code {
 
     [Parameter]
     public string userRole { get; set; }
+
     [Parameter]
     public string trainigScope { get; set; }
 
+    [Parameter]
+    public int docid { get; set; }
+
+    private string docToOpen { get; set; }
+
+    private Dictionary<int, string> refdocs = new Dictionary<int, string>();
+    private string docPath = "data/Documents/";
+
+    private async Task AppDataStateChanged()
+    {
+        await InvokeAsync(StateHasChanged);
+    }
+
+    protected override void OnInitialized()
+    {
+        /*Dummt reference documents list*/
+        refdocs.Add(1, "C-130Brochure.pdf");
+        refdocs.Add(2, "C130JPocketGuide.pdf");
+        refdocs.Add(3, "September2021C-130FastFacts.pdf");
+
+        docToOpen = docPath + refdocs[docid];
+
+        ApplicationData.Role = userRole;
+        ApplicationData.TrainingScope = trainigScope;
+        ApplicationData.StateChanged += async () => await AppDataStateChanged();
+        CourseData.StateChanged += StateHasChanged;
+    }
 }
