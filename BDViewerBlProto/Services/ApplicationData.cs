@@ -27,14 +27,17 @@ namespace BDViewerBlProto.Services
                 {
                     TrainingScopeImage = "Images/Logos/TTF2.png";
                     TrainingScopeStr = "Technical Training Flight";
+                    TrainingScopeC130Icon = "Images/Logos/c130j-front.png";
                 }
                 else if (_TrainingScope == "pilott")
                 {
+                    TrainingScopeC130Icon = "Images/Logos/c130j-topv-nobg-64.png";
                     TrainingScopeImage = "Images/Logos/Pilot2.png";
                     TrainingScopeStr = "Pilot Training";
                 }
                 else if (_TrainingScope == "loadmastert")
                 {
+                    TrainingScopeC130Icon = "Images/Logos/c130cargobay60.png";
                     TrainingScopeImage = "Images/Logos/Loadmaster2.png";
                     TrainingScopeStr = "Loadmaster Training";
                 }
@@ -47,7 +50,8 @@ namespace BDViewerBlProto.Services
                 NotifyDataChange();
             }
         }
-   
+
+        public string TrainingScopeC130Icon { get; set; } = "Images/Logos/c130j-front.png";
         public string TrainingScopeImage { get; set; } = "Images/Logos/TTF.png";
         public string TrainingScopeStr { get; set; } = "Technical Training Flight";
 

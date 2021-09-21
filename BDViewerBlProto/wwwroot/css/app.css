@@ -98,6 +98,22 @@ figcaption {
 }
 
 /* -------------------------------------------------------------------------
+ * Customisation for standard bootstrap buttons
+ * -------------------------------------------------------------------------*/
+/*.btn {
+}*/
+    
+    .btn.btn-outline-dark {
+        color: white !important;
+        border-color: white !important;
+    }
+
+        .btn.btn-outline-dark:disabled {
+            color: var(--cae-blue) !important;
+            border-color: var(--cae-blue) !important;
+        }
+
+/* -------------------------------------------------------------------------
  * Customisation for the header Navigation Bar
  * -------------------------------------------------------------------------*/
 .navbar-custom {
@@ -361,13 +377,13 @@ figcaption {
    Grid Layout Main Section with TreeView Column:
 
     -----------------------------------------------
-   |            |                                  |
-   |            |                                  |
-   |            |                                  |
-   |  rtree     |  rMain                           |
-   |            |                                  |
-   |            |                                  |
-   |            |                                  |
+   |            |  |                                |
+   |            |t |                                |
+   |            |c |                                |
+   |  rtree     |l |   rMain                        |
+   |            |p |                                |
+   |            |s |                                |
+   |            |  |                                |
     -----------------------------------------------
         height: 70px;
 * -------------------------------------------------------------------------*/
@@ -378,25 +394,79 @@ figcaption {
     display: grid;
     grid-gap: 0px;
     grid-template-areas:
-        "rtree    rmain";
+        "rtree  tclps  rmain";
     grid-template-rows: 1fr;
-    grid-template-columns: minmax(min-content, 400px) 1fr;
+    grid-template-columns: 400px 15px 1fr;
+    overflow-x:hidden;
 }
 
 .ctvs-lside-tree {
     grid-area: rtree;
     background-color: var(--raaf-grey05);
-    border-right: 2px solid var(--cae-blue);
     overflow: auto;
-    /* padding: 1px; box-sizing: border-box;*/
+    /* 
+        border-right: 2px solid var(--cae-blue);
+        padding: 1px; box-sizing: border-box;
+    */
+}
+
+.ctvx-lside-toggle {
+    grid-area: tclps;
+    background-color: var(--cae-blue);
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+
+    .ctvx-lside-toggle:hover {
+        background-color: black;
+    }
+
+.ctvs-main-content {
+    grid-area: rmain;
+    padding: 5px;
+    overflow: auto;
+    transition:all 0.5s;
+    /* background: inherit; box-sizing: border-box;*/
+}
+
+/*
+
+    .container-tvs {
+    background-color: white;
+    height: 100%;
+    color: black;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        "rtree  tclps  rmain";
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(min-content, 400px) 10px 1fr;
+}
+
+.ctvs-lside-tree {
+    grid-area: rtree;
+    background-color: var(--raaf-grey05);
+    overflow: auto;
+}
+
+.ctvx-lside-toggle {
+    grid-area: tclps;
+    background-color: var(--cae-blue);
 }
 
 .ctvs-main-content {
     grid-area: rmain;
     padding: 5px;
     overflow: auto;
-    /* background: inherit; box-sizing: border-box;*/
 }
+
+*/
+
+
+
+
 
 
 /* -------------------------------------------------------------------------

@@ -8,12 +8,14 @@ namespace BDViewerBlProto.Data.Models
 {
     public class Acronym
     {
-        public string AcronymAbbr { get; set; }
+        public string Letter { get; set; }
+        public string Term { get; set; }
         public string Definition { get; set; }
 
-        public Acronym (string acronymAbbr, string definition)
+        public Acronym (string letter, string term, string definition)
         {
-            AcronymAbbr = acronymAbbr;
+            Letter = letter;
+            Term = term;
             Definition = definition;
         }
     }
