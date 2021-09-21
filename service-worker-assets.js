@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-fOoKjGtpun6\/acVSu2nwZUWs+vkScwi0K33ib\/ow4S4=",
+      "hash": "sha256-eQeMi7IkzIqHO4PW75se2UFGxmTIPvlWCN42P7I3fGo=",
       "url": "css\/app.css"
     },
     {
@@ -69,7 +69,7 @@
       "url": "data\/Documents\/September2021C-130FastFacts.pdf"
     },
     {
-      "hash": "sha256-xSLe4VqJy9FKTIfGWy4+ylTNhiDcDf1qIaCnEruU8u4=",
+      "hash": "sha256-249jLRgV2Iz0qne6U+rLW8pGU+36C59h2YeaAe7xI7E=",
       "url": "data\/gloss-terms.json"
     },
     {
@@ -109,6 +109,22 @@
       "url": "Images\/HerculesCounterMeasures.jpg"
     },
     {
+      "hash": "sha256-HCFA4nMesf+CNzbpn7\/T5GnBpLQViqH4uDhhtv58GBs=",
+      "url": "Images\/Icons\/collapse-left-w.png"
+    },
+    {
+      "hash": "sha256-G30BptDs\/a+roRLvbXpa6gHItS+OsVb20dXMD\/KjAr8=",
+      "url": "Images\/Icons\/collapse-left.png"
+    },
+    {
+      "hash": "sha256-Z+oyfBskbhJ0F1BBIJGd\/M5a1qaRUkAc5f3jHEGaULA=",
+      "url": "Images\/Icons\/expand-left-w.png"
+    },
+    {
+      "hash": "sha256-mgeSnRJNjrHzjq1sdYD8IQyhxwTZIt91VXpkc6AcRbg=",
+      "url": "Images\/Icons\/expand-left.png"
+    },
+    {
       "hash": "sha256-4V4+SH4H3WWGwE+t2GKNvo0kHRkl4fHELw+JA\/VkYzY=",
       "url": "Images\/Logos\/37SQN-Crest_424x600-1.png"
     },
@@ -127,6 +143,26 @@
     {
       "hash": "sha256-IK32pMclNONMKtZzEeAilxE9knbZTjaErehSsyIdyd4=",
       "url": "Images\/Logos\/Bluedrop Training and Simulation2.png"
+    },
+    {
+      "hash": "sha256-WkbEO2aNjn7a4TH1A+pj8EvfaXMNIxmei280qfny9VY=",
+      "url": "Images\/Logos\/c130cargobay60.png"
+    },
+    {
+      "hash": "sha256-2QL3ryvxebfnGPOhpJtAwc0YM6GHHEj4RebseWKEAnY=",
+      "url": "Images\/Logos\/c130j-front.png"
+    },
+    {
+      "hash": "sha256-pz0E+c0mMEJ4mP6dLHbjQEZaSndWxmf12BA4PxY7ObY=",
+      "url": "Images\/Logos\/c130j-topv-nobg-64-180deg.png"
+    },
+    {
+      "hash": "sha256-NKjmwfF4XhbR5jKXB85fUiE6UsDPdkpfTz8wdOn\/KgM=",
+      "url": "Images\/Logos\/c130j-topv-nobg-64.png"
+    },
+    {
+      "hash": "sha256-\/hPwPiN\/nt2rY9isJ84UFDUSGFqn3LHddEslSu71rEU=",
+      "url": "Images\/Logos\/c130j-topv-nobg.png"
     },
     {
       "hash": "sha256-YcMmWolPxJyVCWXqvwEbRh6jHstBHgFnz6fnjNvWqcY=",
@@ -205,7 +241,7 @@
       "url": "Images\/Logos\/TTF2.png"
     },
     {
-      "hash": "sha256-gWGz232pj2YMKGPUmrcYkUocSw5jaPEEnwp9ijo68e0=",
+      "hash": "sha256-LENB5N+zcoOCwP3sh9k6bSlttSERYyhVTgZKz6BsVZU=",
       "url": "index.html"
     },
     {
@@ -373,7 +409,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-RAQJwzpQ0UuYc4KtCrRgAX9s5zCUOT8AkQFQum2u34M=",
+      "hash": "sha256-\/TVhlThB30S\/rYZXNr6rxGjLx0QimtJWxIZEyUZ3dh8=",
       "url": "_framework\/BDViewerBlProto.dll"
     },
     {
@@ -485,7 +521,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-ArrBG4+Z2fXJD+1bB1sCkb\/JRUsY6YxN9v5I4U+V89o=",
+      "hash": "sha256-Wa\/3y5vidbjzgBwdUmjFcPCVNxjNREmcrksGKK7dYsQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -493,5 +529,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "Xc1k7tnC"
+  "version": "Xydn7bSy"
 };

@@ -1,898 +1,3196 @@
- [
-    {
-      "AcronymAbbr": "AAA",
-      "Definition": "Anti Aircraft Artillery"
-    },
-    {
-      "AcronymAbbr": "AAFC",
-      "Definition": "Australian Air Force Cadets"
-    },
-    {
-      "AcronymAbbr": "AAM",
-      "Definition": "Air-to-Air Missile"
-    },
-    {
-      "AcronymAbbr": "ABM",
-      "Definition": "Anti-Ballistic Missile"
-    },
-    {
-      "AcronymAbbr": "ACM",
-      "Definition": "Air Combat Manoeuvring"
-    },
-    {
-      "AcronymAbbr": "ACMI",
-      "Definition": "Air Combat Maneuvering Instrumentation"
-    },
-    {
-      "AcronymAbbr": "ACMR",
-      "Definition": "Air Combat Manoeuvring Range"
-    },
-    {
-      "AcronymAbbr": "ADF",
-      "Definition": "Australian Defence Force"
-    },
-    {
-      "AcronymAbbr": "ADF PSA",
-      "Definition": "Australian Defence Force Pilot Selection Agency"
-    },
-    {
-      "AcronymAbbr": "ADFA",
-      "Definition": "Australian Defence Force Academy"
-    },
-    {
-      "AcronymAbbr": "ADIZ",
-      "Definition": "Air Defence Identification Zone"
-    },
-    {
-      "AcronymAbbr": "AEI",
-      "Definition": "Australian Education International"
-    },
-    {
-      "AcronymAbbr": "Aero",
-      "Definition": "Aeronautical"
-    },
-    {
-      "AcronymAbbr": "AEW",
-      "Definition": "Air Early Warning"
-    },
-    {
-      "AcronymAbbr": "AEW&C",
-      "Definition": "Air Early Warning & Control"
-    },
-    {
-      "AcronymAbbr": "AF",
-      "Definition": "Air Force"
-    },
-    {
-      "AcronymAbbr": "ALBM",
-      "Definition": "Air Launched Ballistic Missile"
-    },
-    {
-      "AcronymAbbr": "ALCM",
-      "Definition": "Air Launched Cruise Missile"
-    },
-    {
-      "AcronymAbbr": "AMET",
-      "Definition": "Academy Military Education and Training"
-    },
-    {
-      "AcronymAbbr": "APU",
-      "Definition": "Auxilliary Power Unit"
-    },
-    {
-      "AcronymAbbr": "ASIO",
-      "Definition": "Australian Security Intelligence Organisation"
-    },
-    {
-      "AcronymAbbr": "ASM",
-      "Definition": "Air-to-Surface Missile"
-    },
-    {
-      "AcronymAbbr": "ASPJ",
-      "Definition": "Airborne Self-Protection Jammer"
-    },
-    {
-      "AcronymAbbr": "ASRAAM",
-      "Definition": "Advanced Short Range Air-to-Air Missile"
-    },
-    {
-      "AcronymAbbr": "ASTOVL",
-      "Definition": "Advanced Short Take-Off and Vertical Landing"
-    },
-    {
-      "AcronymAbbr": "ATCO",
-      "Definition": "Air Traffic Control Officer"
-    },
-    {
-      "AcronymAbbr": "AUW",
-      "Definition": "All Up Weight"
-    },
-    {
-      "AcronymAbbr": "BMI",
-      "Definition": "Body Mass Index"
-    },
-    {
-      "AcronymAbbr": "Bsc",
-      "Definition": "Bachelor of Science (Bsc)"
-    },
-    {
-      "AcronymAbbr": "Btech",
-      "Definition": "Bachelor of Technology"
-    },
-    {
-      "AcronymAbbr": "BA",
-      "Definition": "Bachelor of Arts"
-    },
-    {
-      "AcronymAbbr": "Bbus",
-      "Definition": "Bachelor of Business"
-    },
-    {
-      "AcronymAbbr": "BE",
-      "Definition": "Bachelor of Engineering"
-    },
-    {
-      "AcronymAbbr": "BFA",
-      "Definition": "Basic Fitness Assessment"
-    },
-    {
-      "AcronymAbbr": "CAF",
-      "Definition": "Chief of Air Force"
-    },
-    {
-      "AcronymAbbr": "CBRND",
-      "Definition": "Chemical Biological Radiological Nuclear Defence"
-    },
-    {
-      "AcronymAbbr": "CC",
-      "Definition": "Careers Coach"
-    },
-    {
-      "AcronymAbbr": "CDAT",
-      "Definition": "Clearance Divers Acceptance Test"
-    },
-    {
-      "AcronymAbbr": "CDF",
-      "Definition": "Chief of the Defence Force"
-    },
-    {
-      "AcronymAbbr": "CMA",
-      "Definition": "Career Management Agency"
-    },
-    {
-      "AcronymAbbr": "CMO",
-      "Definition": "Chief Medical Officer"
-    },
-    {
-      "AcronymAbbr": "CO",
-      "Definition": "Commanding Officer"
-    },
-    {
-      "AcronymAbbr": "COIN",
-      "Definition": "Counter Intelligence"
-    },
-    {
-      "AcronymAbbr": "CP",
-      "Definition": "Colour Perception"
-    },
-    {
-      "AcronymAbbr": "CRMC",
-      "Definition": "Customer Relationship Management Centre"
-    },
-    {
-      "AcronymAbbr": "DEO",
-      "Definition": "Direct Entry Officer"
-    },
-    {
-      "AcronymAbbr": "DFC",
-      "Definition": "Distinguished Flying Cross: Air Force Decoration"
-    },
-    {
-      "AcronymAbbr": "DFDA",
-      "Definition": "Defence Force Discipline Act"
-    },
-    {
-      "AcronymAbbr": "DFR",
-      "Definition": "Defence Force Recruiting"
-    },
-    {
-      "AcronymAbbr": "DFRC",
-      "Definition": "Defence Force Recruitment Centre"
-    },
-    {
-      "AcronymAbbr": "DGPS",
-      "Definition": "Differential GPS"
-    },
-    {
-      "AcronymAbbr": "DI",
-      "Definition": "Defence Interviewer"
-    },
-    {
-      "AcronymAbbr": "DIAC",
-      "Definition": "Department of Immigration and Citizenship"
-    },
-    {
-      "AcronymAbbr": "DIMA",
-      "Definition": "Department of Immigration and Multicultural Affairs"
-    },
-    {
-      "AcronymAbbr": "DLS",
-      "Definition": "Defence Library Service"
-    },
-    {
-      "AcronymAbbr": "DoD",
-      "Definition": "Department of Defence"
-    },
-    {
-      "AcronymAbbr": "DSC",
-      "Definition": "Defence Service Centre"
-    },
-    {
-      "AcronymAbbr": "DZ",
-      "Definition": "Drop Zone"
-    },
-    {
-      "AcronymAbbr": "E",
-      "Definition": "Enlisted"
-    },
-    {
-      "AcronymAbbr": "EAC",
-      "Definition": "Equipment Application Course"
-    },
-    {
-      "AcronymAbbr": "ECCM",
-      "Definition": "Electronic Counter CounDefinitioneasures"
-    },
-    {
-      "AcronymAbbr": "ECM",
-      "Definition": "Electronic CounDefinitioneasures"
-    },
-    {
-      "AcronymAbbr": "EFIS",
-      "Definition": "Electronic Flight Instrument System"
-    },
-    {
-      "AcronymAbbr": "ELINT",
-      "Definition": "Electronic Intelligence"
-    },
-    {
-      "AcronymAbbr": "Endurance",
-      "Definition": "Length of time an aircraft's fuel load will permit it to stay airborne"
-    },
-    {
-      "AcronymAbbr": "EOD",
-      "Definition": "Explosive Ordnance Disposal"
-    },
-    {
-      "AcronymAbbr": "ESM",
-      "Definition": "Electronic Support Measures"
-    },
-    {
-      "AcronymAbbr": "ESP",
-      "Definition": "Enhanced Selection Process"
-    },
-    {
-      "AcronymAbbr": "ESPS",
-      "Definition": "Employer Support Payment Scheme"
-    },
-    {
-      "AcronymAbbr": "EW",
-      "Definition": "Electronic Warfare"
-    },
-    {
-      "AcronymAbbr": "FAC",
-      "Definition": "Forward Air Control / Forward Air Controller"
-    },
-    {
-      "AcronymAbbr": "FAE",
-      "Definition": "Fuel Air Explosives"
-    },
-    {
-      "AcronymAbbr": "FBE",
-      "Definition": "Fleet Base East"
-    },
-    {
-      "AcronymAbbr": "FBW",
-      "Definition": "Fleet Base West"
-    },
-    {
-      "AcronymAbbr": "FLIR",
-      "Definition": "Forward Looking Infrared"
-    },
-    {
-      "AcronymAbbr": "Fly-by-Wire",
-      "Definition": "Flight control systems with electronic signalling"
-    },
-    {
-      "AcronymAbbr": "FSP",
-      "Definition": "Flight Screening Program"
-    },
-    {
-      "AcronymAbbr": "FV",
-      "Definition": "Flying Vehicle"
-    },
-    {
-      "AcronymAbbr": "GCI",
-      "Definition": "Ground-Controlled Intercept"
-    },
-    {
-      "AcronymAbbr": "GE",
-      "Definition": "General Entry"
-    },
-    {
-      "AcronymAbbr": "GPS",
-      "Definition": "Global Positioning System"
-    },
-    {
-      "AcronymAbbr": "GTC",
-      "Definition": "Group Training Company"
-    },
-    {
-      "AcronymAbbr": "HE",
-      "Definition": "High Explosive"
-    },
-    {
-      "AcronymAbbr": "HECS",
-      "Definition": "Higher Education Contribution Scheme"
-    },
-    {
-      "AcronymAbbr": "HP",
-      "Definition": "HorsePower"
-    },
-    {
-      "AcronymAbbr": "HQ",
-      "Definition": "Headquarter(s)"
-    },
-    {
-      "AcronymAbbr": "IADS",
-      "Definition": "Integrated Air Defence System"
-    },
-    {
-      "AcronymAbbr": "IAS",
-      "Definition": "Indicated Airspeed Shown"
-    },
-    {
-      "AcronymAbbr": "IET",
-      "Definition": "Initial Employment Training"
-    },
-    {
-      "AcronymAbbr": "IFA",
-      "Definition": "Initial Fitness Assessment"
-    },
-    {
-      "AcronymAbbr": "IFF",
-      "Definition": "Identification Friend or Foe"
-    },
-    {
-      "AcronymAbbr": "ILS",
-      "Definition": "Integrated Logistics Support"
-    },
-    {
-      "AcronymAbbr": "IMPS",
-      "Definition": "Initial Minimum Period of Service"
-    },
-    {
-      "AcronymAbbr": "IO",
-      "Definition": "Independent Observer"
-    },
-    {
-      "AcronymAbbr": "IOC",
-      "Definition": "Initial Operation Capability"
-    },
-    {
-      "AcronymAbbr": "IOT",
-      "Definition": "Initial Officer Training"
-    },
-    {
-      "AcronymAbbr": "IR",
-      "Definition": "InfraRed"
-    },
-    {
-      "AcronymAbbr": "IRAN",
-      "Definition": "Inspect and Repair as Necessary"
-    },
-    {
-      "AcronymAbbr": "IRBM",
-      "Definition": "InDefinitionediate Range Ballistic Missile"
-    },
-    {
-      "AcronymAbbr": "IRCM",
-      "Definition": "InfraRed CounDefinitioneasure"
-    },
-    {
-      "AcronymAbbr": "IRS",
-      "Definition": "Inertial Reference System"
-    },
-    {
-      "AcronymAbbr": "IRST",
-      "Definition": "InfraRed Search and Track"
-    },
-    {
-      "AcronymAbbr": "IT",
-      "Definition": "Information Technology"
-    },
-    {
-      "AcronymAbbr": "ITS",
-      "Definition": "Integrated Travel Solutions"
-    },
-    {
-      "AcronymAbbr": "ITT",
-      "Definition": "Initial Technical Training"
-    },
-    {
-      "AcronymAbbr": "JNCO",
-      "Definition": "Junior Non-Commissioned Officer"
-    },
-    {
-      "AcronymAbbr": "JOR",
-      "Definition": "Job Opportunities Report"
-    },
-    {
-      "AcronymAbbr": "KG",
-      "Definition": "Kilograms"
-    },
-    {
-      "AcronymAbbr": "KM",
-      "Definition": "Kilometre"
-    },
-    {
-      "AcronymAbbr": "KM/H",
-      "Definition": "Kilometre per Hour"
-    },
-    {
-      "AcronymAbbr": "kN",
-      "Definition": "KiloNewton measure of force (1,000 Newtons: 1 Newton = 0.2238 lbs of force)"
-    },
-    {
-      "AcronymAbbr": "Knot",
-      "Definition": "Aviation and maritime unit of velocity"
-    },
-    {
-      "AcronymAbbr": "KT",
-      "Definition": "Kiloton (equivalent explosive force of 1,000 tons of TNT)"
-    },
-    {
-      "AcronymAbbr": "Kt/Kts",
-      "Definition": "Knot(s)"
-    },
-    {
-      "AcronymAbbr": "KTAS",
-      "Definition": "True AirSpeed in Knots"
-    },
-    {
-      "AcronymAbbr": "kW",
-      "Definition": "KiloWatt"
-    },
-    {
-      "AcronymAbbr": "LABS",
-      "Definition": "Low Altitude Bombing System"
-    },
-    {
-      "AcronymAbbr": "LAC",
-      "Definition": "Leading Aircraftman"
-    },
-    {
-      "AcronymAbbr": "LACW",
-      "Definition": "Leading Aircraftwoman"
-    },
-    {
-      "AcronymAbbr": "LADS",
-      "Definition": "Laser Airborne Depth Sounder"
-    },
-    {
-      "AcronymAbbr": "LAMPS",
-      "Definition": "Light Airborne MultiPurpose System"
-    },
-    {
-      "AcronymAbbr": "LANs",
-      "Definition": "Local Area Networks"
-    },
-    {
-      "AcronymAbbr": "LANTIRN",
-      "Definition": "Light Altitude Targeting InfraRed for Night"
-    },
-    {
-      "AcronymAbbr": "LAPES",
-      "Definition": "Low Altitude Parachute Extraction System"
-    },
-    {
-      "AcronymAbbr": "LCD",
-      "Definition": "Liquid Crystal Display"
-    },
-    {
-      "AcronymAbbr": "LF",
-      "Definition": "Low Frequency (30 to 300 kHz)"
-    },
-    {
-      "AcronymAbbr": "LGB",
-      "Definition": "Laser-Guided Bomb"
-    },
-    {
-      "AcronymAbbr": "LO",
-      "Definition": "Low Observables"
-    },
-    {
-      "AcronymAbbr": "LRMPA",
-      "Definition": "Landing Range Maritime Patrol Aircraft"
-    },
-    {
-      "AcronymAbbr": "LZ",
-      "Definition": "Landing Zone"
-    },
-    {
-      "AcronymAbbr": "MACH",
-      "Definition": "Measure of Airspeed (Mach 1 = 1,223 kph/760 mph at sea level)"
-    },
-    {
-      "AcronymAbbr": "MAD",
-      "Definition": "Magnetic Anomaly Detector"
-    },
-    {
-      "AcronymAbbr": "MAP",
-      "Definition": "Military Assistance Program"
-    },
-    {
-      "AcronymAbbr": "MFD",
-      "Definition": "Multi-Function Display"
-    },
-    {
-      "AcronymAbbr": "MHQ",
-      "Definition": "Medical History Questionnaire"
-    },
-    {
-      "AcronymAbbr": "MIN",
-      "Definition": "Minute(s)"
-    },
-    {
-      "AcronymAbbr": "MM",
-      "Definition": "Millimetre"
-    },
-    {
-      "AcronymAbbr": "MPA",
-      "Definition": "Maritime Patrol Aircraft"
-    },
-    {
-      "AcronymAbbr": "MPC",
-      "Definition": "Multi-Purpose Carrier"
-    },
-    {
-      "AcronymAbbr": "MR",
-      "Definition": "Maritime Reconnaissance"
-    },
-    {
-      "AcronymAbbr": "MRBM",
-      "Definition": "Medium Range Ballistic Missile"
-    },
-    {
-      "AcronymAbbr": "MSIP",
-      "Definition": "Multi-Stage Improvement Program"
-    },
-    {
-      "AcronymAbbr": "MTOW",
-      "Definition": "Maximum Take-Off Weight"
-    },
-    {
-      "AcronymAbbr": "NASA",
-      "Definition": "National Aeronautics & Space Administration"
-    },
-    {
-      "AcronymAbbr": "NATO",
-      "Definition": "North Atlantic Treaty Organisation"
-    },
-    {
-      "AcronymAbbr": "Nautical Mile",
-      "Definition": "Measurement of distance"
-    },
-    {
-      "AcronymAbbr": "NCHRC",
-      "Definition": "National Criminal History Record Check"
-    },
-    {
-      "AcronymAbbr": "NCO",
-      "Definition": "Non-Commissioned Officer"
-    },
-    {
-      "AcronymAbbr": "NM",
-      "Definition": "Nautical Mile"
-    },
-    {
-      "AcronymAbbr": "NOK",
-      "Definition": "Next of Kin"
-    },
-    {
-      "AcronymAbbr": "ODM",
-      "Definition": "One Day Model"
-    },
-    {
-      "AcronymAbbr": "OPSO",
-      "Definition": "Operations Officer"
-    },
-    {
-      "AcronymAbbr": "OTS",
-      "Definition": "Officers' Training School"
-    },
-    {
-      "AcronymAbbr": "OSB",
-      "Definition": "Officer Selection Board"
-    },
-    {
-      "AcronymAbbr": "OTTC",
-      "Definition": "Operational Type Transition Course"
-    },
-    {
-      "AcronymAbbr": "PAF",
-      "Definition": "Permanent Air Force"
-    },
-    {
-      "AcronymAbbr": "PFA",
-      "Definition": "Physical Fitness Assessment"
-    },
-    {
-      "AcronymAbbr": "PGM",
-      "Definition": "Precision-Guided Munition"
-    },
-    {
-      "AcronymAbbr": "PID",
-      "Definition": "Passive Identification"
-    },
-    {
-      "AcronymAbbr": "PTI",
-      "Definition": "Physical Training Instructor"
-    },
-    {
-      "AcronymAbbr": "QA",
-      "Definition": "Qualified Assessor"
-    },
-    {
-      "AcronymAbbr": "QFI",
-      "Definition": "Qualified Flying Instructor"
-    },
-    {
-      "AcronymAbbr": "R&D",
-      "Definition": "Research and Development"
-    },
-    {
-      "AcronymAbbr": "RAAF",
-      "Definition": "Royal Australian Air Force"
-    },
-    {
-      "AcronymAbbr": "RAAFAR",
-      "Definition": "Royal Australian Air Force Active Reserve"
-    },
-    {
-      "AcronymAbbr": "RAAWS",
-      "Definition": "Radar Altimeter and Altitude Warning System"
-    },
-    {
-      "AcronymAbbr": "RAM",
-      "Definition": "Radar Absorbing Material"
-    },
-    {
-      "AcronymAbbr": "RCC",
-      "Definition": "Recognition of Current Competencies"
-    },
-    {
-      "AcronymAbbr": "RCS",
-      "Definition": "Radar Cross-Section"
-    },
-    {
-      "AcronymAbbr": "Recce",
-      "Definition": "Reconnaissance"
-    },
-    {
-      "AcronymAbbr": "RISE",
-      "Definition": "Reliability Improved Selected Equipment"
-    },
-    {
-      "AcronymAbbr": "RNZAF",
-      "Definition": "Royal New Zealand Air Force"
-    },
-    {
-      "AcronymAbbr": "RO",
-      "Definition": "Recognition Officer"
-    },
-    {
-      "AcronymAbbr": "ROA",
-      "Definition": "Record of Attainment"
-    },
-    {
-      "AcronymAbbr": "ROE",
-      "Definition": "Rules of Engagement"
-    },
-    {
-      "AcronymAbbr": "ROSO",
-      "Definition": "Return of Service Obligation"
-    },
-    {
-      "AcronymAbbr": "RPL",
-      "Definition": "Recognition of Prior Learning"
-    },
-    {
-      "AcronymAbbr": "RPM",
-      "Definition": "Revolutions Per Minute (or Rounds Per Minute if dealing with small arms)"
-    },
-    {
-      "AcronymAbbr": "RPV",
-      "Definition": "Remotely-Piloted Vehicle"
-    },
-    {
-      "AcronymAbbr": "RTO",
-      "Definition": "Registered Training Organisation"
-    },
-    {
-      "AcronymAbbr": "RTS",
-      "Definition": "Recruit Training School"
-    },
-    {
-      "AcronymAbbr": "RWR",
-      "Definition": "Radar Warning Receiver"
-    },
-    {
-      "AcronymAbbr": "SA",
-      "Definition": "Surface-to-Air"
-    },
-    {
-      "AcronymAbbr": "SAM",
-      "Definition": "Surface-to-Air Missile"
-    },
-    {
-      "AcronymAbbr": "SAR",
-      "Definition": "Search And Rescue"
-    },
-    {
-      "AcronymAbbr": "SAS",
-      "Definition": "Special Air Service"
-    },
-    {
-      "AcronymAbbr": "SENSO",
-      "Definition": "Sensor Operator"
-    },
-    {
-      "AcronymAbbr": "SEP",
-      "Definition": "Systems Enhanced Package"
-    },
-    {
-      "AcronymAbbr": "SFPB",
-      "Definition": "Special Forces Panelling Board"
-    },
-    {
-      "AcronymAbbr": "SigInt",
-      "Definition": "Signals Intelligence"
-    },
-    {
-      "AcronymAbbr": "SLAR",
-      "Definition": "Side-Looking Airborne Radar"
-    },
-    {
-      "AcronymAbbr": "SLEP",
-      "Definition": "Service Life Extension Program"
-    },
-    {
-      "AcronymAbbr": "SME",
-      "Definition": "Subject Matter Expert"
-    },
-    {
-      "AcronymAbbr": "SMRO",
-      "Definition": "Senior Military Recruiting Officer"
-    },
-    {
-      "AcronymAbbr": "SNCO",
-      "Definition": "Senior Non-Commissioned Officer"
-    },
-    {
-      "AcronymAbbr": "SP",
-      "Definition": "Self-Propelled"
-    },
-    {
-      "AcronymAbbr": "SPAAG",
-      "Definition": "Self-Propelled Anti-Aircraft Gun"
-    },
-    {
-      "AcronymAbbr": "SPG",
-      "Definition": "Self-Propelled Gun"
-    },
-    {
-      "AcronymAbbr": "SSM",
-      "Definition": "Surface-to-Surface Missile"
-    },
-    {
-      "AcronymAbbr": "SST",
-      "Definition": "Single Service Training"
-    },
-    {
-      "AcronymAbbr": "STO",
-      "Definition": "Short Take-Off"
-    },
-    {
-      "AcronymAbbr": "STOL",
-      "Definition": "Short Take-Off and Landing"
-    },
-    {
-      "AcronymAbbr": "STOVL",
-      "Definition": "Short Take-Off and Vertical Landing"
-    },
-    {
-      "AcronymAbbr": "TA",
-      "Definition": "Training Advisor"
-    },
-    {
-      "AcronymAbbr": "TANS",
-      "Definition": "Tactical Air Navigation System"
-    },
-    {
-      "AcronymAbbr": "TBO",
-      "Definition": "Time Between Overhauls"
-    },
-    {
-      "AcronymAbbr": "TFR",
-      "Definition": "Terrain Following Radar"
-    },
-    {
-      "AcronymAbbr": "TIALD",
-      "Definition": "Target Identification Airborne Laser Designation"
-    },
-    {
-      "AcronymAbbr": "TOW",
-      "Definition": "Tube-launched, Optically-tracked, Wired-Guided"
-    },
-    {
-      "AcronymAbbr": "TSSAM",
-      "Definition": "Tri-Service Stand-off Attack Missile"
-    },
-    {
-      "AcronymAbbr": "UAV",
-      "Definition": "Unmanned Aerial Vehicle"
-    },
-    {
-      "AcronymAbbr": "UHF",
-      "Definition": "Ultra-High Frequency (300MHz to 3 GHz)"
-    },
-    {
-      "AcronymAbbr": "UN",
-      "Definition": "United Nations"
-    },
-    {
-      "AcronymAbbr": "UNSW",
-      "Definition": "University of NSW"
-    },
-    {
-      "AcronymAbbr": "V/STOL",
-      "Definition": "Vertical or Short Take-Off and Landing"
-    },
-    {
-      "AcronymAbbr": "VHF",
-      "Definition": "Very High Frequency (3 to 300MHz)"
-    },
-    {
-      "AcronymAbbr": "VTOL",
-      "Definition": "Vertical Take-Off and Landing"
-    },
-    {
-      "AcronymAbbr": "WANs",
-      "Definition": "Wide Area Networks"
-    },
-    {
-      "AcronymAbbr": "WO",
-      "Definition": "Warrant Officer"
-    },
-    {
-      "AcronymAbbr": "WO2",
-      "Definition": "Warrant Officer Class 2"
-    },
-    {
-      "AcronymAbbr": "WOET",
-      "Definition": "Warrant Officer Electronics Technician"
-    },
-    {
-      "AcronymAbbr": "YOFT",
-      "Definition": "Year One Familiarisation Training (ADFA)"
-    },
-    {
-      "AcronymAbbr": "YOU Session",
-      "Definition": "Your Opportunities Unlimited Session"
-    },
-    {
-      "AcronymAbbr": "ZULU",
-      "Definition": "Zulu Time"
-    }
-  ]
+[
+  {
+    "Letter": "A",
+    "Term": "AS",
+    "Definition": "Acoustic System"
+  },
+  {
+    "Letter": "A",
+    "Term": "A/A",
+    "Definition": "Air-To-Air"
+  },
+  {
+    "Letter": "A",
+    "Term": "A/P",
+    "Definition": "Autopilot"
+  },
+  {
+    "Letter": "A",
+    "Term": "A/S",
+    "Definition": "Airspeed"
+  },
+  {
+    "Letter": "A",
+    "Term": "A/T",
+    "Definition": "Autothrottle"
+  },
+  {
+    "Letter": "A",
+    "Term": "AC",
+    "Definition": "alternating current"
+  },
+  {
+    "Letter": "A",
+    "Term": "AC",
+    "Definition": "Aircraft Commander"
+  },
+  {
+    "Letter": "A",
+    "Term": "ACFT",
+    "Definition": "Aircraft"
+  },
+  {
+    "Letter": "A",
+    "Term": "AAA",
+    "Definition": "Anti-Aircraft Artillery"
+  },
+  {
+    "Letter": "A",
+    "Term": "ACAWS",
+    "Definition": "Advisory, Caution, and Warning System"
+  },
+  {
+    "Letter": "A",
+    "Term": "ACMs",
+    "Definition": "Additional crew members"
+  },
+  {
+    "Letter": "A",
+    "Term": "ACO",
+    "Definition": "Airspace Coordination Order"
+  },
+  {
+    "Letter": "A",
+    "Term": "AD",
+    "Definition": "Aerial Delivery"
+  },
+  {
+    "Letter": "A",
+    "Term": "ADV",
+    "Definition": "Aileron Diverter Valve"
+  },
+  {
+    "Letter": "A",
+    "Term": "ADC",
+    "Definition": "Air Data Computer"
+  },
+  {
+    "Letter": "A",
+    "Term": "ADF",
+    "Definition": "Automatic Direction Finder"
+  },
+  {
+    "Letter": "A",
+    "Term": "ADI",
+    "Definition": "Attitude Director Indicator"
+  },
+  {
+    "Letter": "A",
+    "Term": "ADS",
+    "Definition": "Aerial Delivery System/Air Drop System"
+  },
+  {
+    "Letter": "A",
+    "Term": "AECM",
+    "Definition": "Aeromedical Evacuation Crew Members"
+  },
+  {
+    "Letter": "A",
+    "Term": "AFCS",
+    "Definition": "Automatic Flight Control System"
+  },
+  {
+    "Letter": "A",
+    "Term": "AGL",
+    "Definition": "Above Ground Level"
+  },
+  {
+    "Letter": "A",
+    "Term": "AHRS",
+    "Definition": "Attitude Heading Reference System"
+  },
+  {
+    "Letter": "A",
+    "Term": "AIF",
+    "Definition": "Aircrew Information File"
+  },
+  {
+    "Letter": "A",
+    "Term": "AJI",
+    "Definition": "Airdrop Joint Inspection"
+  },
+  {
+    "Letter": "A",
+    "Term": "ALSE",
+    "Definition": "Aviation Life Support Equipment"
+  },
+  {
+    "Letter": "A",
+    "Term": "ALT",
+    "Definition": "Altitude"
+  },
+  {
+    "Letter": "A",
+    "Term": "ANDVT",
+    "Definition": "Advanced Narrowband Digital Voice Terminal"
+  },
+  {
+    "Letter": "A",
+    "Term": "AM",
+    "Definition": "Amplitude Modulation"
+  },
+  {
+    "Letter": "A",
+    "Term": "AMETO",
+    "Definition": "Adjusted Maximum Effort Takeoff"
+  },
+  {
+    "Letter": "A",
+    "Term": "AMP",
+    "Definition": "Airfield Marker Patterns"
+  },
+  {
+    "Letter": "A",
+    "Term": "AMRS",
+    "Definition": "Aircraft Maintenance Record Set"
+  },
+  {
+    "Letter": "A",
+    "Term": "AMGRTS",
+    "Definition": "Approach, Minimum, Go around, Radios, Transition, Timing, Speed"
+  },
+  {
+    "Letter": "A",
+    "Term": "AMT",
+    "Definition": "Aero Medical Training"
+  },
+  {
+    "Letter": "A",
+    "Term": "AMU",
+    "Definition": "Avionics Management Unit"
+  },
+  {
+    "Letter": "A",
+    "Term": "ANN",
+    "Definition": "Annunciator"
+  },
+  {
+    "Letter": "A",
+    "Term": "ANR",
+    "Definition": "Active Noise Reduction"
+  },
+  {
+    "Letter": "A",
+    "Term": "ANT",
+    "Definition": "Antenna"
+  },
+  {
+    "Letter": "A",
+    "Term": "AOA",
+    "Definition": "Angle-of-Attack"
+  },
+  {
+    "Letter": "A",
+    "Term": "AOI",
+    "Definition": "Aircraft Operating Instructions"
+  },
+  {
+    "Letter": "A",
+    "Term": "AP",
+    "Definition": "Autopilot"
+  },
+  {
+    "Letter": "A",
+    "Term": "APPR",
+    "Definition": "Approach"
+  },
+  {
+    "Letter": "A",
+    "Term": "APU",
+    "Definition": "Auxiliary Power Unit"
+  },
+  {
+    "Letter": "A",
+    "Term": "ASD",
+    "Definition": "Airplane Specific Data"
+  },
+  {
+    "Letter": "A",
+    "Term": "ASL",
+    "Definition": "Azimuth Steering Line"
+  },
+  {
+    "Letter": "A",
+    "Term": "ATC",
+    "Definition": "Air Traffic Controller"
+  },
+  {
+    "Letter": "A",
+    "Term": "ATCRBS",
+    "Definition": "Air Traffic Control Radar Beacon System"
+  },
+  {
+    "Letter": "A",
+    "Term": "ATCS",
+    "Definition": "Automatic Thrust Control"
+  },
+  {
+    "Letter": "A",
+    "Term": "ATO",
+    "Definition": "Air Tasking Order"
+  },
+  {
+    "Letter": "A",
+    "Term": "ATT",
+    "Definition": "Attitude"
+  },
+  {
+    "Letter": "A",
+    "Term": "AUTO",
+    "Definition": "Automatic"
+  },
+  {
+    "Letter": "A",
+    "Term": "AUX",
+    "Definition": "Auxiliary"
+  },
+  {
+    "Letter": "A",
+    "Term": "AV",
+    "Definition": "Avionics"
+  },
+  {
+    "Letter": "A",
+    "Term": "AZ",
+    "Definition": "Azimuth"
+  },
+  {
+    "Letter": "B",
+    "Term": "BA",
+    "Definition": "Bank Angle"
+  },
+  {
+    "Letter": "B",
+    "Term": "BA/ECS",
+    "Definition": "Bleed Air Environmental Control System"
+  },
+  {
+    "Letter": "B",
+    "Term": "BAT/BTRY",
+    "Definition": "Battery"
+  },
+  {
+    "Letter": "B",
+    "Term": "BATH",
+    "Definition": "Best Available True Heading"
+  },
+  {
+    "Letter": "B",
+    "Term": "BAU",
+    "Definition": "Beacon Airfoil Unit"
+  },
+  {
+    "Letter": "B",
+    "Term": "BBC",
+    "Definition": "Backup Bus Controller"
+  },
+  {
+    "Letter": "B",
+    "Term": "BC",
+    "Definition": "Bus Controller"
+  },
+  {
+    "Letter": "B",
+    "Term": "BCN",
+    "Definition": "Beacon"
+  },
+  {
+    "Letter": "B",
+    "Term": "BDHI",
+    "Definition": "Bearing-Distance-Heading-Indicator"
+  },
+  {
+    "Letter": "B",
+    "Term": "BIT",
+    "Definition": "Built-In-Test"
+  },
+  {
+    "Letter": "B",
+    "Term": "BIU",
+    "Definition": "Bus Interface Unit"
+  },
+  {
+    "Letter": "B",
+    "Term": "BLOS",
+    "Definition": "Beyond Line-of-Sight"
+  },
+  {
+    "Letter": "B",
+    "Term": "BRG",
+    "Definition": "Bearing"
+  },
+  {
+    "Letter": "B",
+    "Term": "BRT",
+    "Definition": "Bright"
+  },
+  {
+    "Letter": "B",
+    "Term": "BSA",
+    "Definition": "Buffer Stop Assembly"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAI",
+    "Definition": "Computer Aided Instruction"
+  },
+  {
+    "Letter": "C",
+    "Term": "CTCSS",
+    "Definition": "Continuous Tone-Coded Squelch System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAN",
+    "Definition": "Aircraft Classification Number"
+  },
+  {
+    "Letter": "C",
+    "Term": "C",
+    "Definition": "Celsius (Centigrade)"
+  },
+  {
+    "Letter": "C",
+    "Term": "C3",
+    "Definition": "Airborne command, control and coordination"
+
+  },
+  {
+    "Letter": "C",
+    "Term": "CADC",
+    "Definition": "Central Air Data Computer"
+  },
+  {
+    "Letter": "C",
+    "Term": "CADRG",
+    "Definition": "Compressed Arc Digitized Raster Graphic"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAL",
+    "Definition": "Calibration\""
+  },
+  {
+    "Letter": "C",
+    "Term": "CAPS/SKE",
+    "Definition": "Coordinated Aircraft Positioning System/Station Keeping"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAPT",
+    "Definition": "Capture"
+  },
+  {
+    "Letter": "C",
+    "Term": "CARP",
+    "Definition": "Computed Air Release Point"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAS",
+    "Definition": "Calibrated Airspeed"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAT 1",
+    "Definition": "Category 1"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAT 2",
+    "Definition": "Category 2"
+  },
+  {
+    "Letter": "C",
+    "Term": "CAWS",
+    "Definition": "Caution Advisory Warning System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CBIT",
+    "Definition": "Continuous Built-In-Test"
+  },
+  {
+    "Letter": "C",
+    "Term": "CBR",
+    "Definition": "California Bearing Ratio"
+  },
+  {
+    "Letter": "C",
+    "Term": "CBS",
+    "Definition": "Cross-Border Services"
+  },
+  {
+    "Letter": "C",
+    "Term": "CBT",
+    "Definition": "Computer Based Training"
+  },
+  {
+    "Letter": "C",
+    "Term": "CDI",
+    "Definition": "Course Deviation Indicator"
+  },
+  {
+    "Letter": "C",
+    "Term": "CDM",
+    "Definition": "Climb-Dive Marker"
+  },
+  {
+    "Letter": "C",
+    "Term": "CDS",
+    "Definition": "Container Delivery System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CFIT",
+    "Definition": "Controlled Flight Into Terrain"
+  },
+  {
+    "Letter": "C",
+    "Term": "CG",
+    "Definition": "Center of Gravity"
+  },
+  {
+    "Letter": "C",
+    "Term": "CH/CHAN",
+    "Definition": "Channel"
+  },
+  {
+    "Letter": "C",
+    "Term": "CHG",
+    "Definition": "Change"
+  },
+  {
+    "Letter": "C",
+    "Term": "CHS",
+    "Definition": "Cargo Handling System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CL",
+    "Definition": "Current Limiter"
+  },
+  {
+    "Letter": "C",
+    "Term": "CLMI",
+    "Definition": "Chief Loadmaster Instructor"
+  },
+  {
+    "Letter": "C",
+    "Term": "CLR",
+    "Definition": "Clear"
+  },
+  {
+    "Letter": "C",
+    "Term": "CLS",
+    "Definition": "Cockpit Lighting System?"
+  },
+  {
+    "Letter": "C",
+    "Term": "CMC",
+    "Definition": "Combat Maneuver Card"
+  },
+  {
+    "Letter": "C",
+    "Term": "CMDS",
+    "Definition": "Counter Measure Defensive System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CMDU",
+    "Definition": "Color Multipurpose Display Unit"
+  },
+  {
+    "Letter": "C",
+    "Term": "CMPTR",
+    "Definition": "Computer"
+  },
+  {
+    "Letter": "C",
+    "Term": "CMS",
+    "Definition": "Cockpit Management System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CNBP",
+    "Definition": "Communication-Navigation-Breaker Panel"
+  },
+  {
+    "Letter": "C",
+    "Term": "CNI",
+    "Definition": "Communication/Navigation/Identification"
+  },
+  {
+    "Letter": "C",
+    "Term": "CNI-MS",
+    "Definition": "Communication/Navigation/Identification Management System"
+  },
+  {
+    "Letter": "C",
+    "Term": "CNI-MU",
+    "Definition": "Communication/Navigation/Identification Management Unit"
+  },
+  {
+    "Letter": "C",
+    "Term": "CNI-SP",
+    "Definition": "Communication/Navigation/Identification-System Processor"
+  },
+  {
+    "Letter": "C",
+    "Term": "COE",
+    "Definition": "Combat Entry"
+  },
+  {
+    "Letter": "C",
+    "Term": "COF",
+    "Definition": "Combat off-load"
+  },
+  {
+    "Letter": "C",
+    "Term": "COMM",
+    "Definition": "Communication"
+  },
+  {
+    "Letter": "C",
+    "Term": "COMPT",
+    "Definition": "Compartment"
+  },
+  {
+    "Letter": "C",
+    "Term": "COMSEC",
+    "Definition": "Communication Security"
+  },
+  {
+    "Letter": "C",
+    "Term": "CONT",
+    "Definition": "Control"
+  },
+  {
+    "Letter": "C",
+    "Term": "CONUS",
+    "Definition": "Continental US"
+  },
+  {
+    "Letter": "C",
+    "Term": "COXC",
+    "Definition": "Combat Exit"
+  },
+  {
+    "Letter": "C",
+    "Term": "CPC",
+    "Definition": "Copilot/Control Panel/Counter-Pointer/Coherent Processing/Curved Path"
+  },
+  {
+    "Letter": "C",
+    "Term": "CPA",
+    "Definition": "Closest Point of Approach"
+  },
+  {
+    "Letter": "C",
+    "Term": "CPS",
+    "Definition": "Cycles Per Second"
+  },
+  {
+    "Letter": "C",
+    "Term": "CRM",
+    "Definition": "Crew Resource Management"
+  },
+  {
+    "Letter": "C",
+    "Term": "CRRC",
+    "Definition": "Combat Rubber Raiding Craft"
+  },
+  {
+    "Letter": "C",
+    "Term": "CRS",
+    "Definition": "Course"
+  },
+  {
+    "Letter": "C",
+    "Term": "CSAR",
+    "Definition": "Combat Search and Rescue"
+  },
+  {
+    "Letter": "C",
+    "Term": "CSU",
+    "Definition": "Central Switching Unit"
+  },
+  {
+    "Letter": "C",
+    "Term": "CTLMI",
+    "Definition": "Chief Loadmaster Tactical Instructor"
+  },
+  {
+    "Letter": "C",
+    "Term": "CUR",
+    "Definition": "Cursor/Cursor Intensity"
+
+  },
+  {
+    "Letter": "C",
+    "Term": "CVR",
+    "Definition": "Cockpit Voice Recorder"
+  },
+  {
+    "Letter": "C",
+    "Term": "CVRT",
+    "Definition": "Covert"
+  },
+  {
+    "Letter": "C",
+    "Term": "CW",
+    "Definition": "Continuous Wave"
+  },
+  {
+    "Letter": "D",
+    "Term": "DA/FD",
+    "Definition": "Digital Autopilot/Flight Director"
+  },
+  {
+    "Letter": "D",
+    "Term": "DADS",
+    "Definition": "Distributed Air Data System"
+  },
+  {
+    "Letter": "D",
+    "Term": "DB",
+    "Definition": "Dibromodifloromethane"
+  },
+  {
+    "Letter": "D",
+    "Term": "dB",
+    "Definition": "Decibel"
+  },
+  {
+    "Letter": "D",
+    "Term": "DBS",
+    "Definition": "Doppler Beam Sharpening"
+  },
+  {
+    "Letter": "D",
+    "Term": "dBz",
+    "Definition": "Rain Reflectivity"
+  },
+  {
+    "Letter": "D",
+    "Term": "DC",
+    "Definition": "Direct Current"
+  },
+  {
+    "Letter": "D",
+    "Term": "DECR",
+    "Definition": "Decrease"
+  },
+  {
+    "Letter": "D",
+    "Term": "DEG",
+    "Definition": "Degree(s)"
+  },
+  {
+    "Letter": "D",
+    "Term": "DEFTAC",
+    "Definition": "Defensive Tactics"
+  },
+  {
+    "Letter": "D",
+    "Term": "DEWS/SPS",
+    "Definition": "Defensive Electronic Warfare Suite/Self Protection Suite"
+  },
+  {
+    "Letter": "D",
+    "Term": "DF",
+    "Definition": "Direction Finder"
+  },
+  {
+    "Letter": "D",
+    "Term": "DFDR",
+    "Definition": "Digital Flight Data Recorder"
+  },
+  {
+    "Letter": "D",
+    "Term": "DH",
+    "Definition": "Decision Height"
+  },
+  {
+    "Letter": "D",
+    "Term": "DIFF",
+    "Definition": "Differential"
+  },
+  {
+    "Letter": "D",
+    "Term": "DIG MAP",
+    "Definition": "Digitized Map"
+  },
+  {
+    "Letter": "D",
+    "Term": "DIR",
+    "Definition": "Direct/Director/Direction/Direct To"
+  },
+  {
+    "Letter": "D",
+    "Term": "DIST",
+    "Definition": "Distance"
+  },
+  {
+    "Letter": "D",
+    "Term": "DISENG",
+    "Definition": "Disengage"
+  },
+  {
+    "Letter": "D",
+    "Term": "DITC",
+    "Definition": "Deicing Timer and Control"
+  },
+  {
+    "Letter": "D",
+    "Term": "DITU",
+    "Definition": "Deicing Timer Unit"
+  },
+  {
+    "Letter": "D",
+    "Term": "DLDU",
+    "Definition": "Dome Light Dimming Unit"
+  },
+  {
+    "Letter": "D",
+    "Term": "DME",
+    "Definition": "Distance Measuring Equipment"
+  },
+  {
+    "Letter": "D",
+    "Term": "DMU",
+    "Definition": "Digital Map Unit"
+  },
+  {
+    "Letter": "D",
+    "Term": "DPU",
+    "Definition": "Display Processor Unit"
+  },
+  {
+    "Letter": "D",
+    "Term": "DR",
+    "Definition": "Dead Reckoning"
+  },
+  {
+    "Letter": "D",
+    "Term": "DRD",
+    "Definition": "Digital Raw Data"
+  },
+  {
+    "Letter": "D",
+    "Term": "DSDTU",
+    "Definition": "Dual Slotted Data Transfer Unit"
+  },
+  {
+    "Letter": "D",
+    "Term": "DSDTS",
+    "Definition": "Dual Slotted Data Transfer System"
+  },
+  {
+    "Letter": "D",
+    "Term": "DSP",
+    "Definition": "Display Select Panel"
+  },
+  {
+    "Letter": "D",
+    "Term": "DT",
+    "Definition": "Defensive Tactic"
+  },
+  {
+    "Letter": "D",
+    "Term": "DTC",
+    "Definition": "Data Transfer Cartridge"
+  },
+  {
+    "Letter": "D",
+    "Term": "DTD",
+    "Definition": "Data Transfer Device"
+  },
+  {
+    "Letter": "D",
+    "Term": "DTG",
+    "Definition": "Distance-To-Go/Day-Time-Group"
+  },
+  {
+    "Letter": "D",
+    "Term": "DTS",
+    "Definition": "Data Transfer System"
+  },
+  {
+    "Letter": "D",
+    "Term": "DTU",
+    "Definition": "Data Transfer Unit"
+  },
+  {
+    "Letter": "D",
+    "Term": "DZ",
+    "Definition": "Drop zone"
+  },
+  {
+    "Letter": "E",
+    "Term": "E",
+    "Definition": "East"
+  },
+  {
+    "Letter": "E",
+    "Term": "EADI",
+    "Definition": "Electronic Attitude Director Indicator"
+  },
+  {
+    "Letter": "E",
+    "Term": "EC",
+    "Definition": "Enabling Check"
+  },
+  {
+    "Letter": "E",
+    "Term": "ECB",
+    "Definition": "Electronic Circuit Breaker"
+  },
+  {
+    "Letter": "E",
+    "Term": "ECBU",
+    "Definition": "Electronic Circuit Breaker Unit"
+  },
+  {
+    "Letter": "E",
+    "Term": "ECHUM",
+    "Definition": "Electronic Chart Update Manual"
+  },
+  {
+    "Letter": "E",
+    "Term": "ECM",
+    "Definition": "Electronic Countermeasures"
+  },
+  {
+    "Letter": "E",
+    "Term": "ECS",
+    "Definition": "Environmental Control System"
+  },
+  {
+    "Letter": "E",
+    "Term": "ECU",
+    "Definition": "Electronic Control Unit"
+  },
+  {
+    "Letter": "E",
+    "Term": "EFIS",
+    "Definition": "Electronic Flight Instrument System"
+  },
+  {
+    "Letter": "E",
+    "Term": "EGI",
+    "Definition": "Embedded Global Positioning System/Inertial Navigation System"
+  },
+  {
+    "Letter": "E",
+    "Term": "EGPWS",
+    "Definition": "Enhanced Ground Proximity Warning System"
+  },
+  {
+    "Letter": "E",
+    "Term": "EHE",
+    "Definition": "Estimated Horizontal Error"
+  },
+  {
+    "Letter": "E",
+    "Term": "EHS",
+    "Definition": "Enhanced Surveillance"
+  },
+  {
+    "Letter": "E",
+    "Term": "EHSI",
+    "Definition": "Electronic Horizontal Situation Indicator"
+  },
+  {
+    "Letter": "E",
+    "Term": "EL",
+    "Definition": "Elevation / Electro Luminescent"
+  },
+  {
+    "Letter": "E",
+    "Term": "ELT",
+    "Definition": "Emergency Locator Transmitter"
+  },
+  {
+    "Letter": "E",
+    "Term": "EMCON",
+    "Definition": "Emissions control"
+  },
+  {
+    "Letter": "E",
+    "Term": "EMER",
+    "Definition": "Emergency"
+  },
+  {
+    "Letter": "E",
+    "Term": "EMS",
+    "Definition": "Engine Monitoring System"
+  },
+  {
+    "Letter": "E",
+    "Term": "EMMU",
+    "Definition": "External Mass Memory Unit"
+  },
+  {
+    "Letter": "E",
+    "Term": "ENG",
+    "Definition": "Engine"
+  },
+  {
+    "Letter": "E",
+    "Term": "EO",
+    "Definition": "Enabling Objective"
+  },
+  {
+    "Letter": "E",
+    "Term": "EOD",
+    "Definition": "Emergency Ordinance Disposal"
+  },
+  {
+    "Letter": "E",
+    "Term": "EPA",
+    "Definition": "Evasion Plan of Action"
+  },
+  {
+    "Letter": "E",
+    "Term": "EPOS",
+    "Definition": "Emergency Passenger Oxygen System"
+  },
+  {
+    "Letter": "E",
+    "Term": "EPSI",
+    "Definition": "Engine Oil Pressure"
+  },
+  {
+    "Letter": "E",
+    "Term": "ERO",
+    "Definition": "Engines Running On-and Off-load"
+  },
+  {
+    "Letter": "E",
+    "Term": "ESD",
+    "Definition": "Engine Status Display"
+  },
+  {
+    "Letter": "E",
+    "Term": "ESS",
+    "Definition": "Essential"
+  },
+  {
+    "Letter": "E",
+    "Term": "ETA",
+    "Definition": "Estimated Time of Arrival"
+  },
+  {
+    "Letter": "E",
+    "Term": "ETP",
+    "Definition": "Equal Time Point"
+  },
+  {
+    "Letter": "E",
+    "Term": "EW",
+    "Definition": "Electronic Warfare"
+  },
+  {
+    "Letter": "E",
+    "Term": "EXEC",
+    "Definition": "Execute"
+  },
+  {
+    "Letter": "E",
+    "Term": "EXT",
+    "Definition": "External/Extend/Extinguisher"
+  },
+  {
+    "Letter": "F",
+    "Term": "F/ODS",
+    "Definition": "Fire and Overheat Detection System"
+  },
+  {
+    "Letter": "F",
+    "Term": "F",
+    "Definition": "Fahrenheit"
+  },
+  {
+    "Letter": "F",
+    "Term": "FAA",
+    "Definition": "Federal Aviation Administration"
+  },
+  {
+    "Letter": "F",
+    "Term": "FAC",
+    "Definition": "Forward Air Controller"
+  },
+  {
+    "Letter": "F",
+    "Term": "FADEC",
+    "Definition": "Full Authority Digital Electronic Control"
+  },
+  {
+    "Letter": "F",
+    "Term": "FAF",
+    "Definition": "Final Approach Fix"
+  },
+  {
+    "Letter": "F",
+    "Term": "FAR",
+    "Definition": "Federal Aviation Regulation"
+  },
+  {
+    "Letter": "F",
+    "Term": "FCB",
+    "Definition": "Final Crew Brief"
+  },
+  {
+    "Letter": "F",
+    "Term": "FCF",
+    "Definition": "Functional Check Flight"
+  },
+  {
+    "Letter": "F",
+    "Term": "FCOC",
+    "Definition": "Fuel Cooled Oil Cooler"
+  },
+  {
+    "Letter": "F",
+    "Term": "FCV",
+    "Definition": "Flow Control Valve"
+  },
+  {
+    "Letter": "F",
+    "Term": "FD",
+    "Definition": "Flight Director"
+  },
+  {
+    "Letter": "F",
+    "Term": "FEBA",
+    "Definition": "Forward Edge of Battle Area"
+  },
+  {
+    "Letter": "F",
+    "Term": "FLCV",
+    "Definition": "Fuel Level Control Valve"
+  },
+  {
+    "Letter": "F",
+    "Term": "FLIPs",
+    "Definition": "Flight Information Publications"
+  },
+  {
+    "Letter": "F",
+    "Term": "FLOT",
+    "Definition": "Forward Line of Own Troops"
+  },
+  {
+    "Letter": "F",
+    "Term": "FLT",
+    "Definition": "Flight"
+  },
+  {
+    "Letter": "F",
+    "Term": "FLTA",
+    "Definition": "Forward Looking Terrain Awareness"
+  },
+  {
+    "Letter": "F",
+    "Term": "FMC",
+    "Definition": "Fuel Management Controller"
+  },
+  {
+    "Letter": "F",
+    "Term": "FMS",
+    "Definition": "Flight Management System"
+  },
+  {
+    "Letter": "F",
+    "Term": "FO",
+    "Definition": "First Officer"
+  },
+  {
+    "Letter": "F",
+    "Term": "FOD",
+    "Definition": "Foreign Object Damage"
+  },
+  {
+    "Letter": "F",
+    "Term": "FOM",
+    "Definition": "Figure of Merit"
+  },
+  {
+    "Letter": "F",
+    "Term": "FOV",
+    "Definition": "Field of Vision/Field-of-View"
+  },
+  {
+    "Letter": "F",
+    "Term": "FP",
+    "Definition": "Flight Path"
+  },
+  {
+    "Letter": "F",
+    "Term": "FPA",
+    "Definition": "Flight Path Angle"
+  },
+  {
+    "Letter": "F",
+    "Term": "FPDI",
+    "Definition": "Flight Path Director Indicator"
+  },
+  {
+    "Letter": "F",
+    "Term": "FPM",
+    "Definition": "Feet Per Minute/Flight Path Marker"
+  },
+  {
+    "Letter": "F",
+    "Term": "FPMU",
+    "Definition": "Fuel Pump Metering Unit"
+  },
+  {
+    "Letter": "F",
+    "Term": "FQG",
+    "Definition": "Fuel Quantity Gauge"
+  },
+  {
+    "Letter": "F",
+    "Term": "FREQ",
+    "Definition": "Frequency"
+  },
+  {
+    "Letter": "F",
+    "Term": "FRZ",
+    "Definition": "Freeze"
+  },
+  {
+    "Letter": "F",
+    "Term": "FS",
+    "Definition": "Fuselage Station"
+  },
+  {
+    "Letter": "F",
+    "Term": "FT",
+    "Definition": "Foot/Feet"
+  },
+  {
+    "Letter": "F",
+    "Term": "FTC",
+    "Definition": "Flight Training Conversion"
+  },
+  {
+    "Letter": "F",
+    "Term": "FUSS",
+    "Definition": "Flaps Up Safety Speed"
+  },
+  {
+    "Letter": "F",
+    "Term": "FuT",
+    "Definition": "Fuselage Trainer"
+  },
+  {
+    "Letter": "F",
+    "Term": "FWD",
+    "Definition": "Forward"
+
+  },
+  {
+    "Letter": "G",
+    "Term": "GG",
+    "Definition": "General Group"
+  },
+  {
+    "Letter": "G",
+    "Term": "G/A",
+    "Definition": "Go-Around"
+  },
+  {
+    "Letter": "G",
+    "Term": "G/g",
+    "Definition": "Gravity"
+  },
+  {
+    "Letter": "G",
+    "Term": "GC",
+    "Definition": "Gyro Compass"
+  },
+  {
+    "Letter": "G",
+    "Term": "GCA",
+    "Definition": "Ground Controlled Approach"
+  },
+  {
+    "Letter": "G",
+    "Term": "GCAS",
+    "Definition": "Ground Collision Avoidance System"
+  },
+  {
+    "Letter": "G",
+    "Term": "GCU",
+    "Definition": "Generator Control Unit"
+  },
+  {
+    "Letter": "G",
+    "Term": "GEN",
+    "Definition": "Generator"
+  },
+  {
+    "Letter": "G",
+    "Term": "GFPM",
+    "Definition": "Ghost Flight Path Marker"
+  },
+  {
+    "Letter": "G",
+    "Term": "GHC",
+    "Definition": "Get Home Control"
+  },
+  {
+    "Letter": "G",
+    "Term": "GMAD",
+    "Definition": "Gearbox Mounted Accessory Drive"
+  },
+  {
+    "Letter": "G",
+    "Term": "GMM",
+    "Definition": "Ground Mapping Mode"
+  },
+  {
+    "Letter": "G",
+    "Term": "GND",
+    "Definition": "Ground"
+  },
+  {
+    "Letter": "G",
+    "Term": "GOV",
+    "Definition": "Governor/Governing"
+  },
+  {
+    "Letter": "G",
+    "Term": "GS",
+    "Definition": "Glideslope/Groundspeed"
+  },
+  {
+    "Letter": "G",
+    "Term": "GPS",
+    "Definition": "Global Positioning System"
+  },
+  {
+    "Letter": "G",
+    "Term": "GPSI",
+    "Definition": "Gearbox Oil Pressure"
+
+  },
+  {
+    "Letter": "H",
+    "Term": "HEELS",
+    "Definition": "Helicopter Emergency Egress Lighting System"
+  },
+  {
+    "Letter": "H",
+    "Term": "HAP",
+    "Definition": "High Altitude Parachutist"
+  },
+  {
+    "Letter": "H",
+    "Term": "HALO",
+    "Definition": "High Altitude Low Opening"
+  },
+  {
+    "Letter": "H",
+    "Term": "HAHO",
+    "Definition": "High Altitude High Opening"
+  },
+  {
+    "Letter": "H",
+    "Term": "HARP",
+    "Definition": "High Altitude Release Point"
+  },
+  {
+    "Letter": "H",
+    "Term": "HDD",
+    "Definition": "Head Down Display"
+  },
+  {
+    "Letter": "H",
+    "Term": "HDG",
+    "Definition": "Heading"
+  },
+  {
+    "Letter": "H",
+    "Term": "HDOP",
+    "Definition": "Horizontal Dilution of Precision"
+  },
+  {
+    "Letter": "H",
+    "Term": "HE",
+    "Definition": "Heavy Equipment"
+  },
+  {
+    "Letter": "H",
+    "Term": "HF",
+    "Definition": "High Frequency"
+  },
+  {
+    "Letter": "H",
+    "Term": "HFSI",
+    "Definition": "Human Factors Skills Inventory"
+  },
+  {
+    "Letter": "H",
+    "Term": "HIU",
+    "Definition": "Headset Interface Unit"
+  },
+  {
+    "Letter": "H",
+    "Term": "HP",
+    "Definition": "Horsepower"
+  },
+  {
+    "Letter": "H",
+    "Term": "HPMA",
+    "Definition": "Human Performance in Military Aviation"
+  },
+  {
+    "Letter": "H",
+    "Term": "HQ",
+    "Definition": "Have Quick"
+  },
+  {
+    "Letter": "H",
+    "Term": "HR",
+    "Definition": "Hour(s)"
+  },
+  {
+    "Letter": "H",
+    "Term": "HSGI",
+    "Definition": "High Speed Ground Idle"
+  },
+  {
+    "Letter": "H",
+    "Term": "HSI",
+    "Definition": "Horizontal Situation Indicator"
+  },
+  {
+    "Letter": "H",
+    "Term": "HTR",
+    "Definition": "Heater"
+  },
+  {
+    "Letter": "H",
+    "Term": "HUD",
+    "Definition": "Heads-Up Display"
+  },
+  {
+    "Letter": "H",
+    "Term": "HUPRA",
+    "Definition": "Hung Up Parachutist Retrieval Assist"
+  },
+  {
+    "Letter": "H",
+    "Term": "HYD",
+    "Definition": "Hydraulic"
+  },
+  {
+    "Letter": "H",
+    "Term": "HVAA",
+    "Definition": "High Value Airframe Asset"
+  },
+  {
+    "Letter": "H",
+    "Term": "Hz",
+    "Definition": "Hertz"
+  },
+  {
+    "Letter": "I",
+    "Term": "IAF",
+    "Definition": "Initial Approach Fix"
+  },
+  {
+    "Letter": "I",
+    "Term": "IAGC",
+    "Definition": "Instantaneous Automatic Gain Control"
+  },
+  {
+    "Letter": "I",
+    "Term": "IAS",
+    "Definition": "Indicated Airspeed"
+  },
+  {
+    "Letter": "I",
+    "Term": "IAW",
+    "Definition": "In Accordance With"
+  },
+  {
+    "Letter": "I",
+    "Term": "ICS",
+    "Definition": "Intercommunications System"
+  },
+  {
+    "Letter": "I",
+    "Term": "IBT",
+    "Definition": "Instructor Based Training"
+  },
+  {
+    "Letter": "I",
+    "Term": "IBIT",
+    "Definition": "Initiated Built-In-Test"
+  },
+  {
+    "Letter": "I",
+    "Term": "IBU",
+    "Definition": "Interference Blanking Unit"
+  },
+  {
+    "Letter": "I",
+    "Term": "ICS",
+    "Definition": "Intercommunication System"
+  },
+  {
+    "Letter": "I",
+    "Term": "ID",
+    "Definition": "Identification"
+  },
+  {
+    "Letter": "I",
+    "Term": "IDENT",
+    "Definition": "Identify/Identification"
+  },
+  {
+    "Letter": "I",
+    "Term": "IDS",
+    "Definition": "Identification"
+  },
+  {
+    "Letter": "I",
+    "Term": "IF",
+    "Definition": "Initial Fix"
+  },
+  {
+    "Letter": "I",
+    "Term": "IFA",
+    "Definition": "In Flight Alignment"
+  },
+  {
+    "Letter": "I",
+    "Term": "IFE",
+    "Definition": "Instructor Flight Engineer"
+  },
+  {
+    "Letter": "I",
+    "Term": "IFF",
+    "Definition": "Identification Friend or Foe"
+  },
+  {
+    "Letter": "I",
+    "Term": "IFR",
+    "Definition": "Instrument Flight Rules"
+  },
+  {
+    "Letter": "I",
+    "Term": "ILM",
+    "Definition": "Instructor Load Master"
+  },
+  {
+    "Letter": "I",
+    "Term": "ILS",
+    "Definition": "Instrument Landing System"
+  },
+  {
+    "Letter": "I",
+    "Term": "IMC",
+    "Definition": "Instrument Meteorological Conditions"
+  },
+  {
+    "Letter": "I",
+    "Term": "IN",
+    "Definition": "Instructor Navigator"
+  },
+  {
+    "Letter": "I",
+    "Term": "in. Hg",
+    "Definition": "Inches Mercury"
+  },
+  {
+    "Letter": "I",
+    "Term": "INAV",
+    "Definition": "Integrated Navigation"
+  },
+  {
+    "Letter": "I",
+    "Term": "INBD",
+    "Definition": "Inboard"
+  },
+  {
+    "Letter": "I",
+    "Term": "INCR",
+    "Definition": "Increase"
+  },
+  {
+    "Letter": "I",
+    "Term": "IND",
+    "Definition": "Indicator"
+  },
+  {
+    "Letter": "I",
+    "Term": "INOP",
+    "Definition": "Inoperative"
+  },
+  {
+    "Letter": "I",
+    "Term": "INS",
+    "Definition": "Inertial Navigation System"
+  },
+  {
+    "Letter": "I",
+    "Term": "INST",
+    "Definition": "Instrument"
+  },
+  {
+    "Letter": "I",
+    "Term": "INT",
+    "Definition": "Intelligence"
+  },
+  {
+    "Letter": "I",
+    "Term": "INU",
+    "Definition": "Inertial Navigation Unit"
+  },
+  {
+    "Letter": "I",
+    "Term": "INV",
+    "Definition": "Inverter"
+  },
+  {
+    "Letter": "I",
+    "Term": "IP",
+    "Definition": "Instructor Pilot or Initial Point/Identification Point"
+  },
+  {
+    "Letter": "I",
+    "Term": "IPC",
+    "Definition": "Interprocessor Communications"
+  },
+  {
+    "Letter": "I",
+    "Term": "IPRA",
+    "Definition": "Integrated Precision Radar Approach"
+  },
+  {
+    "Letter": "I",
+    "Term": "IPT",
+    "Definition": "Integrated Procedures Trainer"
+  },
+  {
+    "Letter": "I",
+    "Term": "IR",
+    "Definition": "Infrared (when referring to aircraft-related content) or Independent Review (when referring to the learner's progress review)"
+  },
+  {
+    "Letter": "I",
+    "Term": "ISA",
+    "Definition": "International Standard Atmosphere"
+  },
+  {
+    "Letter": "I",
+    "Term": "ISOL",
+    "Definition": "Isolated"
+  },
+  {
+    "Letter": "K",
+    "Term": "KCAS",
+    "Definition": "Knots Calibrated Airspeed"
+  },
+  {
+    "Letter": "K",
+    "Term": "KGS",
+    "Definition": "Knots Groundspeed"
+  },
+  {
+    "Letter": "K",
+    "Term": "KHz",
+    "Definition": "Kilo Hertz"
+  },
+  {
+    "Letter": "K",
+    "Term": "KIAS",
+    "Definition": "Knots Indicated Airspeed"
+  },
+  {
+    "Letter": "K",
+    "Term": "KTAS",
+    "Definition": "Knots True Airspeed"
+  },
+  {
+    "Letter": "K",
+    "Term": "KTS",
+    "Definition": "Knots"
+  },
+  {
+    "Letter": "K",
+    "Term": "KVA",
+    "Definition": "Kilo Volt Ampere"
+  },
+  {
+    "Letter": "L",
+    "Term": "LAD",
+    "Definition": "Look Ahead Distance"
+  },
+  {
+    "Letter": "L",
+    "Term": "LAPES",
+    "Definition": "Low Altitude Parachute Extraction System"
+  },
+  {
+    "Letter": "L",
+    "Term": "LAT",
+    "Definition": "Latitude/Lateral"
+  },
+  {
+    "Letter": "L",
+    "Term": "LCD",
+    "Definition": "Liquid Crystal Display"
+  },
+  {
+    "Letter": "L",
+    "Term": "LDI",
+    "Definition": "Lateral Deviation Indicator"
+  },
+  {
+    "Letter": "L",
+    "Term": "LE",
+    "Definition": "Light Equipment"
+  },
+  {
+    "Letter": "L",
+    "Term": "LED",
+    "Definition": "Lighted Electronic Display/Light Emitting Diode"
+  },
+  {
+    "Letter": "L",
+    "Term": "LH",
+    "Definition": "Left Hand"
+  },
+  {
+    "Letter": "L",
+    "Term": "LL",
+    "Definition": "Lower Left"
+  },
+  {
+    "Letter": "L",
+    "Term": "LM",
+    "Definition": "Loadmaster"
+  },
+  {
+    "Letter": "L",
+    "Term": "LMAC",
+    "Definition": "Lower Main AC Distribution Panel"
+  },
+  {
+    "Letter": "L",
+    "Term": "LMPTT",
+    "Definition": "Loadmaster Part Task Trainer"
+  },
+  {
+    "Letter": "L",
+    "Term": "LOC",
+    "Definition": "Localizer"
+  },
+  {
+    "Letter": "L",
+    "Term": "LONG",
+    "Definition": "Longitude"
+  },
+  {
+    "Letter": "L",
+    "Term": "LOS",
+    "Definition": "Line of Sight"
+  },
+  {
+    "Letter": "L",
+    "Term": "LPCR",
+    "Definition": "Low Power Color Radar"
+  },
+  {
+    "Letter": "L",
+    "Term": "LPU",
+    "Definition": "Life Preserver Unit"
+  },
+  {
+    "Letter": "L",
+    "Term": "LR",
+    "Definition": "Lower Right"
+  },
+  {
+    "Letter": "L",
+    "Term": "LRU",
+    "Definition": "Line Replaceable Unit"
+  },
+  {
+    "Letter": "L",
+    "Term": "LS",
+    "Definition": "Left Seat"
+  },
+  {
+    "Letter": "L",
+    "Term": "LSB",
+    "Definition": "Lower Side Band"
+  },
+  {
+    "Letter": "L",
+    "Term": "LSGI",
+    "Definition": "Low Speed Ground Idle"
+  },
+  {
+    "Letter": "L",
+    "Term": "LT",
+    "Definition": "Light"
+  },
+  {
+    "Letter": "L",
+    "Term": "LTG",
+    "Definition": "Lighting"
+  },
+  {
+    "Letter": "L",
+    "Term": "LW",
+    "Definition": "Laser Warning"
+  },
+  {
+    "Letter": "L",
+    "Term": "LWR",
+    "Definition": "Lower"
+  },
+  {
+    "Letter": "L",
+    "Term": "LZ",
+    "Definition": "Landing zone"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAC",
+    "Definition": "Minimum Altitude Capable"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAF",
+    "Definition": "Missed Approach Fix"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAG",
+    "Definition": "Magnetic"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAN/MNL",
+    "Definition": "Manual"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAP",
+    "Definition": "Ground Map/Missed Approach Point"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAT",
+    "Definition": "Missed Approach Turn"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAWS",
+    "Definition": "Missile Approach Warning System"
+  },
+  {
+    "Letter": "M",
+    "Term": "MAX",
+    "Definition": "Maximum"
+  },
+  {
+    "Letter": "M",
+    "Term": "MB",
+    "Definition": "Marker Beacon/Millibar"
+  },
+  {
+    "Letter": "M",
+    "Term": "MC",
+    "Definition": "Mission Computer/MAX Continuous"
+  },
+  {
+    "Letter": "M",
+    "Term": "MCB",
+    "Definition": "Maintenance Control Board</P<PMechanical Circuit Breaker"
+  },
+  {
+    "Letter": "M",
+    "Term": "MCC",
+    "Definition": "Mission Crew Console"
+  },
+  {
+    "Letter": "M",
+    "Term": "MCDU",
+    "Definition": "Multi-Channel Dimming Unit"
+  },
+  {
+    "Letter": "M",
+    "Term": "MCP",
+    "Definition": "Maximum Continuous Power"
+  },
+  {
+    "Letter": "M",
+    "Term": "MDA",
+    "Definition": "Minimum Descent Altitude"
+  },
+  {
+    "Letter": "M",
+    "Term": "MDF",
+    "Definition": "Meteorological?"
+  },
+  {
+    "Letter": "M",
+    "Term": "MET",
+    "Definition": "Meteorological"
+  },
+  {
+    "Letter": "M",
+    "Term": "METO",
+    "Definition": "Maximum Effort Takeoff"
+  },
+  {
+    "Letter": "M",
+    "Term": "MGM",
+    "Definition": "Monopulse Ground Map"
+  },
+  {
+    "Letter": "M",
+    "Term": "MGT",
+    "Definition": "Measured Gas Temperature"
+  },
+  {
+    "Letter": "M",
+    "Term": "MFCD",
+    "Definition": "Multi-Function Control/Display"
+  },
+  {
+    "Letter": "M",
+    "Term": "MHE",
+    "Definition": "Material Handling Equipment"
+  },
+  {
+    "Letter": "M",
+    "Term": "MHz",
+    "Definition": "Mega-Hertz"
+  },
+  {
+    "Letter": "M",
+    "Term": "MIC",
+    "Definition": "Microphone"
+  },
+  {
+    "Letter": "M",
+    "Term": "MIN",
+    "Definition": "Minute(s)/Minimum"
+  },
+  {
+    "Letter": "M",
+    "Term": "MLG",
+    "Definition": "Main Landing Gear"
+  },
+  {
+    "Letter": "M",
+    "Term": "MM",
+    "Definition": "Middle Marker"
+  },
+  {
+    "Letter": "M",
+    "Term": "MMEL",
+    "Definition": "Minimum Equipment List"
+  },
+  {
+    "Letter": "M",
+    "Term": "mm/hr",
+    "Definition": "Millimeters/Hour"
+  },
+  {
+    "Letter": "M",
+    "Term": "MOA",
+    "Definition": "Minimum Operating Altitude"
+  },
+  {
+    "Letter": "M",
+    "Term": "MOB",
+    "Definition": "Main Operating Base"
+  },
+  {
+    "Letter": "M",
+    "Term": "MON",
+    "Definition": "Monitor"
+  },
+  {
+    "Letter": "M",
+    "Term": "MOS",
+    "Definition": "Military Occupational Structure"
+  },
+  {
+    "Letter": "M",
+    "Term": "MPGS",
+    "Definition": "Mission Planning Ground Station"
+  },
+  {
+    "Letter": "M",
+    "Term": "MPL",
+    "Definition": "Maximum Permissible Load"
+  },
+  {
+    "Letter": "M",
+    "Term": "MPS",
+    "Definition": "Mission Planning System"
+  },
+  {
+    "Letter": "M",
+    "Term": "MPU",
+    "Definition": "Multi-Processor Unit"
+  },
+  {
+    "Letter": "M",
+    "Term": "MSD",
+    "Definition": "Minimum Separation Distance"
+  },
+  {
+    "Letter": "M",
+    "Term": "MSDBS",
+    "Definition": "Monopulse Stablized Doppler Beam Sharpening"
+  },
+  {
+    "Letter": "M",
+    "Term": "MSG",
+    "Definition": "Message Annunciator"
+  },
+  {
+    "Letter": "M",
+    "Term": "MSL",
+    "Definition": "Mean Sea Level"
+  },
+  {
+    "Letter": "M",
+    "Term": "MSN",
+    "Definition": "Mission"
+  },
+  {
+    "Letter": "M",
+    "Term": "MTR",
+    "Definition": "Military Training Route"
+  },
+  {
+    "Letter": "M",
+    "Term": "MWS",
+    "Definition": "Missile Warning System"
+  },
+  {
+    "Letter": "N",
+    "Term": "N",
+    "Definition": "North"
+  },
+  {
+    "Letter": "N",
+    "Term": "NACA",
+    "Definition": "National Advisory Committee for Aeronautics"
+  },
+  {
+    "Letter": "N",
+    "Term": "NAR",
+    "Definition": "Non-Altitude Reporting"
+  },
+  {
+    "Letter": "N",
+    "Term": "NARF",
+    "Definition": "Navigation-Alignment Refining Feature"
+  },
+  {
+    "Letter": "N",
+    "Term": "NAV",
+    "Definition": "Navigate"
+  },
+  {
+    "Letter": "N",
+    "Term": "NAVAIDS",
+    "Definition": "Navigation Aids"
+  },
+  {
+    "Letter": "N",
+    "Term": "NAV INFO",
+    "Definition": "Navigation Information"
+  },
+  {
+    "Letter": "N",
+    "Term": "NDB",
+    "Definition": "Non-Directional Beacon"
+  },
+  {
+    "Letter": "N",
+    "Term": "NBCD (CBRND)",
+    "Definition": "Nuclear Biological Chemical Defense"
+  },
+  {
+    "Letter": "N",
+    "Term": "NESA",
+    "Definition": "NonElectroStatic Shield Formula A (Windshield Anti-Icing)"
+  },
+  {
+    "Letter": "N",
+    "Term": "NEUT",
+    "Definition": "Neutral"
+  },
+  {
+    "Letter": "N",
+    "Term": "NG",
+    "Definition": "Gas Generator Speed"
+  },
+  {
+    "Letter": "N",
+    "Term": "NIU",
+    "Definition": "Nacelle Interface Unit"
+  },
+  {
+    "Letter": "N",
+    "Term": "NLG",
+    "Definition": "Nose Landing Gear"
+  },
+  {
+    "Letter": "N",
+    "Term": "NM",
+    "Definition": "Nautical Mile"
+  },
+  {
+    "Letter": "N",
+    "Term": "No.",
+    "Definition": "Number"
+  },
+  {
+    "Letter": "N",
+    "Term": "NOA",
+    "Definition": "Night Operating Altitude"
+  },
+  {
+    "Letter": "N",
+    "Term": "NORM/NML",
+    "Definition": "Normal"
+  },
+  {
+    "Letter": "N",
+    "Term": "NOTAM",
+    "Definition": "Notice to Airmen"
+  },
+  {
+    "Letter": "N",
+    "Term": "NP",
+    "Definition": "Power Turbine Speed"
+  },
+  {
+    "Letter": "N",
+    "Term": "NTSC",
+    "Definition": "National Television Standard Committee"
+  },
+  {
+    "Letter": "N",
+    "Term": "NVG",
+    "Definition": "Night Vision Goggle"
+  },
+  {
+    "Letter": "N",
+    "Term": "NVIS",
+    "Definition": "Night Vision"
+  },
+  {
+    "Letter": "N",
+    "Term": "NVM",
+    "Definition": "Non-Volatile Memory"
+  },
+  {
+    "Letter": "N",
+    "Term": "NWS",
+    "Definition": "Nose Wheel Steering"
+  },
+  {
+    "Letter": "O",
+    "Term": "OAT",
+    "Definition": "Outside Air Temperature"
+  },
+  {
+    "Letter": "O",
+    "Term": "OBB",
+    "Definition": "Onboard Brief"
+  },
+  {
+    "Letter": "O",
+    "Term": "OFP",
+    "Definition": "Operational Flight Program"
+  },
+  {
+    "Letter": "O",
+    "Term": "OFS",
+    "Definition": "Offset"
+  },
+  {
+    "Letter": "O",
+    "Term": "OLM",
+    "Definition": "Operational Loading Monitoring"
+  },
+  {
+    "Letter": "O",
+    "Term": "OM",
+    "Definition": "Outer Marker"
+  },
+  {
+    "Letter": "O",
+    "Term": "OPSEC",
+    "Definition": "Operational Security"
+  },
+  {
+    "Letter": "O",
+    "Term": "OSG",
+    "Definition": "Overspeed Governor"
+  },
+  {
+    "Letter": "O",
+    "Term": "OSQ",
+    "Definition": "Occupation Specialty Qualification"
+  },
+  {
+    "Letter": "O",
+    "Term": "OVRD",
+    "Definition": "Override"
+  },
+  {
+    "Letter": "O",
+    "Term": "OXY",
+    "Definition": "Oxygen"
+  },
+  {
+    "Letter": "P",
+    "Term": "P",
+    "Definition": "Pilot"
+  },
+  {
+    "Letter": "P",
+    "Term": "PA",
+    "Definition": "Public Address"
+  },
+  {
+    "Letter": "P",
+    "Term": "PAR",
+    "Definition": "Precision Approach"
+  },
+  {
+    "Letter": "P",
+    "Term": "PBE",
+    "Definition": "Personal Breathing Equipment"
+  },
+  {
+    "Letter": "P",
+    "Term": "PBIT",
+    "Definition": "Power up Built-In-Test"
+  },
+  {
+    "Letter": "P",
+    "Term": "PC",
+    "Definition": "Performance Check"
+  },
+  {
+    "Letter": "P",
+    "Term": "PCMCIA",
+    "Definition": "Personal Computer Memory Card International Association"
+  },
+  {
+    "Letter": "P",
+    "Term": "PCN",
+    "Definition": "Pavement Classification Number"
+  },
+  {
+    "Letter": "P",
+    "Term": "PCU",
+    "Definition": "Propeller Control Unit/Pitch Control Unit"
+  },
+  {
+    "Letter": "P",
+    "Term": "PDA",
+    "Definition": "Personal Data Assistant"
+  },
+  {
+    "Letter": "P",
+    "Term": "PDP",
+    "Definition": "Power Distribution Panel, AC/DC"
+  },
+  {
+    "Letter": "P",
+    "Term": "PO",
+    "Definition": "Performance Objective"
+  },
+  {
+    "Letter": "P",
+    "Term": "PEN",
+    "Definition": "Pencil Beam"
+  },
+  {
+    "Letter": "P",
+    "Term": "PERS",
+    "Definition": "Personnel"
+  },
+  {
+    "Letter": "P",
+    "Term": "PF",
+    "Definition": "Pilot Flying"
+  },
+  {
+    "Letter": "P",
+    "Term": "PFD",
+    "Definition": "Primary Flight Display"
+  },
+  {
+    "Letter": "P",
+    "Term": "PFPS",
+    "Definition": "Portable Flight Planning Software"
+  },
+  {
+    "Letter": "P",
+    "Term": "PGB",
+    "Definition": "Propeller Gearbox"
+  },
+  {
+    "Letter": "P",
+    "Term": "PI",
+    "Definition": "Point of Impact"
+  },
+  {
+    "Letter": "P",
+    "Term": "PL",
+    "Definition": "Pitch Ladder"
+  },
+  {
+    "Letter": "P",
+    "Term": "PLA",
+    "Definition": "Power Lever Angle"
+  },
+  {
+    "Letter": "P",
+    "Term": "PLCU",
+    "Definition": "Pallet Lock Control Unit"
+  },
+  {
+    "Letter": "P",
+    "Term": "PLN",
+    "Definition": "Plan"
+  },
+  {
+    "Letter": "P",
+    "Term": "PM",
+    "Definition": "Pilot Monitoring"
+  },
+  {
+    "Letter": "P",
+    "Term": "PMA",
+    "Definition": "Permanent Magnet Alternator"
+  },
+  {
+    "Letter": "P",
+    "Term": "PNF",
+    "Definition": "Pilot not flying"
+  },
+  {
+    "Letter": "P",
+    "Term": "PNL",
+    "Definition": "Panel"
+  },
+  {
+    "Letter": "P",
+    "Term": "PNTR",
+    "Definition": "Pointer"
+  },
+  {
+    "Letter": "P",
+    "Term": "POS",
+    "Definition": "Position"
+  },
+  {
+    "Letter": "P",
+    "Term": "PPE",
+    "Definition": "Personal Protective Equipment"
+  },
+  {
+    "Letter": "P",
+    "Term": "PPH",
+    "Definition": "Pounds Per Hour"
+  },
+  {
+    "Letter": "P",
+    "Term": "PPS",
+    "Definition": "Precise Positioning Service"
+  },
+  {
+    "Letter": "P",
+    "Term": "PRB",
+    "Definition": "Progress Review Board"
+  },
+  {
+    "Letter": "P",
+    "Term": "PRC",
+    "Definition": "Precision"
+  },
+  {
+    "Letter": "P",
+    "Term": "PRCN",
+    "Definition": "Precision Measurement"
+  },
+  {
+    "Letter": "P",
+    "Term": "PREC",
+    "Definition": "Precision Position Measurement"
+  },
+  {
+    "Letter": "P",
+    "Term": "PRESS",
+    "Definition": "Pressure/Pressurization"
+  },
+  {
+    "Letter": "P",
+    "Term": "PRI",
+    "Definition": "Primary"
+  },
+  {
+    "Letter": "P",
+    "Term": "PROP",
+    "Definition": "Propeller"
+  },
+  {
+    "Letter": "P",
+    "Term": "PS",
+    "Definition": "Pilot Side Circuit Breaker Panel"
+  },
+  {
+    "Letter": "P",
+    "Term": "PSI",
+    "Definition": "Pounds Per Square Inch"
+  },
+  {
+    "Letter": "P",
+    "Term": "PSID",
+    "Definition": "Pounds Per Square Inch (Differential)"
+  },
+  {
+    "Letter": "P",
+    "Term": "PSIG",
+    "Definition": "Pounds Per Square Inch (Gauge)"
+  },
+  {
+    "Letter": "P",
+    "Term": "PTT",
+    "Definition": "Press-To-Talk"
+  },
+  {
+    "Letter": "P",
+    "Term": "PWR",
+    "Definition": "Power"
+  },
+  {
+    "Letter": "Q",
+    "Term": "QFE",
+    "Definition": "Altimeter Setting That Provides Height Above A Selected Station"
+  },
+  {
+    "Letter": "Q",
+    "Term": "QNH",
+    "Definition": "Altimeter Setting That Provides Height Above Mean Sea Level"
+  },
+  {
+    "Letter": "Q",
+    "Term": "QS",
+    "Definition": "Qualification Standard"
+  },
+  {
+    "Letter": "Q",
+    "Term": "QTY",
+    "Definition": "Quantity"
+  },
+  {
+    "Letter": "R",
+    "Term": "RAST",
+    "Definition": "Recovery, Assist, Securing and Traversing System"
+  },
+  {
+    "Letter": "R",
+    "Term": "R/T",
+    "Definition": "Rate of Turn"
+  },
+  {
+    "Letter": "R",
+    "Term": "RA",
+    "Definition": "Radar Altimeter/Resolution Advisory"
+  },
+  {
+    "Letter": "R",
+    "Term": "RBGM",
+    "Definition": "Real Beam Ground Map"
+  },
+  {
+    "Letter": "R",
+    "Term": "RCS",
+    "Definition": "Radar Cross Section"
+  },
+  {
+    "Letter": "R",
+    "Term": "RCU",
+    "Definition": "Radio Control Unit/Remote Control Unit"
+  },
+  {
+    "Letter": "R",
+    "Term": "RCVR",
+    "Definition": "Receiver"
+  },
+  {
+    "Letter": "R",
+    "Term": "RDR",
+    "Definition": "Radar"
+  },
+  {
+    "Letter": "R",
+    "Term": "RECA",
+    "Definition": "Radar Environmental Control Assembly"
+  },
+  {
+    "Letter": "R",
+    "Term": "RECP",
+    "Definition": "Remote Emergency Control Panel"
+  },
+  {
+    "Letter": "R",
+    "Term": "RECT",
+    "Definition": "Rectifier"
+  },
+  {
+    "Letter": "R",
+    "Term": "REF/MODE",
+    "Definition": "Reference Set/Mode Select"
+  },
+  {
+    "Letter": "R",
+    "Term": "REFR",
+    "Definition": "Refrigerator"
+  },
+  {
+    "Letter": "R",
+    "Term": "RESYNC",
+    "Definition": "Resynchronize"
+  },
+  {
+    "Letter": "R",
+    "Term": "REV",
+    "Definition": "Reverse"
+  },
+  {
+    "Letter": "R",
+    "Term": "RF",
+    "Definition": "Radio Frequency"
+  },
+  {
+    "Letter": "R",
+    "Term": "RFCF",
+    "Definition": "Runway Field Clearance Floor"
+  },
+  {
+    "Letter": "R",
+    "Term": "RH",
+    "Definition": "Right Hand"
+  },
+  {
+    "Letter": "R",
+    "Term": "RM",
+    "Definition": "Range Marks"
+  },
+  {
+    "Letter": "R",
+    "Term": "RMM",
+    "Definition": "Removable Memory Modules"
+  },
+  {
+    "Letter": "R",
+    "Term": "RNG",
+    "Definition": "Radar Range/Range"
+  },
+  {
+    "Letter": "R",
+    "Term": "RO",
+    "Definition": "Rollout"
+  },
+  {
+    "Letter": "R",
+    "Term": "ROE",
+    "Definition": "Rules of Engagement"
+  },
+  {
+    "Letter": "R",
+    "Term": "RPI",
+    "Definition": "Runway Point of Intercept"
+  },
+  {
+    "Letter": "R",
+    "Term": "RPM",
+    "Definition": "Revolutions Per Minute"
+  },
+  {
+    "Letter": "R",
+    "Term": "RPS",
+    "Definition": "Remote Power Supply"
+  },
+  {
+    "Letter": "R",
+    "Term": "RS",
+    "Definition": "Right Seat"
+  },
+  {
+    "Letter": "R",
+    "Term": "RT",
+    "Definition": "Receiver Transmitter/Remote Terminal"
+  },
+  {
+    "Letter": "R",
+    "Term": "RTA",
+    "Definition": "Required Time of Arrival"
+  },
+  {
+    "Letter": "R",
+    "Term": "RTC",
+    "Definition": "Required Terrain Clearance"
+  },
+  {
+    "Letter": "R",
+    "Term": "RTE",
+    "Definition": "Route"
+  },
+  {
+    "Letter": "R",
+    "Term": "RTP",
+    "Definition": "Radar Transmitter Processor"
+  },
+  {
+    "Letter": "R",
+    "Term": "RTRU",
+    "Definition": "Regulated Transformer Rectifier Unit"
+  },
+  {
+    "Letter": "R",
+    "Term": "RVSM",
+    "Definition": "Reduced Vertical Separation Minimums"
+  },
+  {
+    "Letter": "R",
+    "Term": "RWR",
+    "Definition": "Radar Warning Receiver"
+  },
+  {
+    "Letter": "R",
+    "Term": "RWY",
+    "Definition": "Runway"
+  },
+  {
+    "Letter": "S",
+    "Term": "S",
+    "Definition": "South"
+  },
+  {
+    "Letter": "S",
+    "Term": "SA",
+    "Definition": "Situational Awareness"
+  },
+  {
+    "Letter": "S",
+    "Term": "SAM",
+    "Definition": "Surface to Air Missile"
+  },
+  {
+    "Letter": "S",
+    "Term": "SAT",
+    "Definition": "Static Air Temperature"
+  },
+  {
+    "Letter": "S",
+    "Term": "SATCOM",
+    "Definition": "Satellite Communications"
+  },
+  {
+    "Letter": "S",
+    "Term": "SCTR",
+    "Definition": "Sector/Sector Size"
+  },
+  {
+    "Letter": "S",
+    "Term": "SD",
+    "Definition": "Slow Down"
+  },
+  {
+    "Letter": "S",
+    "Term": "SEC",
+    "Definition": "Second/Secondary"
+  },
+  {
+    "Letter": "S",
+    "Term": "SEL",
+    "Definition": "Select/Selector/Selected"
+  },
+  {
+    "Letter": "S",
+    "Term": "SERE",
+    "Definition": "Survival Evade Resistance Escape"
+  },
+  {
+    "Letter": "S",
+    "Term": "SID",
+    "Definition": "Standard Instrument Departure"
+  },
+  {
+    "Letter": "S",
+    "Term": "SINCGARS",
+    "Definition": "Single Channel Ground and Airborne Radio System"
+  },
+  {
+    "Letter": "S",
+    "Term": "SKE",
+    "Definition": "Station Keeping Equipment"
+  },
+  {
+    "Letter": "S",
+    "Term": "SMM",
+    "Definition": "Standard Maneuver Manual"
+  },
+  {
+    "Letter": "S",
+    "Term": "SMP",
+    "Definition": "Service Manual Publication"
+  },
+  {
+    "Letter": "S",
+    "Term": "SOPs",
+    "Definition": "Standard Operating Procedures"
+  },
+  {
+    "Letter": "S",
+    "Term": "SOV",
+    "Definition": "Shut Off Valve"
+  },
+  {
+    "Letter": "S",
+    "Term": "SP",
+    "Definition": "Skin Paint/Steer Point"
+  },
+  {
+    "Letter": "S",
+    "Term": "SPD",
+    "Definition": "Speed"
+  },
+  {
+    "Letter": "S",
+    "Term": "SPINS",
+    "Definition": "Special Instructions"
+  },
+  {
+    "Letter": "S",
+    "Term": "SPR",
+    "Definition": "Single Point Refueling"
+  },
+  {
+    "Letter": "S",
+    "Term": "SPTU",
+    "Definition": "Static Pressure Tranducer Unit"
+  },
+  {
+    "Letter": "S",
+    "Term": "SQL",
+    "Definition": "Squelch"
+  },
+  {
+    "Letter": "S",
+    "Term": "SQS",
+    "Definition": "Standing Quick Start"
+  },
+  {
+    "Letter": "S",
+    "Term": "SRCH",
+    "Definition": "Search"
+  },
+  {
+    "Letter": "S",
+    "Term": "SS",
+    "Definition": "Single Ship"
+  },
+  {
+    "Letter": "S",
+    "Term": "STA",
+    "Definition": "Station"
+  },
+  {
+    "Letter": "S",
+    "Term": "STAR",
+    "Definition": "Standard Terminal Arrival Routing"
+  },
+  {
+    "Letter": "S",
+    "Term": "STBY",
+    "Definition": "Standby"
+  },
+  {
+    "Letter": "S",
+    "Term": "SW",
+    "Definition": "Switch"
+  },
+  {
+    "Letter": "S",
+    "Term": "SYM",
+    "Definition": "Symbology Intensity"
+  },
+  {
+    "Letter": "S",
+    "Term": "SYN",
+    "Definition": "Synchronize/Synchronizer"
+  },
+  {
+    "Letter": "S",
+    "Term": "SYNC",
+    "Definition": "Schnchronization/Synchro/Syncrophase"
+  },
+  {
+    "Letter": "S",
+    "Term": "SYS",
+    "Definition": "System"
+  },
+  {
+    "Letter": "T",
+    "Term": "T",
+    "Definition": "TRUE"
+  },
+  {
+    "Letter": "T",
+    "Term": "T/R",
+    "Definition": "Transmit/Receive"
+  },
+  {
+    "Letter": "T",
+    "Term": "TACAN",
+    "Definition": "Tactical Air Navigation"
+  },
+  {
+    "Letter": "T",
+    "Term": "TACPLOT",
+    "Definition": "Tactical Plot"
+  },
+  {
+    "Letter": "T",
+    "Term": "TACT",
+    "Definition": "Tactical"
+  },
+  {
+    "Letter": "T",
+    "Term": "TAS",
+    "Definition": "True Airspeed"
+  },
+  {
+    "Letter": "T",
+    "Term": "TAT",
+    "Definition": "Total Air Temperature"
+  },
+  {
+    "Letter": "T",
+    "Term": "TAWS",
+    "Definition": "Terrain Awareness and Warning System"
+  },
+  {
+    "Letter": "T",
+    "Term": "TCF",
+    "Definition": "Terrain Clearance Floor"
+  },
+  {
+    "Letter": "T",
+    "Term": "TCAS",
+    "Definition": "Traffic Collision Avoidance System"
+  },
+  {
+    "Letter": "T",
+    "Term": "TCP",
+    "Definition": "Tricresylphosphate"
+  },
+  {
+    "Letter": "T",
+    "Term": "TD",
+    "Definition": "Temperature Datum"
+  },
+  {
+    "Letter": "T",
+    "Term": "TDP",
+    "Definition": "Touchdown Point"
+  },
+  {
+    "Letter": "T",
+    "Term": "TE",
+    "Definition": "Trailing Edge of Drop Zone"
+  },
+  {
+    "Letter": "T",
+    "Term": "TEMP",
+    "Definition": "Temperature"
+  },
+  {
+    "Letter": "T",
+    "Term": "TFT",
+    "Definition": "Time from Target"
+  },
+  {
+    "Letter": "T",
+    "Term": "TFTD",
+    "Definition": "Tactical Flight Training Device"
+  },
+  {
+    "Letter": "T",
+    "Term": "TGS",
+    "Definition": "Target Groundspeed"
+  },
+  {
+    "Letter": "T",
+    "Term": "TGT",
+    "Definition": "Target"
+  },
+  {
+    "Letter": "T",
+    "Term": "TK",
+    "Definition": "Track"
+  },
+  {
+    "Letter": "T",
+    "Term": "TO",
+    "Definition": "Technical Order"
+  },
+  {
+    "Letter": "T",
+    "Term": "TOC",
+    "Definition": "Top of Climb"
+  },
+  {
+    "Letter": "T",
+    "Term": "TOLD",
+    "Definition": "Takeoff and Landing Data"
+  },
+  {
+    "Letter": "T",
+    "Term": "TOT",
+    "Definition": "Time on Target"
+  },
+  {
+    "Letter": "T",
+    "Term": "TP",
+    "Definition": "Teaching Point"
+  },
+  {
+    "Letter": "T",
+    "Term": "TPRS",
+    "Definition": "Towed Parachutist Retrieval System"
+  },
+  {
+    "Letter": "T",
+    "Term": "TR",
+    "Definition": "Transformer-Rectifier"
+  },
+  {
+    "Letter": "T",
+    "Term": "TRIADS/RAMZ",
+    "Definition": "Triwall Aerial Delivery System/Rigged Alternate Method Zodiac"
+  },
+  {
+    "Letter": "T",
+    "Term": "TRK",
+    "Definition": "Track"
+  },
+  {
+    "Letter": "T",
+    "Term": "TRM",
+    "Definition": "Trim"
+  },
+  {
+    "Letter": "T",
+    "Term": "TRSET",
+    "Definition": "Transport and Rescue Standardization and Evaluation Team"
+  },
+  {
+    "Letter": "T",
+    "Term": "TTB",
+    "Definition": "Tactical Training Bundle"
+  },
+  {
+    "Letter": "T",
+    "Term": "TTG",
+    "Definition": "Time-to-Go (to waypoint)"
+  },
+  {
+    "Letter": "T",
+    "Term": "TQS",
+    "Definition": "Taxi Quick Start"
+  },
+  {
+    "Letter": "U",
+    "Term": "UPR",
+    "Definition": "Unsatisfactory Progress Report"
+  },
+  {
+    "Letter": "U",
+    "Term": "UHF",
+    "Definition": "Ultra High Frequency"
+  },
+  {
+    "Letter": "U",
+    "Term": "UHF/DF",
+    "Definition": "Ultra High Frequency Direction Finder"
+  },
+  {
+    "Letter": "U",
+    "Term": "UL",
+    "Definition": "Upper Left"
+  },
+  {
+    "Letter": "U",
+    "Term": "UNCG",
+    "Definition": "Uncaged"
+  },
+  {
+    "Letter": "U",
+    "Term": "UR",
+    "Definition": "Upper Right"
+  },
+  {
+    "Letter": "U",
+    "Term": "USB",
+    "Definition": "Upper Sideband"
+  },
+  {
+    "Letter": "U",
+    "Term": "UTIL/U",
+    "Definition": "Utility"
+  },
+  {
+    "Letter": "V",
+    "Term": "V",
+    "Definition": "Volts"
+  },
+  {
+    "Letter": "V",
+    "Term": "VAC",
+    "Definition": "Volts Alternating Current"
+  },
+  {
+    "Letter": "V",
+    "Term": "VAR",
+    "Definition": "Variation"
+  },
+  {
+    "Letter": "V",
+    "Term": "VCAPS",
+    "Definition": "Coordinated Airplane Positioning System Commanded Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VD",
+    "Definition": "Maximum Airspeed (Dive)"
+  },
+  {
+    "Letter": "V",
+    "Term": "VDC",
+    "Definition": "Volts Direct Current"
+  },
+  {
+    "Letter": "V",
+    "Term": "VDI",
+    "Definition": "Vertical Deviation Indicator"
+  },
+  {
+    "Letter": "V",
+    "Term": "VFR",
+    "Definition": "Visual Flight Rules"
+  },
+  {
+    "Letter": "V",
+    "Term": "VH",
+    "Definition": "Maximum Recommended Airspeed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VHF",
+    "Definition": "Very High Frequency"
+  },
+  {
+    "Letter": "V",
+    "Term": "VID",
+    "Definition": "Radar Video Intensity"
+  },
+  {
+    "Letter": "V",
+    "Term": "VIS",
+    "Definition": "Visual"
+  },
+  {
+    "Letter": "V",
+    "Term": "VMC",
+    "Definition": "Visual Meteorological Conditions"
+  },
+  {
+    "Letter": "V",
+    "Term": "VMCA",
+    "Definition": "Minimum Control Speed in Air"
+  },
+  {
+    "Letter": "V",
+    "Term": "VMCG",
+    "Definition": "Minimum Ground Control Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VMO",
+    "Definition": "Maximum Operating Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VNAV",
+    "Definition": "Vertical Navigation"
+  },
+  {
+    "Letter": "V",
+    "Term": "VOBS",
+    "Definition": "Obstacle Clearance"
+  },
+  {
+    "Letter": "V",
+    "Term": "VOL",
+    "Definition": "Volume (Audio level)"
+  },
+  {
+    "Letter": "V",
+    "Term": "VOR VHF",
+    "Definition": "Omnidirectional and Radio Range"
+  },
+  {
+    "Letter": "V",
+    "Term": "VORTAC VHF",
+    "Definition": "Omnidirectional and Radio Range and TACAN"
+  },
+  {
+    "Letter": "V",
+    "Term": "VOX",
+    "Definition": "Voice Operated Transmitter"
+  },
+  {
+    "Letter": "V",
+    "Term": "VMPR",
+    "Definition": "Minimum Power Restoration Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VR",
+    "Definition": "Rotate Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VREF",
+    "Definition": "Refusal Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VS",
+    "Definition": "Stall Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VS",
+    "Definition": "Vertical Speed/Versus"
+  },
+  {
+    "Letter": "V",
+    "Term": "VSIM",
+    "Definition": "Virtual Simulation"
+  },
+  {
+    "Letter": "V",
+    "Term": "VTHR",
+    "Definition": "Threshold Speed"
+  },
+  {
+    "Letter": "V",
+    "Term": "VVI",
+    "Definition": "Vertical Velocity Indicator (indication)"
+  },
+  {
+    "Letter": "W",
+    "Term": "WSPS",
+    "Definition": "Wire Strike Protection System"
+  },
+  {
+    "Letter": "W",
+    "Term": "W",
+    "Definition": "West"
+  },
+  {
+    "Letter": "W",
+    "Term": "WARN",
+    "Definition": "Warning"
+  },
+  {
+    "Letter": "W",
+    "Term": "WFO",
+    "Definition": "Wing Flying Orders"
+  },
+  {
+    "Letter": "W",
+    "Term": "WOW",
+    "Definition": "Weight On Wheels"
+  },
+  {
+    "Letter": "W",
+    "Term": "WPT",
+    "Definition": "Waypoint"
+  },
+  {
+    "Letter": "W",
+    "Term": "WS",
+    "Definition": "Windshear"
+  },
+  {
+    "Letter": "W",
+    "Term": "WST",
+    "Definition": "Weapons Systems Trainer"
+  },
+  {
+    "Letter": "W",
+    "Term": "WWNDB",
+    "Definition": "World Wide Navigational Database"
+  },
+  {
+    "Letter": "W",
+    "Term": "WX",
+    "Definition": "Weather Avoidance"
+  },
+  {
+    "Letter": "X",
+    "Term": "XMTR",
+    "Definition": "Transmitter"
+  },
+  {
+    "Letter": "X",
+    "Term": "XTK",
+    "Definition": "Cross Track"
+  },
+  {
+    "Letter": "Z",
+    "Term": "ZM",
+    "Definition": "Zone Marker"
+  }
+]
