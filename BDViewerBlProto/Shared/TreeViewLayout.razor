@@ -5,7 +5,7 @@
 @layout ViewerMainLayout
 @inject Services.CourseData CourseData
 
-<div class="container-tvs">
+<div class="@( ( CollapseTree ? "container-tvs-trns" : "container-tvs" ))">
 
     <!-- ------------------------------------------------------------------------------------------------ --
       -- Side bar course content tree view colum                                                          --
@@ -27,8 +27,11 @@
     </section>
 
     <div class="ctvx-lside-toggle">
-        <button type="button">
-            <img style="display:block;margin:auto" src="Images/Icons/collapse-left-w.png" height="14" width="14" />
+        <button type="button" @onclick="@( () => CollapseTree = !CollapseTree )">
+            <img style="display:block;margin:auto" 
+                 src="@( ( CollapseTree ? "Images/Icons/expand-left-w.png" : "Images/Icons/collapse-left-w.png" ))" 
+                 height="42" 
+                 width="14" />
         </button>
     </div>
 

@@ -87,14 +87,32 @@ figcaption {
 }
 
 /* -------------------------------------------------------------------------
- * Divider
+ * Divider rgb(48,49,51)
  * -------------------------------------------------------------------------*/
 .h-divider {
     margin-top: 5px;
     margin-bottom: 5px;
     height: 1px;
-    width: 100%;
+    width: 80%;
     border-top: 1px solid gray;
+}
+
+.divider {
+    position: relative;
+    margin-top: 10px;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, rgb(0,0,0), transparent);
 }
 
 /* -------------------------------------------------------------------------
@@ -400,6 +418,21 @@ figcaption {
     overflow-x:hidden;
 }
 
+.container-tvs-trns {
+    background-color: white;
+    height: 100%;
+    color: black;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        "rtree  tclps  rmain";
+    grid-template-rows: 1fr;
+    grid-template-columns: 0px 15px 1fr;
+    overflow-x: hidden;
+    transition: ease-in-out 1s;
+}
+
+
 .ctvs-lside-tree {
     grid-area: rtree;
     background-color: var(--raaf-grey05);
@@ -637,20 +670,21 @@ figcaption {
 }
 
 /* -------------------------------------------------------------------------
- * MUD pagination customisation - crap chose the wrong component lib
+ * MUD pagination customisation - crap chose the wrong component library
  * -------------------------------------------------------------------------*/
 .mud-pagination .mud-pagination-item > * {
     height: 35px;
     min-width: 35px;
-    margin: 0 5px;
+    margin: 0 2px;
     padding: 0 0;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 1px;
     border-color: white;
     border-width: 2px;
     background-color: transparent;
     color: white;
 }
+
 
 /* These buttons are defined for the previous/next and first/last actions */
 .mud-pagination .mud-pagination-item .mud-icon-button {
@@ -664,17 +698,19 @@ figcaption {
         background-color: var(--raaf-blue2);
         border-color: white;
         color: white;
-        box-shadow: 6px 6px 6px 0 var(--raaf-grey4);
     }
 
 .mud-pagination-outlined .mud-pagination-item-selected {
-    color: #00bfff;
+    background-color:black;
+    /*
     box-shadow: 6px 6px 6px 0 #00bfff;
+                box-shadow: 6px 6px 6px 0 var(--raaf-grey4);
+    */
 }
 
     .mud-pagination-outlined .mud-pagination-item-selected:hover {
         border-width: 2px;
-        border-color:aqua;
+        border-color: black !important;
     }  
 
 /* -------------------------------------------------------------------------

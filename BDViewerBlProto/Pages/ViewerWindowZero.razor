@@ -38,6 +38,8 @@
             <MudTablePager />
         </PagerContent>
     </MudTable>
+    <div class="gap-1"></div>
+    <div class="divider div-transparent"></div>
 </div>
 <div class="collapse" id="refDocDetailsToggle" style="z-index:78">
     <MudTable Items="@RefDocs" Dense="true" Hover="true" Striped="true" Filter="new Func<RefDocuments,bool>(FilterFuncRDocs)" @bind-SelectedItem="selectedItem1">
@@ -78,7 +80,7 @@
             </MudButton>
         </div>
     }
-    <div class="h-divider border-dark"></div>
+    <div class="divider div-transparent"></div>
 </div>
 
 <div class="cslide-group">
