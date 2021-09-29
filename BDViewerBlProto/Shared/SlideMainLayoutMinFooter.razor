@@ -1,0 +1,61 @@
+﻿<!-- ------------------------------------------------------------------------------------------------ --
+  -- The cotainer for this compoent is the div class app in index.html                                --
+  -- ------------------------------------------------------------------------------------------------ -->
+@inherits LayoutComponentBase
+@using System.Net.Http
+@inject HttpClient http
+@inject Services.ApplicationData ApplicationData
+@inject Services.CourseData CourseData
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<!--
+-- ------------------------------------------------------------------------------------------------ --
+-- Header row                 <CascadingValue Value="this">                                         --
+-- ------------------------------------------------------------------------------------------------ --
+-->
+<header class="apl-slayout-head">
+    <NavMenu EnableGlossary="false"
+             EnableBrand="true" />
+</header>
+
+<!--
+-- ------------------------------------------------------------------------------------------------ --
+-- Main Content row                                                                                 --
+-- ------------------------------------------------------------------------------------------------ --
+-->
+<section class="apl-slayout-main" style="overflow-y:auto">
+    @Body
+</section>
+
+<!--
+-- ------------------------------------------------------------------------------------------------ --
+-- Footer row                                                                                       --
+-- ------------------------------------------------------------------------------------------------ --
+-->
+<footer class="apl-slayout-foot">
+    <MasterLayoutFooter EnablePagination="false"
+                        EnableRaafImg="false"
+                        EnableCAEImg="false"
+                        SlideWindowNumber="2" />
+</footer>
+
+
+<!--
+-- ------------------------------------------------------------------------------------------------ --
+-- CODE BASE                          </CascadingValue>                                             --
+-- ------------------------------------------------------------------------------------------------ --
+-->
+@code
+{
+    /* -- Layout Parameters -- */
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ApplicationData.StateChanged += StateHasChanged;
+        CourseData.StateChanged += StateHasChanged;
+    }
+}

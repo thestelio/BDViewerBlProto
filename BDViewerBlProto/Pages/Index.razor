@@ -59,16 +59,38 @@
         </div>
     </div>
 
-    <div class="apl-ar1c2-spc3">
-        <img src="Images/Logos/37SQN-Crest_424x600-1.png" alt="CAE-Logo" />
+
+    <figure class="figure-custom apl-ar1c2">
+        <img src="Images/KenexaCourseHierarchy.png" alt="Kenexa Hierarcy" />
+        <figcaption>Kenexa Hierarchy</figcaption>
+    </figure>
+
+    <figure class="figure-custom apl-ar2c2-spr3">
+        <img src="Images/KenexaCourseHierarchyEg.png" alt="Kenexa Hierarcy Eg" />
+        <figcaption class="fc-custom">Current Course Example</figcaption>
+    </figure>
+
+    <!--
+    <div class="apl-ar1c2">
+        <img class="scaled" src="Images/KenexaCourseHierarchy.png" alt="Kenexa Hierarcy" />
     </div>
 
-    <div class="apl-ar2c2-spc3">
+    <div class="apl-ar2c2-spr3">
+        <img class="scaled" src="Images/KenexaCourseHierarchyEg.png" alt="Kenexa Hierarcy Eg" />
+    </div>
+    -->
+
+
+    <div class="apl-ar1c3">
+        <img src="Images/Logos/37SQN-Crest_424x600-1.png" alt="SQN-Logo" />
+    </div>
+
+    <div class="apl-ar2c3">
         <img src="Images/Logos/CAE_LOGO_RGB-scaled.png" alt="CAE-Logo" />
     </div>
 
-    <div class="apl-ar3c2-spc3">
-        <img src="Images/Logos/Bluedrop Training and Simulation2.png" alt="CAE-Logo" />
+    <div class="apl-ar3c3">
+        <img src="Images/Logos/Bluedrop Training and Simulation2.png" alt="BD-Logo" />
     </div>
 
     <div class="apl-ar4c1-spc3 d-grid">
@@ -82,6 +104,12 @@
                 class="btn btn-dark"
                 @onclick=OpenNewTabs1>
             @ApplicationData.Role -- @ApplicationData.TrainingScopeStr -- Slide Window
+        </button>
+        <div class="gap-1"></div>
+        <button type="button"
+                class="btn btn-dark"
+                @onclick=OpenNewTabs2>
+            @ApplicationData.Role -- @ApplicationData.TrainingScopeStr -- Slide Window Mininal Footer
         </button>
     </div>
 
@@ -109,6 +137,12 @@
     {
         string strURLw2 = "ViewerWindowSlide/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
         await JSRuntime.InvokeVoidAsync("open", strURLw2, "_blank");
+    }
+
+    private async void OpenNewTabs2()
+    {
+        string strURLw3 = "ViewerWindowsSlideMinFooter/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope;
+        await JSRuntime.InvokeVoidAsync("open", strURLw3, "_blank");
     }
 
     private async Task AppDataStateChanged()

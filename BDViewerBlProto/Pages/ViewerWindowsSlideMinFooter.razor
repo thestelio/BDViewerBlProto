@@ -1,0 +1,83 @@
+﻿@page "/ViewerWindowsSlideMinFooter/{userRole}/{trainigScope}"
+
+@layout SlideMainLayoutMinFooter
+
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using System.IO
+@using BDViewerBlProto.Data.Models
+@inject HttpClient http
+@inject Services.ApplicationData ApplicationData
+@inject Services.CourseData CourseData
+<!--
+-- ------------------------------------------------------------------------------------------------------
+-- HTML                                                                                                --
+-- ------------------------------------------------------------------------------------------------------
+-->
+<div class="cslide-group">
+    <div class="slide-topic">
+        <h1 class="display-3">Topic:&nbsp&nbsp&nbsp&nbsp&nbsp @CourseData.CourseTopic</h1>
+        <h1 class="display-4">Slide Set:&nbsp&nbsp&nbsp @CourseData.CourseGroup</h1>
+    </div>
+    <div class="slide-cntnt">
+        <div class="display-3">Advanced Cockpit</div>
+    </div>
+    <div class="slide-col1">
+        <MudList style="font:500 17px" Clickable="false" Dense="true">
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Night vision compatible head-up primary flight display (HUD)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Color, digital moving map</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Ground Collision Avoidance System (GCAS)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Traffic Collision and Avoidance System (TCAS)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Terrain Awareness and Warning System (TAWS)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Computer monitored aircraft system</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Flight Management System (FMS)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Inertial Navigation System (INS)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Dual Global Positioning System (GPS) systems</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Low noise interphone system</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Communications, Navigation, Surveillance/Air Traffic Management (CNS/ATM)</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Multi-mode color radar</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Ground map</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Weather mode</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Wind shear detection</MudListItem>
+            <MudListItem Icon="@Icons.Material.Filled.ArrowRight">Auto throttle</MudListItem>
+        </MudList>
+    </div>
+    <!--  <div class="slide-col2"> -->
+    <figure class="slide-col2">
+        <img src="Images/advcock.png" alt="SlideImage" />
+        <figcaption>@FigureCaption</figcaption>
+    </figure>
+    <!--</div>-->
+</div>
+
+
+<!--
+-- ------------------------------------------------------------------------------------------------------
+-- CODE BASE                          </CascadingValue>                  style="float:left; width:50%">                               --
+-- ------------------------------------------------------------------------------------------------------
+-->
+@code {
+
+    [Parameter]
+    public string userRole { get; set; }
+    [Parameter]
+    public string trainigScope { get; set; }
+
+    private string FigureCaption = "C-130J Advanced Cockpit";
+
+    private async Task AppDataStateChanged()
+    {
+        await InvokeAsync(StateHasChanged);
+    }
+
+    protected override void OnInitialized()
+    {
+        ApplicationData.Role = userRole;
+        ApplicationData.TrainingScope = trainigScope;
+        ApplicationData.StateChanged += async () => await AppDataStateChanged();
+        CourseData.StateChanged += StateHasChanged;
+    }
+
+}
