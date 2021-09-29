@@ -133,6 +133,8 @@ figcaption {
 
 /* -------------------------------------------------------------------------
  * Customisation for the header Navigation Bar
+    border-color: var(--raaf-blue3);
+    not really the right object for this .....
  * -------------------------------------------------------------------------*/
 .navbar-custom {
     background: var(--cae-blue);
@@ -142,31 +144,34 @@ figcaption {
 }
 
     .navbar-custom button.navbar-toggle {
+        background: var(--cae-blue);
         padding: .25rem .25rem;
         line-height: 1;
-        background-color: transparent;
-        border: 1px dotted;
-        border-color: transparent;
+        border-width: 1px;
+        border-style:solid;
+        border-color:transparent;
         border-radius: .25rem;
     }
 
         .navbar-custom button.navbar-toggle:hover {
-            background-color: transparent;
-            border: 1px dotted;
-            border-color: var(--raaf-blue3);
+            background-color: black;
+            padding: .25rem .25rem;
+            line-height: 1;
+            border-width: 1px;
+            border-style: solid;
+            border-color: white;
             border-radius: .25rem;
-            transition: .15s ease-in-out;
         }
 
 .btn-dark {
-    border: 5px solid black;
+    border: 2px solid black;
 }
 
-.btn-dark:hover {
-    color: white;
-    background-color: var(--raaf-grey01);
-    border: 5px solid black;
-}
+    .btn-dark:hover {
+        color: white;
+        background-color: var(--raaf-grey01);
+        border: 2px solid var(--raaf-rndel);
+    }
 
 /* -------------------------------------------------------------------------
  * Custom text for header displays customising display-X
@@ -321,8 +326,8 @@ figcaption {
         "ar2c1  ar2c2  ar2c3"
         "ar3c1  ar3c2  ar3c3"
         "ar4c1  ar4c2  ar4c3";
-    grid-template-rows: repeat(2,minmax(400, max-content)) 1fr;
-    grid-template-columns: repeat(2,400, max-content) 1fr;
+    grid-template-rows: repeat(3,minmax(200px, 1fr)) 125px;
+    grid-template-columns: repeat(2,minmax(200px, 1fr)) 1fr;
     background-color: var(--raaf-grey05);
     height: 100%;
     color: black;
@@ -353,6 +358,47 @@ figcaption {
     justify-content: start;
 }
 
+.apl-ar1c2 {
+    grid-area: ar1c2;
+    align-self: center;
+    justify-self: center;
+    text-align:center;
+    display: block;
+}
+
+.apl-ar2c2-spr3 {
+    grid-row: 2 /4;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    text-align:center;
+    display: block;
+    overflow-x:auto;
+}
+
+.apl-ar1c3 {
+    grid-area: ar1c3;
+    align-self: center;
+    justify-self: center;
+    display: block;
+}
+
+.apl-ar2c3 {
+    grid-area: ar2c3;
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+
+.apl-ar3c3 {
+    grid-area: ar3c3;
+    display: block;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+
 .apl-ar1c2-spc3 {
     grid-row: 1;
     grid-column: 2 / -1;
@@ -370,7 +416,7 @@ figcaption {
 }
 
 .apl-ar3c2-spc3 {
-    grid-area: 3;
+    grid-row: 3;
     grid-column: 2 / -1;
     display: block;
     text-align: center;
@@ -379,12 +425,31 @@ figcaption {
 }
 
 .apl-ar4c1-spc3 {
-    grid-area: 4;
+    grid-row: 4;
     grid-column: 1 / -1;
     display: block;
     text-align: center;
     align-self: stretch;
     justify-self: stretch;
+}
+
+.figure-custom {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    border: thin black solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 60%;
+}
+
+.fc-custom {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size:smaller;
+    padding: 2px;
+    text-align: center;
 }
 /* ------------------------------------------------------------------------- *
  * END: Grid Layout Main Application on startup                              *
