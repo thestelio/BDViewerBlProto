@@ -366,8 +366,8 @@ figcaption {
     display: block;
 }
 
-.apl-ar2c2-spr3 {
-    grid-row: 2 /4;
+.apl-ar1c2-spr3 {
+    grid-row: 1 / 4;
     grid-column: 2;
     align-self: center;
     justify-self: center;
@@ -433,7 +433,7 @@ figcaption {
     justify-self: stretch;
 }
 
-.figure-custom {
+.figure-custom-small {
     text-align: center;
     font-style: italic;
     font-size: smaller;
@@ -441,6 +441,16 @@ figcaption {
     margin: 0.5em;
     padding: 0.5em;
     width: 60%;
+}
+
+.figure-custom {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    border: thin black solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 90%;
 }
 
 .fc-custom {
