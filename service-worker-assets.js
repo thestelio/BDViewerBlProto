@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-y5Hk3T7e3Fpegf4\/V\/acUBqkNLwL4jm\/\/DTcUXx+i9U=",
+      "hash": "sha256-NWJQRorMkKdTaS17m+Si3ybE1Kb7DJ60yvsZMavbQtg=",
       "url": "css\/app.css"
     },
     {
@@ -153,12 +153,28 @@
       "url": "Images\/Logos\/Bluedrop Training and Simulation2.png"
     },
     {
+      "hash": "sha256-2WFS2QliTfm65XLO7uEutEQ9PIaKiZ\/ggSK53TqDTW8=",
+      "url": "Images\/Logos\/c130cargobay60-2.png"
+    },
+    {
+      "hash": "sha256-meZBttGhc9+zDNtNGjCfpJKHeZRyHJ76n2ClAy95m+M=",
+      "url": "Images\/Logos\/c130cargobay60-3.png"
+    },
+    {
       "hash": "sha256-WkbEO2aNjn7a4TH1A+pj8EvfaXMNIxmei280qfny9VY=",
       "url": "Images\/Logos\/c130cargobay60.png"
     },
     {
+      "hash": "sha256-aQdJF00B4JRf4xtEd8hsNYA33OUKXua3hp91QWFIBjQ=",
+      "url": "Images\/Logos\/c130j-front-2.png"
+    },
+    {
       "hash": "sha256-2QL3ryvxebfnGPOhpJtAwc0YM6GHHEj4RebseWKEAnY=",
       "url": "Images\/Logos\/c130j-front.png"
+    },
+    {
+      "hash": "sha256-888VswprSk9hHwdFI+LNYdB+II8G+\/aFhFZz1vPbnE4=",
+      "url": "Images\/Logos\/c130j-topv-nobg-64-180deg-2.png"
     },
     {
       "hash": "sha256-pz0E+c0mMEJ4mP6dLHbjQEZaSndWxmf12BA4PxY7ObY=",
@@ -183,6 +199,10 @@
     {
       "hash": "sha256-XOi75Oq\/8sb2ILs\/C9H2l5KUCNXjz3nUWeB+JWxDCng=",
       "url": "Images\/Logos\/CAE-White.png"
+    },
+    {
+      "hash": "sha256-u0o0eXfxllxZEKmw7SepDC5wcd7vfJy5kim7yDh1+Xc=",
+      "url": "Images\/Logos\/CAE_LOGO_BLACK_RGB-SCALED.png"
     },
     {
       "hash": "sha256-Ptf09BcvLK5tNLb1nYvhKlLB5AhH+apZdFayZ6Ff1fE=",
@@ -417,7 +437,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-fMQmYh46\/IyOO+TqigFLZCG2a+voOJ+09+dmZDKTd9s=",
+      "hash": "sha256-lzYNb\/KJ61qXd9kAKNGjT5hucIM+00h0uygk\/pQNtuI=",
       "url": "_framework\/BDViewerBlProto.dll"
     },
     {
@@ -529,7 +549,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-fuaHz+CbgLxb7Ggfblm4OVWgNd\/lA6jNGUTjgwC+FVQ=",
+      "hash": "sha256-QQ4ybAoW+XOrIiR+UWKd8RiirrlA759+WwJPlDufxCI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -537,5 +557,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "\/FiYdzFl"
+  "version": "RkgFqQPd"
 };
