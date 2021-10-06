@@ -26,6 +26,7 @@
     --raaf-grey03: #9ea7ae; /* Dark grayish blue*/
     --raaf-grey04: #bdc3c8; /* Grayish blue */
     --raaf-grey05: #dadee1; /*Light grayish blue.*/
+    --cae-grey:#cccccc;
 }
 
 /* -------------------------------------------------------------------------
@@ -74,16 +75,16 @@ figcaption {
 *::-webkit-scrollbar-thumb {
     /* border-radius: 10px !important;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important; */
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-grey4)), to(var(--raaf-blue2))) !important;
-    background-image: -webkit-linear-gradient(bottom, var(--raaf-grey4) 0%, var(--raaf-blue2) 100%) !important;
-    background-image: linear-gradient(to top, var(--raaf-grey4) 0%, var(--raaf-blue2) 100%) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-grey4)), to(var(--raaf-rndel))) !important;
+    background-image: -webkit-linear-gradient(bottom, var(--raaf-grey4) 0%, var(--raaf-rndel) 100%) !important;
+    background-image: linear-gradient(to top, var(--raaf-grey4) 0%, var(--raaf-rndel) 100%) !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-blue2)), to(var(--raaf-grey4))) !important;
-    background-image: -webkit-linear-gradient(bottom, var(--raaf-blue2) 0%, var(--raaf-grey4) 100%) !important;
-    background-image: linear-gradient(to top, var(--raaf-blue2) 0%, var(--raaf-grey4) 100%) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-rndel)), to(var(--raaf-grey4))) !important;
+    background-image: -webkit-linear-gradient(bottom, var(--raaf-rndel) 0%, var(--raaf-grey4) 100%) !important;
+    background-image: linear-gradient(to top, var(--raaf-rndel) 0%, var(--raaf-grey4) 100%) !important;
 }
 
 /* -------------------------------------------------------------------------
@@ -127,8 +128,14 @@ figcaption {
     }
 
         .btn.btn-outline-dark:disabled {
-            color: var(--cae-blue) !important;
-            border-color: var(--cae-blue) !important;
+            color: var(--raaf-rndel) !important;
+            border-color: var(--raaf-rndel) !important;
+        }
+
+        .btn.btn-outline-dark:hover {
+            color: black !important;
+            background: var(--cae-grey);
+            border-color: black !important;
         }
 
 /* -------------------------------------------------------------------------
@@ -137,31 +144,39 @@ figcaption {
     not really the right object for this .....
  * -------------------------------------------------------------------------*/
 .navbar-custom {
-    background: var(--cae-blue);
-    border-color: var(--cae-blue);
-    color: var(--raaf-blue3) !important;
-    /*box-shadow: 0 0 12px 0 var(--raaf-grey4);*/
+    background: var(--raaf-rndel);
+    border-color: var(--raaf-rndel);
+    /*  color: var(--raaf-blue3) !important;
+    box-shadow: 0 0 12px 0 var(--raaf-grey4);*/
 }
 
     .navbar-custom button.navbar-toggle {
-        background: var(--cae-blue);
-        padding: .25rem .25rem;
+        background: var(--raaf-rndel);
+        padding: .15rem .25px;
         line-height: 1;
         border-width: 1px;
-        border-style:solid;
-        border-color:transparent;
+        border-style: solid;
+        border-color: transparent;
         border-radius: .25rem;
+        height:60px;
     }
 
-        .navbar-custom button.navbar-toggle:hover {
-            background-color: black;
-            padding: .25rem .25rem;
+        .navbar-custom button.navbar-toggle div.display-3-atitle:hover {
+            background-color: var(--cae-grey);
+            color: black;
+            padding: .15rem .25px;
             line-height: 1;
             border-width: 1px;
             border-style: solid;
             border-color: white;
             border-radius: .25rem;
         }
+
+.im-grey {
+
+    margin:7px;
+    border: 5px solid var(--cae-grey);
+}
 
 .btn-dark {
     border: 2px solid black;
@@ -212,13 +227,31 @@ figcaption {
     color: black;
 }
 
+.display-3-atitle {
+    font-family: Verdana;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: inherit;
+    vertical-align: middle;
+    color: white;
+}
+
 .display-4 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.25rem;
     font-weight: 600;
-    line-height: normal;
-    vertical-align: middle;
+    vertical-align:middle;
+    line-height:1.6;
     color: black;
+}
+
+.display-4-atitle {
+    font-family: Verdana;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: inherit;
+    vertical-align: middle;
+    color: white;
 }
 
 .display-5 {
@@ -226,6 +259,15 @@ figcaption {
     font-size: 1rem;
     font-weight: 600;
     line-height: normal;
+    vertical-align: middle;
+    color: white;
+}
+
+.display-5-atitle {
+    font-family: Verdana;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: inherit;
     vertical-align: middle;
     color: white;
 }
@@ -268,15 +310,18 @@ figcaption {
 
 .apl-slayout-head {
     grid-area: ahead;
-    background: var(--cae-blue);
+    /*background: var(--cae-blue);*/
+    background: var(--raaf-rndel);
     box-sizing: border-box;
 }
 
 .apl-slayout-main {
     grid-area: amain;
     background: var(--raaf-grey4);
-    border-left: 7px solid var(--cae-blue);
-    border-right: 7px solid var(--cae-blue);
+    border-left: 7px solid var(--raaf-rndel);
+    border-right: 7px solid var(--raaf-rndel);
+    /*    border-left: 7px solid var(--cae-blue);
+    border-right: 7px solid var(--cae-blue); */
     box-sizing: border-box;
     padding: 0px;
     /*overflow: auto;*/
@@ -285,15 +330,18 @@ figcaption {
 .apl-slayout-main-dr {
     grid-area: amain;
     background: var(--raaf-grey4);
-    border-left: 7px solid var(--cae-blue);
-    border-right: 7px solid var(--cae-blue);
+    border-left: 7px solid var(--raaf-rndel);
+    border-right: 7px solid var(--raaf-rndel);
+    /*    border-left: 7px solid var(--cae-blue);
+    border-right: 7px solid var(--cae-blue); */
     box-sizing: border-box;
     padding: 0px;
 }
 
 .apl-slayout-foot {
     grid-area: afoot;
-    background: var(--cae-blue);
+    /*background: var(--cae-blue);*/
+    background: var(--raaf-rndel);
     color: white;
     box-sizing: border-box;
 }
@@ -520,15 +568,15 @@ figcaption {
 
 .ctvx-lside-toggle {
     grid-area: tclps;
-    background-color: var(--cae-blue);
-    display:flex;
-    text-align:center;
-    justify-content:center;
-    align-items:center;
+    background-color: var(--raaf-rndel);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
     .ctvx-lside-toggle:hover {
-        background-color: black;
+        background-color: var(--raaf-grey02);
     }
 
 .ctvs-main-content {
@@ -602,7 +650,7 @@ figcaption {
         "ctopic   ctopic"
         "cntnt    cntnt"
         "ccnt1    ccnt2";
-    grid-template-rows: 80px minmax(min-content, max-content) 1fr;
+    grid-template-rows: 40px minmax(min-content, max-content) 1fr;
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
     justify-items: stretch;
@@ -617,8 +665,8 @@ figcaption {
 .slide-topic {
     grid-area: ctopic;
     background-color: var(--raaf-grey05);
-    border: solid 1px var(--raaf-grey02);
-    border-radius: 5px;
+    border-bottom: solid 1px var(--raaf-grey02);
+    /*border-radius: 5px;*/
 }
 
 .slide-cntnt {

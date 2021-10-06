@@ -1,79 +1,93 @@
 ﻿@inject Services.ApplicationData ApplicationData
 @inject Services.CourseData CourseData
-
 <!-- ----------------------------------------------------------------------------------------------
  HTML Markup Code section
 ----------------------------------------------------------------------------------------------  -->
-<nav class="navbar navbar-custom">
-    <div class="collapse" id="navCourseDetailsToggle" style="width:100%">
-        <div class="p-1" style="margin-left:20px;">
-            <div class="display-1">@CourseData.CourseTitle</div>
-            <div class="display-2">@CourseData.CourseModule</div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        @if (EnableBrand)
-        {
-        <div style="text-align:left">
-            <img class="navbar-brand" src="@ApplicationData.TrainingScopeC130Icon" height="60" alt="c13oj-tv-icon">
-            <img class="navbar-brand" src="@ApplicationData.TrainingScopeImage" height="60" alt="PilotLogo">
-        </div>
-        }
-        <button class="navbar-toggle"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navCourseDetailsToggle"
-                aria-controls="navCourseDetailsToggle"
-                aria-expanded="false">
-            <div class="display-2-atitle align-content-center">@CourseData.CourseLearningObjective</div>
-        </button>
-        <div>
-            @if (EnableGlossary)
-            {
-                <button type="button"
-                        class="btn btn-outline-dark"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#refDocDetailsToggle"
-                        aria-controls="refDocDetailsToggle"
-                        aria-expanded="false">
-                    Reference Documents
-                </button>
-                <button type="button"
-                        class="btn btn-outline-dark"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#glossaryDetailsToggle"
-                        aria-controls="glossaryDetailsToggle"
-                        aria-expanded="false">
-                    Glossary
-                </button>
-            }
-            else
-            {
-                <button type="button"
-                        class="btn btn-outline-dark"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#refDocDetailsToggle"
-                        aria-controls="refDocDetailsToggle"
-                        aria-expanded="false"
-                        style="color: #005eb8; border-color: #005eb8"
-                        disabled>
-                    Reference Documents
-                </button>
-                <button type="button"
-                        class="btn btn-outline-dark"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#glossaryDetailsToggle"
-                        aria-controls="glossaryDetailsToggle"
-                        aria-expanded="false"
-                        style="color: #005eb8; border-color: #005eb8"
-                        disabled>
-                    Glossary
-                </button>
-            }
-        </div>
-    </div>
-</nav>
+<div class="im-grey">
+    <nav class="navbar navbar-custom">
 
+        <div class="collapse" id="navCourseDetailsToggle" style="width:100%">
+            <div class="p-1" style="margin-left:20px;">
+                <div class="display-1">@CourseData.CourseTitle</div>
+                <div class="display-2">@CourseData.CourseModule</div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            @if (EnableBrand)
+            {
+                <div>
+                    <div class="d-inline-block" style="background: #cccccc; height: 60px; width: auto; border-radius: 5px;">
+                        <img src='Images/Logos/37SQN-Crest_424x600.png' height="50" class="d-inline-block align-centre" style="margin-left:5px">
+                        <img class="navbar-brand d-inline-block" src="@ApplicationData.TrainingScopeC130Icon" height="60" alt="c13oj-tv-icon">
+                    </div>
+                </div>
+            }
+            <button class="navbar-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navCourseDetailsToggle"
+                    aria-controls="navCourseDetailsToggle"
+                    aria-expanded="false">
+                <div id="CourseLOTopic">
+                    <div class="display-3-atitle align-content-center">@CourseData.CourseLearningObjective</div>
+                    <div class="display-5-atitle align-content-center" style="margin-top:5px">@CourseData.CourseTopic</div>
+                </div>
+            </button>
+            <div class="float:right">
+                @if (EnableGlossary)
+                {
+                    <button type="button"
+                            class="btn btn-outline-dark d-inline-block"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#refDocDetailsToggle"
+                            aria-controls="refDocDetailsToggle"
+                            aria-expanded="false">
+                        Reference Documents
+                    </button>
+                    <button type="button"
+                            class="btn btn-outline-dark d-inline-block"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#glossaryDetailsToggle"
+                            aria-controls="glossaryDetailsToggle"
+                            aria-expanded="false">
+                        Glossary
+                    </button>
+                    <div class="d-inline-block" style="background: #cccccc; height: 60px; width: 92px; border-radius: 5px">
+                        <img src='Images/Logos/CAE_LOGO_BLACK_RGB-SCALED.png' height="60" class="d-inline-block align-centre">
+                    </div>
+                }
+                else
+                {
+                    <button type="button"
+                            class="btn btn-outline-dark d-inline-block"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#refDocDetailsToggle"
+                            aria-controls="refDocDetailsToggle"
+                            aria-expanded="false"
+                            style="color: #00224b; border-color: #00224b "
+                            disabled>
+                        Reference Documents
+                    </button>
+                    <button type="button"
+                            class="btn btn-outline-dark d-inline-block"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#glossaryDetailsToggle"
+                            aria-controls="glossaryDetailsToggle"
+                            aria-expanded="false"
+                            style="color: #00224b; border-color: #00224b "
+                            disabled>
+                        Glossary
+                    </button>
+                    <div class=" d-inline-block" style="background: #cccccc; height: 60px; width: 92px; border-radius: 5px">
+                        <img src='Images/Logos/CAE_LOGO_BLACK_RGB-SCALED.png' height="60" class="d-inline-block align-centre">
+                    </div>
+                }
+            </div>
+
+        </div>
+
+    </nav>
+</div>
 <!-- ----------------------------------------------------------------------------------------------
  C# Code section
 ----------------------------------------------------------------------------------------------  -->
@@ -92,5 +106,7 @@
     {
         base.OnInitialized();
         ApplicationData.StateChanged += StateHasChanged;
+        CourseData.StateChanged += StateHasChanged;
     }
+
 }
