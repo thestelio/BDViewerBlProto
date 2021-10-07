@@ -123,19 +123,19 @@ figcaption {
 }*/
     
     .btn.btn-outline-dark {
-        color: white !important;
-        border-color: white !important;
+        color: black !important;
+        border-color: black !important;
     }
 
         .btn.btn-outline-dark:disabled {
-            color: var(--raaf-rndel) !important;
-            border-color: var(--raaf-rndel) !important;
+            color: var(--cae-grey) !important;
+            border-color: var(--cae-grey) !important;
         }
 
         .btn.btn-outline-dark:hover {
-            color: black !important;
-            background: var(--cae-grey);
-            border-color: black !important;
+            color: white !important;
+            background: var(--raaf-rndel);
+            border-color: white !important;
         }
 
 /* -------------------------------------------------------------------------
@@ -143,27 +143,57 @@ figcaption {
     border-color: var(--raaf-blue3);
     not really the right object for this .....
  * -------------------------------------------------------------------------*/
+
+/*  BLUE 
 .navbar-custom {
     background: var(--raaf-rndel);
+    border-color: var(--raaf-rndel);
+}
+
+.navbar-custom button.navbar-toggle {
+    background: var(--raaf-rndel);
+    padding: .15rem .25px;
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: .25rem;
+    height: 60px;
+}
+
+    .navbar-custom button.navbar-toggle div.display-3-atitle:hover {
+        background-color: var(--cae-grey);
+        color: black;
+        padding: .15rem .25px;
+        line-height: 1;
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
+        border-radius: .25rem;
+    }
+
+*/
+.navbar-custom {
+    background: var(--cae-grey);
     border-color: var(--raaf-rndel);
     /*  color: var(--raaf-blue3) !important;
     box-shadow: 0 0 12px 0 var(--raaf-grey4);*/
 }
 
     .navbar-custom button.navbar-toggle {
-        background: var(--raaf-rndel);
+        background: var(--cae-grey);
         padding: .15rem .25px;
         line-height: 1;
         border-width: 1px;
         border-style: solid;
         border-color: transparent;
         border-radius: .25rem;
-        height:60px;
+        height: 60px;
     }
 
         .navbar-custom button.navbar-toggle div.display-3-atitle:hover {
-            background-color: var(--cae-grey);
-            color: black;
+            background-color: var(--raaf-rndel);
+            color: white;
             padding: .15rem .25px;
             line-height: 1;
             border-width: 1px;
@@ -197,7 +227,7 @@ figcaption {
     font-weight: 700 !important;
     line-height: inherit;
     vertical-align: middle !important;
-    color: white !important;
+    color: var(--raaf-rndel) !important;
 }
 
 .display-2 {
@@ -206,7 +236,7 @@ figcaption {
     font-weight: 500;
     line-height: inherit;
     vertical-align: middle;
-    color: var(--raaf-grey04);
+    color: var(--raaf-rndel);
 }
 
 .display-2-atitle {
@@ -233,7 +263,7 @@ figcaption {
     font-weight: 700;
     line-height: inherit;
     vertical-align: middle;
-    color: white;
+    color: black;
 }
 
 .display-4 {
@@ -269,7 +299,7 @@ figcaption {
     font-weight: 700;
     line-height: inherit;
     vertical-align: middle;
-    color: white;
+    color: black;
 }
 
 /* -------------------------------------------------------------------------
