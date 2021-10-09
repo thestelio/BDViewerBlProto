@@ -6,12 +6,10 @@
 }
 
 :root {
-    /* Colours                
+    /* test colors                
      * ------------------------------------------------------ */
     --raaf-blue1: #002e61; /* blue from 37SQN badge */
-    /* Used in body, borders, header & footer backgrounds */
     --raaf-blue2: #0173c7; /* blue from raaf roundel #00224b */
-    --raaf-rndel:#00224b;
     --raaf-blue3: #e3efef;
     --raaf-red1: #9f3940; /* raaf red */
     --raaf-grey1: #5e7182; /* dark sea grey*/
@@ -20,22 +18,73 @@
     --raaf-grey4: white; /* blue grey #c2d3db*/
     --raaf-grey5: #f1f1f1; /* lighter dark sea grey #8c9dab*/
     --cae-blue: #005eb8;
-    /* Def Style guide */
+    /* Defence Style guide */
     --raaf-grey01: #5b6770; /* Def Style guide Very dark grayish blue*/
     --raaf-grey02: #838d94; /* Dark grayish blue*/
     --raaf-grey03: #9ea7ae; /* Dark grayish blue*/
     --raaf-grey04: #bdc3c8; /* Grayish blue */
     --raaf-grey05: #dadee1; /*Light grayish blue.*/
-    --cae-grey:#cccccc;
+    /* ------------------------------------------------------------------- */
+    /* MAIN COLORS ------------------------------------------------------- */
+    /* ------------------------------------------------------------------- */
+    --raaf-rndel: #00224b; /* Main blue in header, footer and borders*/
+    --cae-grey: #cccccc; /* Main Gray header and hover */
+    --cae-greyt: #e6e6e6; /* chromatically ligher than cae-gray */
+    /* ------------------------------------------------------------------- */
+    --mud-palette-primary: #ffffff !important; /* SELECTED treeview item font color */
+    --mud-palette-primary-hover: #00224b !important; /* SELECTED treeview item backgroud color */
+    --mud-palette-action-default-hover: #cccccc !important; /* HOVER treeview item backgroud color */
+    /* --------------------------------------------------------------------*/
+    --mud-palette-table-hover: #cccccc !important; /* HOVER table row in glossary and reference document tables */
+    --mud-palette-surface: #f2f2f2 !important; /* chromatically ligher than cae-gray for table background in glossary and ref.docs */
+    --mud-palette-info: #cccccc !important; /* document launch button background color */
+    --mud-palette-info-text: #000000 !important; /* document launch button text color */
+    --mud-palette-info-darken: #00224b !important; /* document launch button hover background color */
+    --mud-palette-secondary-hover: #d5aa55 !important;
 }
+
+/* Ref. DOc Launch buton */
+.mud-button-root:hover {
+    background-color: var(--mud-palette-info-darken);
+    color: white !important;
+}
+
+
+/* -------------------------------------------------------------------------
+ * MUD pagination customisation - crap chose the wrong component library
+ * -------------------------------------------------------------------------*/
+.mud-pagination .mud-pagination-item > * {
+    border-color: white;
+    border-width: 1px;
+    background-color: transparent;
+    color: white;
+}
+
+.mud-pagination .mud-pagination-item .mud-icon-button {
+    background-color: var(--cae-greyt);    
+    border-color: black;
+    color: black;
+}
+
+.mud-pagination .mud-pagination-item .mud-icon-button:hover {
+    background-color: var(--raaf-rndel);
+    border-color: white;
+}
+
+.mud-pagination-outlined .mud-pagination-item-selected {
+    border-width:2px !important;
+}
+
+    .mud-pagination-outlined .mud-pagination-item-selected:hover {
+        border-width: 2px !important;
+        border-color: red !important;
+    }  
 
 /* -------------------------------------------------------------------------
  * TOP Level html/body and app id
-
     html { margin-left: calc(100vw - 100%); }
-
  * -------------------------------------------------------------------------*/
-html,body {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -61,30 +110,31 @@ figcaption {
 }
 
 /* -------------------------------------------------------------------------
- * Scrollbar settings
+ * Scrollbar settings-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
  * -------------------------------------------------------------------------*/
 *::-webkit-scrollbar {
     width: 12px !important;
 }
 
 *::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
-    background: var(--raaf-grey3) !important;
+    
+    background: var(--cae-greyt) !important;
 }
 
 *::-webkit-scrollbar-thumb {
     /* border-radius: 10px !important;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important; */
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-grey4)), to(var(--raaf-rndel))) !important;
-    background-image: -webkit-linear-gradient(bottom, var(--raaf-grey4) 0%, var(--raaf-rndel) 100%) !important;
-    background-image: linear-gradient(to top, var(--raaf-grey4) 0%, var(--raaf-rndel) 100%) !important;
+    
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--cae-greyt)), to(var(--raaf-rndel))) !important;
+    background-image: -webkit-linear-gradient(bottom, var(--cae-greyt) 0%, var(--raaf-rndel) 100%) !important;
+    background-image: linear-gradient(to top, var(--cae-greyt) 0%, var(--raaf-rndel) 100%) !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-rndel)), to(var(--raaf-grey4))) !important;
-    background-image: -webkit-linear-gradient(bottom, var(--raaf-rndel) 0%, var(--raaf-grey4) 100%) !important;
-    background-image: linear-gradient(to top, var(--raaf-rndel) 0%, var(--raaf-grey4) 100%) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--raaf-rndel)), to(var(--cae-greyt))) !important;
+    background-image: -webkit-linear-gradient(bottom, var(--raaf-rndel) 0%, var(--cae-greyt) 100%) !important;
+    background-image: linear-gradient(to top, var(--raaf-rndel) 0%, var(--cae-greyt) 100%) !important;
 }
 
 /* -------------------------------------------------------------------------
@@ -588,7 +638,7 @@ figcaption {
 
 .ctvs-lside-tree {
     grid-area: rtree;
-    background-color: var(--raaf-grey05);
+    background-color: var(--cae-greyt);
     overflow: auto;
     /* 
         border-right: 2px solid var(--cae-blue);
@@ -694,9 +744,12 @@ figcaption {
 
 .slide-topic {
     grid-area: ctopic;
+    background-color: var(--cae-greyt);
+    border-bottom: solid 1px var(--raaf-grey02);
+    /*
     background-color: var(--raaf-grey05);
     border-bottom: solid 1px var(--raaf-grey02);
-    /*border-radius: 5px;*/
+    border-radius: 5px;*/
 }
 
 .slide-cntnt {
@@ -821,50 +874,6 @@ figcaption {
     display: block;
     text-align: center;
 }
-
-/* -------------------------------------------------------------------------
- * MUD pagination customisation - crap chose the wrong component library
- * -------------------------------------------------------------------------*/
-.mud-pagination .mud-pagination-item > * {
-    height: 35px;
-    min-width: 35px;
-    margin: 0 2px;
-    padding: 0 0;
-    text-align: center;
-    border-radius: 1px;
-    border-color: white;
-    border-width: 2px;
-    background-color: transparent;
-    color: white;
-}
-
-
-/* These buttons are defined for the previous/next and first/last actions */
-.mud-pagination .mud-pagination-item .mud-icon-button {
-    padding: 0;
-    border-color: black;
-    background-color: var(--raaf-grey4);
-    color: black;
-}
-
-    .mud-pagination .mud-pagination-item .mud-icon-button:hover {
-        background-color: var(--raaf-blue2);
-        border-color: white;
-        color: white;
-    }
-
-.mud-pagination-outlined .mud-pagination-item-selected {
-    background-color:black;
-    /*
-    box-shadow: 6px 6px 6px 0 #00bfff;
-                box-shadow: 6px 6px 6px 0 var(--raaf-grey4);
-    */
-}
-
-    .mud-pagination-outlined .mud-pagination-item-selected:hover {
-        border-width: 2px;
-        border-color: black !important;
-    }  
 
 /* -------------------------------------------------------------------------
  * To review -------- 
