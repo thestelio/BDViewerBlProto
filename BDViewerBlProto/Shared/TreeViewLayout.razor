@@ -12,12 +12,12 @@
       -- ------------------------------------------------------------------------------------------------ -->
     <section class="ctvs-lside-tree" id="lsidetreeview">
 
-        <MudTreeView CanHover="true" CanSelect="true" Class="flex-fill" Items="@ActiveCourseTree.TreeItems" CanActivate="true" @bind-ActivatedValue="ActivatedValue" MaxHeight="inherit" Width="inherit" Color="Color.Info">
+        <MudTreeView CanHover="true" CanSelect="true" Class="flex-fill" Items="@ActiveCourseTree.TreeItems" CanActivate="true" @bind-ActivatedValue="ActivatedValue" MaxHeight="inherit" Width="inherit" Color="Color.Primary">
             <ItemTemplate>
                 <MudTreeViewItem @bind-Expanded="@context.IsExpanded" Items="@context.TreeItems" Value="@context">
                     <Content>
                         <MudTreeViewItemToggleButton @bind-Expanded="@context.IsExpanded" Visible="@context.HasChild" />
-                        <MudIcon Icon="@context.Icon" Class="ml-0 mr-2" Color="@Color.Dark" />
+                        <MudIcon Icon="@context.Icon" Class="ml-0 mr-2" />
                         <MudText>@context.Title</MudText>
                     </Content>
                 </MudTreeViewItem>

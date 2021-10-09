@@ -22,7 +22,7 @@
                     </div>
                 </div>
             }
-            <button class="navbar-toggle"
+            <button class="navbar-toggle d-inline-block"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navCourseDetailsToggle"
@@ -33,9 +33,10 @@
                     <div class="display-5-atitle align-content-center" style="margin-top:5px">@CourseData.CourseTopic</div>
                 </div>
             </button>
-            <div class="float:right">
-                @if (EnableGlossary)
-                {
+
+            @if (EnableGlossary)
+            {
+                <div class="float:right">
                     <button type="button"
                             class="btn btn-outline-dark d-inline-block"
                             data-bs-toggle="collapse"
@@ -55,21 +56,23 @@
                     <div class="d-inline-block" style="background: #cccccc; height: 60px; width: 92px; border-radius: 5px">
                         <img src='Images/Logos/CAE_LOGO_BLACK_RGB-SCALED.png' height="60" class="d-inline-block align-centre">
                     </div>
-                }
-                else
-                {
+                </div>
+            }
+            else
+            {
+                <div class="float:right">
                     <button type="button"
-                            class="btn btn-outline-dark d-inline-block"
+                            class="btn btn-outline-dark d-inline-block visually-hidden"
                             data-bs-toggle="collapse"
                             data-bs-target="#refDocDetailsToggle"
                             aria-controls="refDocDetailsToggle"
                             aria-expanded="false"
-                            style="color: #00224b; border-color: #00224b "
+                            style="color: #00224b; border-color: #00224b"
                             disabled>
                         Reference Documents
                     </button>
                     <button type="button"
-                            class="btn btn-outline-dark d-inline-block"
+                            class="btn btn-outline-dark d-inline-block visually-hidden"
                             data-bs-toggle="collapse"
                             data-bs-target="#glossaryDetailsToggle"
                             aria-controls="glossaryDetailsToggle"
@@ -81,11 +84,9 @@
                     <div class=" d-inline-block" style="background: #cccccc; height: 60px; width: 92px; border-radius: 5px">
                         <img src='Images/Logos/CAE_LOGO_BLACK_RGB-SCALED.png' height="60" class="d-inline-block align-centre">
                     </div>
-                }
-            </div>
-
+                </div>
+            }
         </div>
-
     </nav>
 </div>
 <!-- ----------------------------------------------------------------------------------------------

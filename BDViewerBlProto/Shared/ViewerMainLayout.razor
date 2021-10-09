@@ -7,7 +7,7 @@
 @inject Services.ApplicationData ApplicationData
 @inject Services.CourseData CourseData
 
-<MudThemeProvider />
+<MudThemeProvider  />
 <MudDialogProvider />
 <MudSnackbarProvider />
 
@@ -39,11 +39,11 @@
     <MasterLayoutFooter EnablePagination="true"
                         EnableRaafImg="false"
                         EnableCAEImg="false"
-                        SlideWindowNumber="1"/>
+                        SlideWindowNumber="1" />
 </footer>
 
 
-<!-- 
+<!--
 -- ------------------------------------------------------------------------------------------------ --
 -- CODE BASE                          </CascadingValue>                                             --
 -- ------------------------------------------------------------------------------------------------ --
@@ -58,4 +58,24 @@
         ApplicationData.StateChanged += StateHasChanged;
         CourseData.StateChanged += StateHasChanged;
     }
+
+    MudTheme CustomTheme = new MudTheme()
+    {
+        Palette = new Palette()
+        {
+
+            Primary = "#ffffff",
+            PrimaryDarken = "rgb(62,44,221)",
+            PrimaryLighten = "rgb(118,106,231)",
+
+            Dark = "#00224b",
+
+            DarkContrastText = "000000",
+            HoverOpacity = 0.5,
+
+            Info = "#00224b",
+            TableHover = "#cccccc",
+            OverlayDark = "rgba(0, 34, 75, 0.4980392156862745)"
+        },
+    };
 }

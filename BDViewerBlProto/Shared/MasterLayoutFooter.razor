@@ -23,16 +23,17 @@
     {
 
 
-        <div class="fpagin-sel">
+        <div class="fspan-slpg">
             @if (EnablePagination)
             {
                 <div class="p-1">
-                    <MudPagination @ref="pageControl" navigate
+                    <MudPagination @ref="pageControl" 
                                    Class="mud-pagination"
-                                   BoundaryCount="3"
-                                   MiddleCount="3"
-                                   ShowFirstButton="true"
-                                   ShowLastButton="true"
+                                   Color="Color.Secondary"
+                                   BoundaryCount="1"
+                                   MiddleCount="1"
+                                   ShowFirstButton="false"
+                                   ShowLastButton="false"
                                    Rectangular="true"
                                    Variant="Variant.Outlined"
                                    Count="@CourseData.TopicChildCount"
@@ -42,7 +43,7 @@
             }
             else
             {
-                <div class="p-1 display-5 flex-fill">Slide Group 5 of 55</div>
+                <div class="p-1 display-5 flex-fill">5 of 55</div>
             }
         </div>
     }

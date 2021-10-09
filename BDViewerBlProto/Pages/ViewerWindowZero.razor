@@ -190,7 +190,7 @@
     private async void LaunchDoc()
     {
 
-        string strURLw2 = "ViewerWindowDoc/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope + "/" + (@selectedItem1.RefId).ToString(); 
+        string strURLw2 = "ViewerWindowDoc/" + ApplicationData.Role + "/" + ApplicationData.TrainingScope + "/" + (@selectedItem1.RefId).ToString();
         await JSRuntime.InvokeVoidAsync("open", strURLw2, "_blank");
     }
 
@@ -210,4 +210,14 @@
 }
 <!--await JSRuntime.InvokeVoidAsync("open", doc, "_blank", "application/pdf");
             string doc = "data/documents/" + selectedItem1.FileName;
-        await JSRuntime.InvokeVoidAsync("open", doc, "_blank");-->
+        await JSRuntime.InvokeVoidAsync("open", doc, "_blank");
+
+
+        --mud-palette-primary: #594ae2ff;
+    --mud-palette-primary-rgb: 89,74,226;
+    --mud-palette-primary-text: #ffffffff;
+    --mud-palette-primary-darken: rgb(62,44,221);
+    --mud-palette-primary-lighten: rgb(118,106,231);
+    --mud-palette-primary-hover: rgba(89,74,226,0.058823529411764705);
+
+    -->
